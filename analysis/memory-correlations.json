@@ -1,0 +1,665 @@
+[
+  {
+    "name": "PLAYER_EXPERIENCE",
+    "address": "0x63fe8c",
+    "byte_occurrences": [
+      "0x23886",
+      "0x23eb5",
+      "0x23edb",
+      "0x2cc57",
+      "0x2ce4a",
+      "0x2ce72",
+      "0x2ceb0",
+      "0x2cf13",
+      "0x2cf50"
+    ],
+    "assembly_references": [
+      "10023885: mov      eax, 0x63fe8c                                 ",
+      "10023eb4: mov      eax, 0x63fe8c                                 ",
+      "10023eda: mov      ebx, 0x63fe8c                                 ",
+      "1002cc56: mov      ecx, 0x63fe8c                                 ",
+      "1002ce49: mov      ecx, 0x63fe8c                                 ",
+      "1002ce71: mov      eax, 0x63fe8c                                 ",
+      "1002ceaf: mov      ecx, 0x63fe8c                                 ",
+      "1002cf12: mov      ecx, 0x63fe8c                                 ",
+      "1002cf4f: mov      ecx, 0x63fe8c                                 "
+    ]
+  },
+  {
+    "name": "PLAYER_ID",
+    "address": "0x63fe98",
+    "byte_occurrences": [
+      "0x29b42"
+    ],
+    "assembly_references": [
+      "10029b41: mov      ebx, 0x63fe98                                 "
+    ]
+  },
+  {
+    "name": "PLAYER_HEALTH",
+    "address": "0x63fe94",
+    "byte_occurrences": [
+      "0x2493b",
+      "0x24faf",
+      "0x2cbb7",
+      "0x2cbf8",
+      "0x3475e",
+      "0x34846",
+      "0x34870",
+      "0x348e7"
+    ],
+    "assembly_references": [
+      "1002493a: mov      eax, 0x63fe94                                 ",
+      "10024fae: mov      eax, 0x63fe94                                 ",
+      "1002cbb6: mov      ecx, 0x63fe94                                 ",
+      "1002cbf7: mov      eax, 0x63fe94                                 ",
+      "1003475d: mov      ecx, 0x63fe94                                 ",
+      "10034845: mov      ecx, 0x63fe94                                 ",
+      "1003486f: mov      ecx, 0x63fe94                                 ",
+      "100348e6: mov      ecx, 0x63fe94                                 "
+    ]
+  },
+  {
+    "name": "PLAYER_HEALTH_MAX",
+    "address": "0x63fe90",
+    "byte_occurrences": [
+      "0x24949",
+      "0x2cc04",
+      "0x2cc25",
+      "0x3483f",
+      "0x34869"
+    ],
+    "assembly_references": [
+      "10024948: mov      ecx, 0x63fe90                                 ",
+      "1002cc03: mov      ecx, 0x63fe90                                 ",
+      "1002cc24: mov      ecx, 0x63fe90                                 ",
+      "1003483e: mov      ecx, 0x63fe90                                 ",
+      "10034868: mov      ecx, 0x63fe90                                 "
+    ]
+  },
+  {
+    "name": "PLAYER_LEVEL",
+    "address": "0x63fe88",
+    "byte_occurrences": [
+      "0x2cc6b",
+      "0x2ce3b",
+      "0x2cea3",
+      "0x2cf05",
+      "0x2cf42"
+    ],
+    "assembly_references": [
+      "1002cc6a: mov      ecx, 0x63fe88                                 ",
+      "1002ce3a: mov      eax, 0x63fe88                                 ",
+      "1002cea2: mov      eax, 0x63fe88                                 ",
+      "1002cf04: mov      ecx, 0x63fe88                                 ",
+      "1002cf41: mov      ecx, 0x63fe88                                 "
+    ]
+  },
+  {
+    "name": "PLAYER_MAGIC_LEVEL",
+    "address": "0x63fe84",
+    "byte_occurrences": [
+      "0x299b8",
+      "0x2c1a6",
+      "0x2cc7f",
+      "0x2e0ac",
+      "0x2e10c"
+    ],
+    "assembly_references": [
+      "100299b7: mov      ecx, 0x63fe84                                 ",
+      "1002c1a5: mov      ebx, 0x63fe84                                 ",
+      "1002cc7e: mov      ecx, 0x63fe84                                 ",
+      "1002e0aa: cmp      ebx, 0x63fe84                                 ",
+      "1002e10a: cmp      ebx, 0x63fe84                                 "
+    ]
+  },
+  {
+    "name": "PLAYER_MAGIC_PERCENT",
+    "address": "0x63fe7c",
+    "byte_occurrences": [
+      "0x299f4"
+    ],
+    "assembly_references": [
+      "100299f3: mov      eax, 0x63fe7c                                 "
+    ]
+  },
+  {
+    "name": "PLAYER_MANA",
+    "address": "0x63fe78",
+    "byte_occurrences": [
+      "0x12b61",
+      "0x23636",
+      "0x236d9",
+      "0x24942",
+      "0x24fbb",
+      "0x2cb8f",
+      "0x2cbcb",
+      "0x3227a",
+      "0x3467f",
+      "0x346ab",
+      "0x3489a",
+      "0x348c4",
+      "0x35170",
+      "0x35191",
+      "0x351b4",
+      "0x35243",
+      "0x352d2",
+      "0x35562",
+      "0x40076"
+    ],
+    "assembly_references": [
+      "10012b60: mov      edx, 0x63fe78                                 ",
+      "10023635: mov      ecx, 0x63fe78                                 ",
+      "100236d8: mov      ecx, 0x63fe78                                 ",
+      "10024941: mov      ebx, 0x63fe78                                 ",
+      "10024fba: mov      eax, 0x63fe78                                 ",
+      "1002cb8e: mov      ecx, 0x63fe78                                 ",
+      "1002cbca: mov      eax, 0x63fe78                                 ",
+      "10032279: mov      ebx, 0x63fe78                                 ",
+      "1003467e: mov      ebx, 0x63fe78                                 ",
+      "100346aa: mov      ebx, 0x63fe78                                 ",
+      "10034899: mov      ecx, 0x63fe78                                 ",
+      "100348c3: mov      ecx, 0x63fe78                                 ",
+      "1003516f: mov      ecx, 0x63fe78                                 ",
+      "10035190: mov      ecx, 0x63fe78                                 ",
+      "100351b3: mov      ebx, 0x63fe78                                 "
+    ]
+  },
+  {
+    "name": "PLAYER_MANA_MAX",
+    "address": "0x63fe74",
+    "byte_occurrences": [
+      "0x24950",
+      "0x2cba3",
+      "0x2cbd7",
+      "0x32273",
+      "0x34893",
+      "0x348bd",
+      "0x40081"
+    ],
+    "assembly_references": [
+      "1002494f: mov      edx, 0x63fe74                                 ",
+      "1002cba2: mov      ecx, 0x63fe74                                 ",
+      "1002cbd6: mov      ecx, 0x63fe74                                 ",
+      "10032272: mov      ecx, 0x63fe74                                 ",
+      "10034892: mov      ecx, 0x63fe74                                 ",
+      "100348bc: mov      ecx, 0x63fe74                                 ",
+      "10040080: mov      eax, 0x63fe74                                 "
+    ]
+  },
+  {
+    "name": "PLAYER_SOUL",
+    "address": "0x63fe70",
+    "byte_occurrences": [
+      "0x2cccf"
+    ],
+    "assembly_references": [
+      "1002ccce: mov      ecx, 0x63fe70                                 "
+    ]
+  },
+  {
+    "name": "PLAYER_STAMINA",
+    "address": "0x63fe6c",
+    "byte_occurrences": [
+      "0x2cce3"
+    ],
+    "assembly_references": [
+      "1002cce2: mov      ecx, 0x63fe6c                                 "
+    ]
+  },
+  {
+    "name": "PLAYER_CAPACITY",
+    "address": "0x63fe68",
+    "byte_occurrences": [
+      "0x2cc39",
+      "0x34715",
+      "0x3473d"
+    ],
+    "assembly_references": [
+      "1002cc38: mov      eax, 0x63fe68                                 ",
+      "10034714: mov      ecx, 0x63fe68                                 ",
+      "1003473c: mov      ecx, 0x63fe68                                 "
+    ]
+  },
+  {
+    "name": "PLAYER_SLOT_HEAD",
+    "address": "0x64cc98",
+    "byte_occurrences": [
+      "0x2d638",
+      "0x300b1",
+      "0x31533",
+      "0x315e3",
+      "0x33797"
+    ],
+    "assembly_references": [
+      "1002d637: mov      eax, 0x64cc98                                 ",
+      "100300af: add      ebx, 0x64cc98                                 ",
+      "10031532: mov      ebx, 0x64cc98                                 ",
+      "100315e2: mov      ebx, 0x64cc98                                 ",
+      "10033796: mov      edx, 0x64cc98                                 "
+    ]
+  },
+  {
+    "name": "PLAYER_RED_SQUARE",
+    "address": "0x63fe64",
+    "byte_occurrences": [
+      "0x13238",
+      "0x15198",
+      "0x151be",
+      "0x27918",
+      "0x2863c",
+      "0x2e257",
+      "0x2e27e",
+      "0x30ffe",
+      "0x31071",
+      "0x310fc",
+      "0x31172",
+      "0x3237d",
+      "0x3239d",
+      "0x343ab",
+      "0x343f5",
+      "0x34411",
+      "0x34900",
+      "0x3a650",
+      "0x3a67c",
+      "0x3a6a9",
+      "0x3e18b"
+    ],
+    "assembly_references": [
+      "10013237: mov      eax, 0x63fe64                                 ",
+      "10015197: mov      ecx, 0x63fe64                                 ",
+      "100151bd: mov      eax, 0x63fe64                                 ",
+      "10027917: mov      eax, 0x63fe64                                 ",
+      "1002863b: mov      eax, 0x63fe64                                 ",
+      "1002e256: mov      eax, 0x63fe64                                 ",
+      "1002e27d: mov      eax, 0x63fe64                                 ",
+      "10030ffd: mov      eax, 0x63fe64                                 ",
+      "10031070: mov      eax, 0x63fe64                                 ",
+      "100310fb: mov      ecx, 0x63fe64                                 ",
+      "10031171: mov      eax, 0x63fe64                                 ",
+      "1003237c: mov      eax, 0x63fe64                                 ",
+      "1003239c: mov      ebx, 0x63fe64                                 ",
+      "100343aa: mov      eax, 0x63fe64                                 ",
+      "100343f4: mov      eax, 0x63fe64                                 "
+    ]
+  },
+  {
+    "name": "PLAYER_TARGET_BATTLELIST_ID",
+    "address": "0x63fe5c",
+    "byte_occurrences": [
+      "0x5efa",
+      "0x299b1",
+      "0x299ed",
+      "0x3e368"
+    ],
+    "assembly_references": [
+      "10005ef9: mov      eax, 0x63fe5c                                 ",
+      "100299af: cmp      ecx, 0x63fe5c                                 ",
+      "100299eb: cmp      ecx, 0x63fe5c                                 ",
+      "1003e367: mov      eax, 0x63fe5c                                 "
+    ]
+  },
+  {
+    "name": "PLAYER_Z",
+    "address": "0x64f600",
+    "byte_occurrences": [
+      "0x29bf",
+      "0x2a8f",
+      "0x24fdf",
+      "0x29bdf",
+      "0x2ccbb",
+      "0x353a7",
+      "0x353f7",
+      "0x39f0d",
+      "0x39f46",
+      "0x3e393",
+      "0x3e428"
+    ],
+    "assembly_references": [
+      "100029be: mov      ebx, 0x64f600                                 ",
+      "10002a8e: mov      ebx, 0x64f600                                 ",
+      "10024fde: mov      eax, 0x64f600                                 ",
+      "10029bde: mov      eax, 0x64f600                                 ",
+      "1002ccba: mov      ecx, 0x64f600                                 ",
+      "100353a6: mov      eax, 0x64f600                                 ",
+      "100353f6: mov      eax, 0x64f600                                 ",
+      "10039f0c: mov      esi, 0x64f600                                 ",
+      "10039f45: mov      ecx, 0x64f600                                 ",
+      "1003e392: mov      ebx, 0x64f600                                 ",
+      "1003e427: mov      eax, 0x64f600                                 "
+    ]
+  },
+  {
+    "name": "PLAYER_ATTACK_COUNT",
+    "address": "0x63da40",
+    "byte_occurrences": [
+      "0x30ff0",
+      "0x31063",
+      "0x3111e",
+      "0x3115a",
+      "0x3a642",
+      "0x3a69b",
+      "0x3e1ad"
+    ],
+    "assembly_references": [
+      "10030fef: mov      ecx, 0x63da40                                 ",
+      "10031062: mov      ecx, 0x63da40                                 ",
+      "1003111d: mov      ecx, 0x63da40                                 ",
+      "10031159: mov      ecx, 0x63da40                                 ",
+      "1003a641: mov      ecx, 0x63da40                                 ",
+      "1003a69a: mov      ecx, 0x63da40                                 ",
+      "1003e1ac: mov      ecx, 0x63da40                                 "
+    ]
+  },
+  {
+    "name": "BATTLELIST_START",
+    "address": "0x63fef8",
+    "byte_occurrences": [
+      "0x11b7d",
+      "0x12e41",
+      "0x12e4b",
+      "0x13031",
+      "0x23862",
+      "0x23aab",
+      "0x23de3",
+      "0x24e27",
+      "0x25c90",
+      "0x26c21",
+      "0x26c66",
+      "0x26ca1",
+      "0x26ea1",
+      "0x2701d",
+      "0x27402",
+      "0x27476",
+      "0x274b0",
+      "0x275b7",
+      "0x27897",
+      "0x2793e",
+      "0x285bb",
+      "0x2881c",
+      "0x2cfb9",
+      "0x2d093",
+      "0x2d1a5",
+      "0x2d252",
+      "0x2d2de",
+      "0x2db79",
+      "0x2dbd3",
+      "0x2e3db",
+      "0x33a98",
+      "0x3407f",
+      "0x3446d",
+      "0x344c9",
+      "0x37b2a",
+      "0x37deb",
+      "0x38067",
+      "0x381d9",
+      "0x38391",
+      "0x391c2",
+      "0x39226",
+      "0x39299",
+      "0x394de",
+      "0x39982",
+      "0x399b7",
+      "0x399f7",
+      "0x39a59",
+      "0x39ac0",
+      "0x3a1e6",
+      "0x3bcda",
+      "0x3bda3",
+      "0x3bf06",
+      "0x3c08a",
+      "0x3cb0c",
+      "0x40128"
+    ],
+    "assembly_references": [
+      "10011b7c: mov      ebx, 0x63fef8                                 ",
+      "10012e40: mov      ebx, 0x63fef8                                 ",
+      "10012e4a: sub      eax, 0x63fef8                                 ",
+      "1001302e: mov      dword ptr [ebp - 4], 0x63fef8                 ",
+      "10023861: sub      eax, 0x63fef8                                 ",
+      "10023aaa: mov      ebx, 0x63fef8                                 ",
+      "10023de2: mov      ebx, 0x63fef8                                 ",
+      "10024e26: mov      ecx, 0x63fef8                                 ",
+      "10025c8f: mov      ebx, 0x63fef8                                 ",
+      "10026c20: mov      ebx, 0x63fef8                                 ",
+      "10026c65: mov      ebx, 0x63fef8                                 ",
+      "10026ca0: sub      eax, 0x63fef8                                 ",
+      "10026ea0: mov      ebx, 0x63fef8                                 ",
+      "1002701c: sub      eax, 0x63fef8                                 ",
+      "10027401: mov      ebx, 0x63fef8                                 "
+    ]
+  },
+  {
+    "name": "CONTAINER_START",
+    "address": "0x64cd10",
+    "byte_occurrences": [
+      "0x1376a",
+      "0x239a2",
+      "0x2ab63",
+      "0x2aec4",
+      "0x30068",
+      "0x3337b",
+      "0x333d5",
+      "0x34b34",
+      "0x34c4e",
+      "0x34d78",
+      "0x36d08",
+      "0x36e3a",
+      "0x3708b",
+      "0x3712e",
+      "0x37223",
+      "0x37292",
+      "0x373b4",
+      "0x373f3",
+      "0x38527",
+      "0x3869d",
+      "0x38742",
+      "0x387c7",
+      "0x3894e",
+      "0x38a0e",
+      "0x38b78",
+      "0x38d23"
+    ],
+    "assembly_references": [
+      "10013769: add      eax, 0x64cd10                                 ",
+      "100239a0: add      ebx, 0x64cd10                                 ",
+      "1002ab61: add      ebx, 0x64cd10                                 ",
+      "1002aec2: add      ebx, 0x64cd10                                 ",
+      "10030066: add      ebx, 0x64cd10                                 ",
+      "10033379: add      ebx, 0x64cd10                                 ",
+      "100333d3: add      ebx, 0x64cd10                                 ",
+      "10034b33: add      eax, 0x64cd10                                 ",
+      "10034c4d: add      eax, 0x64cd10                                 ",
+      "10034d77: add      eax, 0x64cd10                                 ",
+      "10036d06: add      ebx, 0x64cd10                                 ",
+      "10036e38: add      ecx, 0x64cd10                                 ",
+      "1003708a: add      eax, 0x64cd10                                 ",
+      "1003712c: add      ebx, 0x64cd10                                 ",
+      "10037221: add      ebx, 0x64cd10                                 "
+    ]
+  },
+  {
+    "name": "MAP_POINTER",
+    "address": "0x654118",
+    "byte_occurrences": [
+      "0x39ff7",
+      "0x3a196"
+    ],
+    "assembly_references": [
+      "10039ff6: mov      esi, 0x654118                                 ",
+      "1003a195: mov      ecx, 0x654118                                 "
+    ]
+  },
+  {
+    "name": "CLIENT_STATUS",
+    "address": "0x79cf28",
+    "byte_occurrences": [
+      "0x39c33",
+      "0x39c56"
+    ],
+    "assembly_references": [
+      "10039c32: mov      eax, 0x79cf28                                 ",
+      "10039c55: mov      eax, 0x79cf28                                 "
+    ]
+  },
+  {
+    "name": "CLIENT_ACTION_STATE",
+    "address": "0x79cf88",
+    "byte_occurrences": [
+      "0x29d5b",
+      "0x3505a",
+      "0x39c5d"
+    ],
+    "assembly_references": [
+      "10029d5a: mov      eax, 0x79cf88                                 ",
+      "10035059: mov      eax, 0x79cf88                                 ",
+      "10039c5c: mov      eax, 0x79cf88                                 "
+    ]
+  },
+  {
+    "name": "CLIENT_SAFE_MODE",
+    "address": "0x799ce4",
+    "byte_occurrences": [
+      "0x13687",
+      "0x3129a"
+    ],
+    "assembly_references": [
+      "10013686: mov      eax, 0x799ce4                                 ",
+      "10031299: mov      eax, 0x799ce4                                 "
+    ]
+  },
+  {
+    "name": "CLIENT_STATUSBAR_TEXT",
+    "address": "0x7e07b0",
+    "byte_occurrences": [
+      "0x3938d",
+      "0x3e98a",
+      "0x3e9ae"
+    ],
+    "assembly_references": [
+      "1003938c: push     0x7e07b0                                      ",
+      "1003e989: mov      ecx, 0x7e07b0                                 ",
+      "1003e9ad: mov      ecx, 0x7e07b0                                 "
+    ]
+  },
+  {
+    "name": "CLIENT_GAMETICK_COUNTER",
+    "address": "0x64a9c0",
+    "byte_occurrences": [
+      "0x5ded",
+      "0x1eda6",
+      "0x23160",
+      "0x240c1",
+      "0x240ee",
+      "0x29dc4",
+      "0x2a099",
+      "0x2ac96",
+      "0x2adeb",
+      "0x2cd10",
+      "0x2cd35",
+      "0x2cd5d",
+      "0x2cd82",
+      "0x2db00",
+      "0x3d9b9",
+      "0x3e560",
+      "0x3fbfe"
+    ],
+    "assembly_references": [
+      "10005dec: mov      eax, 0x64a9c0                                 ",
+      "1001eda5: mov      eax, 0x64a9c0                                 ",
+      "1002315f: mov      eax, 0x64a9c0                                 ",
+      "100240c0: mov      eax, 0x64a9c0                                 ",
+      "100240ed: mov      eax, 0x64a9c0                                 ",
+      "10029dc3: mov      eax, 0x64a9c0                                 ",
+      "1002a098: mov      eax, 0x64a9c0                                 ",
+      "1002ac95: mov      eax, 0x64a9c0                                 ",
+      "1002adea: mov      eax, 0x64a9c0                                 ",
+      "1002cd0f: mov      ecx, 0x64a9c0                                 ",
+      "1002cd34: mov      ecx, 0x64a9c0                                 ",
+      "1002cd5c: mov      ecx, 0x64a9c0                                 ",
+      "1002cd81: mov      ecx, 0x64a9c0                                 ",
+      "1002daff: mov      eax, 0x64a9c0                                 ",
+      "1003d9b8: mov      eax, 0x64a9c0                                 "
+    ]
+  },
+  {
+    "name": "CLIENT_LOGIN_PASSWORD",
+    "address": "0x79cee4",
+    "byte_occurrences": [
+      "0x32672"
+    ],
+    "assembly_references": [
+      "10032671: push     0x79cee4                                      "
+    ]
+  },
+  {
+    "name": "CLIENT_LOGIN_CHARLIST",
+    "address": "0x79cedc",
+    "byte_occurrences": [
+      "0x26aab",
+      "0x325ce"
+    ],
+    "assembly_references": [
+      "10026aaa: mov      ebx, 0x79cedc                                 ",
+      "100325cd: mov      ebx, 0x79cedc                                 "
+    ]
+  },
+  {
+    "name": "CLIENT_XTEAKEY",
+    "address": "0x7998bc",
+    "byte_occurrences": [
+      "0x2636d"
+    ],
+    "assembly_references": [
+      "1002636c: mov      ecx, 0x7998bc                                 "
+    ]
+  },
+  {
+    "name": "CLIENT_DAT_POINTER",
+    "address": "0x7998dc",
+    "byte_occurrences": [
+      "0x21ed9",
+      "0x21f0d",
+      "0x3c376",
+      "0x3c403",
+      "0x3c437",
+      "0x3c469",
+      "0x3c49d",
+      "0x3c4cf",
+      "0x3c501",
+      "0x3c531"
+    ],
+    "assembly_references": [
+      "10021ed8: mov      eax, 0x7998dc                                 ",
+      "10021f0c: mov      eax, 0x7998dc                                 ",
+      "1003c375: mov      eax, 0x7998dc                                 ",
+      "1003c402: mov      eax, 0x7998dc                                 ",
+      "1003c436: mov      eax, 0x7998dc                                 ",
+      "1003c468: mov      eax, 0x7998dc                                 ",
+      "1003c49c: mov      eax, 0x7998dc                                 ",
+      "1003c4ce: mov      eax, 0x7998dc                                 ",
+      "1003c500: mov      eax, 0x7998dc                                 ",
+      "1003c530: mov      eax, 0x7998dc                                 "
+    ]
+  },
+  {
+    "name": "REGION_TEXT_BASE",
+    "address": "0x440000",
+    "byte_occurrences": [
+      "0x5810e",
+      "0x38f91a",
+      "0x3a005a",
+      "0x3a2022",
+      "0x3a732e"
+    ],
+    "assembly_references": []
+  },
+  {
+    "name": "REGION_DATA_BASE",
+    "address": "0x630000",
+    "byte_occurrences": [
+      "0x429b6"
+    ],
+    "assembly_references": []
+  }
+]

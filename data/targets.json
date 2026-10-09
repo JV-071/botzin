@@ -1,0 +1,377 @@
+[
+  {
+    "index": 0,
+    "offset": "0x0",
+    "name": "Others"
+  },
+  {
+    "index": 1,
+    "offset": "0x140",
+    "name": "Undead Mummy"
+  },
+  {
+    "index": 2,
+    "offset": "0x280",
+    "name": "Crypt Skeleton"
+  },
+  {
+    "index": 3,
+    "offset": "0x3c0",
+    "name": "Infernatil"
+  },
+  {
+    "index": 4,
+    "offset": "0x500",
+    "name": "Apocalypse"
+  },
+  {
+    "index": 5,
+    "offset": "0x640",
+    "name": "Morgaroth"
+  },
+  {
+    "index": 6,
+    "offset": "0x780",
+    "name": "Ghazbaran"
+  },
+  {
+    "index": 7,
+    "offset": "0x8c0",
+    "name": "Orshabaal"
+  },
+  {
+    "index": 8,
+    "offset": "0xa00",
+    "name": "Massacre"
+  },
+  {
+    "index": 9,
+    "offset": "0xb40",
+    "name": "Bazir"
+  },
+  {
+    "index": 10,
+    "offset": "0xc80",
+    "name": "Hellgorak"
+  },
+  {
+    "index": 11,
+    "offset": "0xdc0",
+    "name": "Hand Of Cursed Fate"
+  },
+  {
+    "index": 12,
+    "offset": "0xf00",
+    "name": "Chuck Norris The Cow Master"
+  },
+  {
+    "index": 13,
+    "offset": "0x1040",
+    "name": "Madareth"
+  },
+  {
+    "index": 14,
+    "offset": "0x1180",
+    "name": "Ushuriel"
+  },
+  {
+    "index": 15,
+    "offset": "0x12c0",
+    "name": "Golgordan"
+  },
+  {
+    "index": 16,
+    "offset": "0x1400",
+    "name": "Exodia"
+  },
+  {
+    "index": 17,
+    "offset": "0x1540",
+    "name": "The Handmaiden"
+  },
+  {
+    "index": 18,
+    "offset": "0x1680",
+    "name": "Minishabaal"
+  },
+  {
+    "index": 19,
+    "offset": "0x17c0",
+    "name": "Aqua Pincher"
+  },
+  {
+    "index": 20,
+    "offset": "0x1900",
+    "name": "Jack Sparrow"
+  },
+  {
+    "index": 21,
+    "offset": "0x1a40",
+    "name": "Juggernaut"
+  },
+  {
+    "index": 22,
+    "offset": "0x1b80",
+    "name": "Gamemaster"
+  },
+  {
+    "index": 23,
+    "offset": "0x1cc0",
+    "name": "Mr. Punish"
+  },
+  {
+    "index": 24,
+    "offset": "0x1e00",
+    "name": "Harazarar"
+  },
+  {
+    "index": 25,
+    "offset": "0x1f40",
+    "name": "The Old Widow"
+  },
+  {
+    "index": 26,
+    "offset": "0x2080",
+    "name": "Ice Warlock"
+  },
+  {
+    "index": 27,
+    "offset": "0x21c0",
+    "name": "Ice Dragon"
+  },
+  {
+    "index": 28,
+    "offset": "0x2300",
+    "name": "Ice Knight"
+  },
+  {
+    "index": 29,
+    "offset": "0x2440",
+    "name": "Ice Demon"
+  },
+  {
+    "index": 30,
+    "offset": "0x2580",
+    "name": "Dark Torturer"
+  },
+  {
+    "index": 31,
+    "offset": "0x26c0",
+    "name": "Warlock"
+  },
+  {
+    "index": 32,
+    "offset": "0x2800",
+    "name": "Sasuke"
+  },
+  {
+    "index": 33,
+    "offset": "0x2940",
+    "name": "Earth Infernalist"
+  },
+  {
+    "index": 34,
+    "offset": "0x2a80",
+    "name": "Infernalist"
+  },
+  {
+    "index": 35,
+    "offset": "0x2bc0",
+    "name": "Naruto"
+  },
+  {
+    "index": 36,
+    "offset": "0x2d00",
+    "name": "Blood Fantasm"
+  },
+  {
+    "index": 37,
+    "offset": "0x2e40",
+    "name": "Protect All Or Die"
+  },
+  {
+    "index": 38,
+    "offset": "0x2f80",
+    "name": "Fire Draken Guardian"
+  },
+  {
+    "index": 39,
+    "offset": "0x30c0",
+    "name": "The Black Soul"
+  },
+  {
+    "index": 40,
+    "offset": "0x3200",
+    "name": "Zugurosh"
+  },
+  {
+    "index": 41,
+    "offset": "0x3340",
+    "name": "Ferumbras"
+  },
+  {
+    "index": 42,
+    "offset": "0x3480",
+    "name": "Blood Skeleton Warrior"
+  },
+  {
+    "index": 43,
+    "offset": "0x35c0",
+    "name": "Medusa"
+  },
+  {
+    "index": 44,
+    "offset": "0x3700",
+    "name": "Serpent Spawn"
+  },
+  {
+    "index": 45,
+    "offset": "0x3840",
+    "name": "Draken Abomination"
+  },
+  {
+    "index": 46,
+    "offset": "0x3980",
+    "name": "Protector The Frozen"
+  },
+  {
+    "index": 47,
+    "offset": "0x3ac0",
+    "name": "Goblin Noel Elite"
+  },
+  {
+    "index": 48,
+    "offset": "0x3c00",
+    "name": "Goblin Noel Guard"
+  },
+  {
+    "index": 49,
+    "offset": "0x3d40",
+    "name": "Crystall Protector"
+  },
+  {
+    "index": 50,
+    "offset": "0x3e80",
+    "name": "Blessed Exodia"
+  },
+  {
+    "index": 51,
+    "offset": "0x3fc0",
+    "name": "Black Draken Guardian"
+  },
+  {
+    "index": 52,
+    "offset": "0x4100",
+    "name": "Draken Tortorise"
+  },
+  {
+    "index": 53,
+    "offset": "0x4240",
+    "name": "Headcaptor"
+  },
+  {
+    "index": 54,
+    "offset": "0x4380",
+    "name": "Papai Noel"
+  },
+  {
+    "index": 55,
+    "offset": "0x44c0",
+    "name": "Giant Crystall Protector"
+  },
+  {
+    "index": 56,
+    "offset": "0x4600",
+    "name": "Godly Mage"
+  },
+  {
+    "index": 57,
+    "offset": "0x4740",
+    "name": "The Imperor"
+  },
+  {
+    "index": 58,
+    "offset": "0x4880",
+    "name": "Ghazbaran Boss"
+  },
+  {
+    "index": 59,
+    "offset": "0x49c0",
+    "name": "Darkness Boss"
+  },
+  {
+    "index": 60,
+    "offset": "0x4b00",
+    "name": "Exodia Boss"
+  },
+  {
+    "index": 61,
+    "offset": "0x4c40",
+    "name": "Haragoth Boss"
+  },
+  {
+    "index": 62,
+    "offset": "0x4d80",
+    "name": "Apocalypse Boss"
+  },
+  {
+    "index": 63,
+    "offset": "0x4ec0",
+    "name": "Morgaroth Boss"
+  },
+  {
+    "index": 64,
+    "offset": "0x5000",
+    "name": "Hades Boss"
+  },
+  {
+    "index": 65,
+    "offset": "0x5140",
+    "name": "Ferumbras Boss"
+  },
+  {
+    "index": 66,
+    "offset": "0x5280",
+    "name": "Orshabaal Boss"
+  },
+  {
+    "index": 67,
+    "offset": "0x53c0",
+    "name": "Isis"
+  },
+  {
+    "index": 68,
+    "offset": "0x5500",
+    "name": "Treiner"
+  },
+  {
+    "index": 69,
+    "offset": "0x5640",
+    "name": "Treiner Ricarten"
+  },
+  {
+    "index": 70,
+    "offset": "0x5780",
+    "name": "Warrior Statue"
+  },
+  {
+    "index": 71,
+    "offset": "0x58c0",
+    "name": "Alvo"
+  },
+  {
+    "index": 72,
+    "offset": "0x5a00",
+    "name": "Supreme Bullrex"
+  },
+  {
+    "index": 73,
+    "offset": "0x5b40",
+    "name": "Wolfrex"
+  },
+  {
+    "index": 74,
+    "offset": "0x5c80",
+    "name": "Werewolf Rex"
+  }
+]

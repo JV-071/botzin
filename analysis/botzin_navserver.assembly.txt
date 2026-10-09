@@ -1,0 +1,2645 @@
+00401000: push     ebp                                           
+00401001: mov      ebp, esp                                      
+00401003: mov      ecx, dword ptr [ebp + 0x10]                   
+00401006: mov      esi, dword ptr [ebp + 0xc]                    
+00401009: mov      edi, dword ptr [ebp + 8]                      
+0040100c: rep movsb byte ptr es:[edi], byte ptr [esi]             
+0040100e: leave                                                  
+0040100f: ret      0xc                                           
+00401012: push     0x4250b8                                      
+00401017: call     0x402dbc                                      
+0040101c: push     0x200                                         
+00401021: push     0x404640                                      
+00401026: push     0                                             
+00401028: call     0x402da4                                      
+0040102d: lea      ecx, [0x404640]                               
+00401033: add      eax, ecx                                      
+00401035: jmp      0x401038                                      
+00401037: dec      eax                                           
+00401038: cmp      byte ptr [eax], 0x5c                          
+0040103b: je       0x401041                                      
+0040103d: cmp      eax, ecx                                      
+0040103f: ja       0x401037                                      
+00401041: mov      byte ptr [eax + 1], 0                         
+00401045: push     0x404081                                      ; 'password'
+0040104a: call     0x40199f                                      
+0040104f: push     0x404440                                      
+00401054: push     0x404020                                      
+00401059: call     0x402df2                                      
+0040105e: pushal                                                 
+0040105f: push     0x4250b8                                      
+00401064: call     0x402d92                                      
+00401069: push     -0xb                                          
+0040106b: call     0x402db0                                      
+00401070: push     7                                             
+00401072: push     eax                                           
+00401073: call     0x402dce                                      
+00401078: mov      ebx, 0x40408c                                 
+0040107d: push     ebx                                           
+0040107e: call     0x402df8                                      
+00401083: push     eax                                           
+00401084: push     -0xb                                          
+00401086: call     0x402db0                                      
+0040108b: pop      ecx                                           
+0040108c: push     0                                             
+0040108e: push     0x404840                                      
+00401093: push     ecx                                           
+00401094: push     ebx                                           
+00401095: push     eax                                           
+00401096: call     0x402dda                                      
+0040109b: push     0x4250b8                                      
+004010a0: call     0x402dc2                                      
+004010a5: popal                                                  
+004010a6: pushal                                                 
+004010a7: push     0x4250b8                                      
+004010ac: call     0x402d92                                      
+004010b1: push     -0xb                                          
+004010b3: call     0x402db0                                      
+004010b8: push     7                                             
+004010ba: push     eax                                           
+004010bb: call     0x402dce                                      
+004010c0: mov      ebx, 0x404090                                 ; 'Server password set to: '
+004010c5: push     ebx                                           
+004010c6: call     0x402df8                                      
+004010cb: push     eax                                           
+004010cc: push     -0xb                                          
+004010ce: call     0x402db0                                      
+004010d3: pop      ecx                                           
+004010d4: push     0                                             
+004010d6: push     0x404840                                      
+004010db: push     ecx                                           
+004010dc: push     ebx                                           
+004010dd: push     eax                                           
+004010de: call     0x402dda                                      
+004010e3: push     0x4250b8                                      
+004010e8: call     0x402dc2                                      
+004010ed: popal                                                  
+004010ee: lea      ecx, [0x404020]                               
+004010f4: pushal                                                 
+004010f5: mov      ebx, ecx                                      
+004010f7: push     0x4250b8                                      
+004010fc: call     0x402d92                                      
+00401101: push     -0xb                                          
+00401103: call     0x402db0                                      
+00401108: push     0xf                                           
+0040110a: push     eax                                           
+0040110b: call     0x402dce                                      
+00401110: push     ebx                                           
+00401111: call     0x402df8                                      
+00401116: push     eax                                           
+00401117: push     -0xb                                          
+00401119: call     0x402db0                                      
+0040111e: pop      ecx                                           
+0040111f: push     0                                             
+00401121: push     0x404840                                      
+00401126: push     ecx                                           
+00401127: push     ebx                                           
+00401128: push     eax                                           
+00401129: call     0x402dda                                      
+0040112e: push     0x4250b8                                      
+00401133: call     0x402dc2                                      
+00401138: popal                                                  
+00401139: push     0x4040ac                                      ; 'leaderpassword'
+0040113e: call     0x40199f                                      
+00401143: push     0x404440                                      
+00401148: push     0x404041                                      
+0040114d: call     0x402df2                                      
+00401152: pushal                                                 
+00401153: push     0x4250b8                                      
+00401158: call     0x402d92                                      
+0040115d: push     -0xb                                          
+0040115f: call     0x402db0                                      
+00401164: push     7                                             
+00401166: push     eax                                           
+00401167: call     0x402dce                                      
+0040116c: mov      ebx, 0x4040bc                                 
+00401171: push     ebx                                           
+00401172: call     0x402df8                                      
+00401177: push     eax                                           
+00401178: push     -0xb                                          
+0040117a: call     0x402db0                                      
+0040117f: pop      ecx                                           
+00401180: push     0                                             
+00401182: push     0x404840                                      
+00401187: push     ecx                                           
+00401188: push     ebx                                           
+00401189: push     eax                                           
+0040118a: call     0x402dda                                      
+0040118f: push     0x4250b8                                      
+00401194: call     0x402dc2                                      
+00401199: popal                                                  
+0040119a: pushal                                                 
+0040119b: push     0x4250b8                                      
+004011a0: call     0x402d92                                      
+004011a5: push     -0xb                                          
+004011a7: call     0x402db0                                      
+004011ac: push     7                                             
+004011ae: push     eax                                           
+004011af: call     0x402dce                                      
+004011b4: mov      ebx, 0x4040c0                                 ; 'Leader password set to: '
+004011b9: push     ebx                                           
+004011ba: call     0x402df8                                      
+004011bf: push     eax                                           
+004011c0: push     -0xb                                          
+004011c2: call     0x402db0                                      
+004011c7: pop      ecx                                           
+004011c8: push     0                                             
+004011ca: push     0x404840                                      
+004011cf: push     ecx                                           
+004011d0: push     ebx                                           
+004011d1: push     eax                                           
+004011d2: call     0x402dda                                      
+004011d7: push     0x4250b8                                      
+004011dc: call     0x402dc2                                      
+004011e1: popal                                                  
+004011e2: lea      ecx, [0x404041]                               
+004011e8: pushal                                                 
+004011e9: mov      ebx, ecx                                      
+004011eb: push     0x4250b8                                      
+004011f0: call     0x402d92                                      
+004011f5: push     -0xb                                          
+004011f7: call     0x402db0                                      
+004011fc: push     0xf                                           
+004011fe: push     eax                                           
+004011ff: call     0x402dce                                      
+00401204: push     ebx                                           
+00401205: call     0x402df8                                      
+0040120a: push     eax                                           
+0040120b: push     -0xb                                          
+0040120d: call     0x402db0                                      
+00401212: pop      ecx                                           
+00401213: push     0                                             
+00401215: push     0x404840                                      
+0040121a: push     ecx                                           
+0040121b: push     ebx                                           
+0040121c: push     eax                                           
+0040121d: call     0x402dda                                      
+00401222: push     0x4250b8                                      
+00401227: call     0x402dc2                                      
+0040122c: popal                                                  
+0040122d: push     0x4040dc                                      
+00401232: call     0x40199f                                      
+00401237: push     0x404440                                      
+0040123c: call     0x402d50                                      
+00401241: mov      dword ptr [0x40401c], eax                     
+00401246: pushal                                                 
+00401247: push     0x4250b8                                      
+0040124c: call     0x402d92                                      
+00401251: push     -0xb                                          
+00401253: call     0x402db0                                      
+00401258: push     7                                             
+0040125a: push     eax                                           
+0040125b: call     0x402dce                                      
+00401260: mov      ebx, 0x4040e4                                 
+00401265: push     ebx                                           
+00401266: call     0x402df8                                      
+0040126b: push     eax                                           
+0040126c: push     -0xb                                          
+0040126e: call     0x402db0                                      
+00401273: pop      ecx                                           
+00401274: push     0                                             
+00401276: push     0x404840                                      
+0040127b: push     ecx                                           
+0040127c: push     ebx                                           
+0040127d: push     eax                                           
+0040127e: call     0x402dda                                      
+00401283: push     0x4250b8                                      
+00401288: call     0x402dc2                                      
+0040128d: popal                                                  
+0040128e: pushal                                                 
+0040128f: push     0x4250b8                                      
+00401294: call     0x402d92                                      
+00401299: push     -0xb                                          
+0040129b: call     0x402db0                                      
+004012a0: push     7                                             
+004012a2: push     eax                                           
+004012a3: call     0x402dce                                      
+004012a8: mov      ebx, 0x4040e8                                 ; 'Server port set to: '
+004012ad: push     ebx                                           
+004012ae: call     0x402df8                                      
+004012b3: push     eax                                           
+004012b4: push     -0xb                                          
+004012b6: call     0x402db0                                      
+004012bb: pop      ecx                                           
+004012bc: push     0                                             
+004012be: push     0x404840                                      
+004012c3: push     ecx                                           
+004012c4: push     ebx                                           
+004012c5: push     eax                                           
+004012c6: call     0x402dda                                      
+004012cb: push     0x4250b8                                      
+004012d0: call     0x402dc2                                      
+004012d5: popal                                                  
+004012d6: lea      ecx, [0x404440]                               
+004012dc: pushal                                                 
+004012dd: mov      ebx, ecx                                      
+004012df: push     0x4250b8                                      
+004012e4: call     0x402d92                                      
+004012e9: push     -0xb                                          
+004012eb: call     0x402db0                                      
+004012f0: push     0xf                                           
+004012f2: push     eax                                           
+004012f3: call     0x402dce                                      
+004012f8: push     ebx                                           
+004012f9: call     0x402df8                                      
+004012fe: push     eax                                           
+004012ff: push     -0xb                                          
+00401301: call     0x402db0                                      
+00401306: pop      ecx                                           
+00401307: push     0                                             
+00401309: push     0x404840                                      
+0040130e: push     ecx                                           
+0040130f: push     ebx                                           
+00401310: push     eax                                           
+00401311: call     0x402dda                                      
+00401316: push     0x4250b8                                      
+0040131b: call     0x402dc2                                      
+00401320: popal                                                  
+00401321: push     0x404100                                      ; 'sendenemies'
+00401326: call     0x40199f                                      
+0040132b: push     0x404440                                      
+00401330: call     0x402d50                                      
+00401335: mov      dword ptr [0x404434], eax                     
+0040133a: pushal                                                 
+0040133b: push     0x4250b8                                      
+00401340: call     0x402d92                                      
+00401345: push     -0xb                                          
+00401347: call     0x402db0                                      
+0040134c: push     7                                             
+0040134e: push     eax                                           
+0040134f: call     0x402dce                                      
+00401354: mov      ebx, 0x40410c                                 
+00401359: push     ebx                                           
+0040135a: call     0x402df8                                      
+0040135f: push     eax                                           
+00401360: push     -0xb                                          
+00401362: call     0x402db0                                      
+00401367: pop      ecx                                           
+00401368: push     0                                             
+0040136a: push     0x404840                                      
+0040136f: push     ecx                                           
+00401370: push     ebx                                           
+00401371: push     eax                                           
+00401372: call     0x402dda                                      
+00401377: push     0x4250b8                                      
+0040137c: call     0x402dc2                                      
+00401381: popal                                                  
+00401382: pushal                                                 
+00401383: push     0x4250b8                                      
+00401388: call     0x402d92                                      
+0040138d: push     -0xb                                          
+0040138f: call     0x402db0                                      
+00401394: push     7                                             
+00401396: push     eax                                           
+00401397: call     0x402dce                                      
+0040139c: mov      ebx, 0x404110                                 ; 'Sending enemies set to: '
+004013a1: push     ebx                                           
+004013a2: call     0x402df8                                      
+004013a7: push     eax                                           
+004013a8: push     -0xb                                          
+004013aa: call     0x402db0                                      
+004013af: pop      ecx                                           
+004013b0: push     0                                             
+004013b2: push     0x404840                                      
+004013b7: push     ecx                                           
+004013b8: push     ebx                                           
+004013b9: push     eax                                           
+004013ba: call     0x402dda                                      
+004013bf: push     0x4250b8                                      
+004013c4: call     0x402dc2                                      
+004013c9: popal                                                  
+004013ca: cmp      dword ptr [0x404434], 0                       
+004013d1: je       0x401420                                      
+004013d3: lea      ecx, [0x40412c]                               
+004013d9: pushal                                                 
+004013da: mov      ebx, ecx                                      
+004013dc: push     0x4250b8                                      
+004013e1: call     0x402d92                                      
+004013e6: push     -0xb                                          
+004013e8: call     0x402db0                                      
+004013ed: push     0xf                                           
+004013ef: push     eax                                           
+004013f0: call     0x402dce                                      
+004013f5: push     ebx                                           
+004013f6: call     0x402df8                                      
+004013fb: push     eax                                           
+004013fc: push     -0xb                                          
+004013fe: call     0x402db0                                      
+00401403: pop      ecx                                           
+00401404: push     0                                             
+00401406: push     0x404840                                      
+0040140b: push     ecx                                           
+0040140c: push     ebx                                           
+0040140d: push     eax                                           
+0040140e: call     0x402dda                                      
+00401413: push     0x4250b8                                      
+00401418: call     0x402dc2                                      
+0040141d: popal                                                  
+0040141e: jmp      0x40146b                                      
+00401420: lea      ecx, [0x404134]                               
+00401426: pushal                                                 
+00401427: mov      ebx, ecx                                      
+00401429: push     0x4250b8                                      
+0040142e: call     0x402d92                                      
+00401433: push     -0xb                                          
+00401435: call     0x402db0                                      
+0040143a: push     0xf                                           
+0040143c: push     eax                                           
+0040143d: call     0x402dce                                      
+00401442: push     ebx                                           
+00401443: call     0x402df8                                      
+00401448: push     eax                                           
+00401449: push     -0xb                                          
+0040144b: call     0x402db0                                      
+00401450: pop      ecx                                           
+00401451: push     0                                             
+00401453: push     0x404840                                      
+00401458: push     ecx                                           
+00401459: push     ebx                                           
+0040145a: push     eax                                           
+0040145b: call     0x402dda                                      
+00401460: push     0x4250b8                                      
+00401465: call     0x402dc2                                      
+0040146a: popal                                                  
+0040146b: push     0x40413c                                      ; 'sendonlyleaderpositions'
+00401470: call     0x40199f                                      
+00401475: push     0x404440                                      
+0040147a: call     0x402d50                                      
+0040147f: mov      dword ptr [0x404430], eax                     
+00401484: pushal                                                 
+00401485: push     0x4250b8                                      
+0040148a: call     0x402d92                                      
+0040148f: push     -0xb                                          
+00401491: call     0x402db0                                      
+00401496: push     7                                             
+00401498: push     eax                                           
+00401499: call     0x402dce                                      
+0040149e: mov      ebx, 0x404154                                 
+004014a3: push     ebx                                           
+004014a4: call     0x402df8                                      
+004014a9: push     eax                                           
+004014aa: push     -0xb                                          
+004014ac: call     0x402db0                                      
+004014b1: pop      ecx                                           
+004014b2: push     0                                             
+004014b4: push     0x404840                                      
+004014b9: push     ecx                                           
+004014ba: push     ebx                                           
+004014bb: push     eax                                           
+004014bc: call     0x402dda                                      
+004014c1: push     0x4250b8                                      
+004014c6: call     0x402dc2                                      
+004014cb: popal                                                  
+004014cc: pushal                                                 
+004014cd: push     0x4250b8                                      
+004014d2: call     0x402d92                                      
+004014d7: push     -0xb                                          
+004014d9: call     0x402db0                                      
+004014de: push     7                                             
+004014e0: push     eax                                           
+004014e1: call     0x402dce                                      
+004014e6: mov      ebx, 0x404158                                 ; 'Sending only leader positions set to: '
+004014eb: push     ebx                                           
+004014ec: call     0x402df8                                      
+004014f1: push     eax                                           
+004014f2: push     -0xb                                          
+004014f4: call     0x402db0                                      
+004014f9: pop      ecx                                           
+004014fa: push     0                                             
+004014fc: push     0x404840                                      
+00401501: push     ecx                                           
+00401502: push     ebx                                           
+00401503: push     eax                                           
+00401504: call     0x402dda                                      
+00401509: push     0x4250b8                                      
+0040150e: call     0x402dc2                                      
+00401513: popal                                                  
+00401514: cmp      dword ptr [0x404430], 0                       
+0040151b: je       0x40156a                                      
+0040151d: lea      ecx, [0x404180]                               
+00401523: pushal                                                 
+00401524: mov      ebx, ecx                                      
+00401526: push     0x4250b8                                      
+0040152b: call     0x402d92                                      
+00401530: push     -0xb                                          
+00401532: call     0x402db0                                      
+00401537: push     0xf                                           
+00401539: push     eax                                           
+0040153a: call     0x402dce                                      
+0040153f: push     ebx                                           
+00401540: call     0x402df8                                      
+00401545: push     eax                                           
+00401546: push     -0xb                                          
+00401548: call     0x402db0                                      
+0040154d: pop      ecx                                           
+0040154e: push     0                                             
+00401550: push     0x404840                                      
+00401555: push     ecx                                           
+00401556: push     ebx                                           
+00401557: push     eax                                           
+00401558: call     0x402dda                                      
+0040155d: push     0x4250b8                                      
+00401562: call     0x402dc2                                      
+00401567: popal                                                  
+00401568: jmp      0x4015b5                                      
+0040156a: lea      ecx, [0x404188]                               
+00401570: pushal                                                 
+00401571: mov      ebx, ecx                                      
+00401573: push     0x4250b8                                      
+00401578: call     0x402d92                                      
+0040157d: push     -0xb                                          
+0040157f: call     0x402db0                                      
+00401584: push     0xf                                           
+00401586: push     eax                                           
+00401587: call     0x402dce                                      
+0040158c: push     ebx                                           
+0040158d: call     0x402df8                                      
+00401592: push     eax                                           
+00401593: push     -0xb                                          
+00401595: call     0x402db0                                      
+0040159a: pop      ecx                                           
+0040159b: push     0                                             
+0040159d: push     0x404840                                      
+004015a2: push     ecx                                           
+004015a3: push     ebx                                           
+004015a4: push     eax                                           
+004015a5: call     0x402dda                                      
+004015aa: push     0x4250b8                                      
+004015af: call     0x402dc2                                      
+004015b4: popal                                                  
+004015b5: push     0x404190                                      ; 'onlyleaderscannavsay'
+004015ba: call     0x40199f                                      
+004015bf: push     0x404440                                      
+004015c4: call     0x402d50                                      
+004015c9: mov      dword ptr [0x40442c], eax                     
+004015ce: pushal                                                 
+004015cf: push     0x4250b8                                      
+004015d4: call     0x402d92                                      
+004015d9: push     -0xb                                          
+004015db: call     0x402db0                                      
+004015e0: push     7                                             
+004015e2: push     eax                                           
+004015e3: call     0x402dce                                      
+004015e8: mov      ebx, 0x4041a8                                 
+004015ed: push     ebx                                           
+004015ee: call     0x402df8                                      
+004015f3: push     eax                                           
+004015f4: push     -0xb                                          
+004015f6: call     0x402db0                                      
+004015fb: pop      ecx                                           
+004015fc: push     0                                             
+004015fe: push     0x404840                                      
+00401603: push     ecx                                           
+00401604: push     ebx                                           
+00401605: push     eax                                           
+00401606: call     0x402dda                                      
+0040160b: push     0x4250b8                                      
+00401610: call     0x402dc2                                      
+00401615: popal                                                  
+00401616: pushal                                                 
+00401617: push     0x4250b8                                      
+0040161c: call     0x402d92                                      
+00401621: push     -0xb                                          
+00401623: call     0x402db0                                      
+00401628: push     7                                             
+0040162a: push     eax                                           
+0040162b: call     0x402dce                                      
+00401630: mov      ebx, 0x4041ac                                 ; 'Only leaders can use navsay set to: '
+00401635: push     ebx                                           
+00401636: call     0x402df8                                      
+0040163b: push     eax                                           
+0040163c: push     -0xb                                          
+0040163e: call     0x402db0                                      
+00401643: pop      ecx                                           
+00401644: push     0                                             
+00401646: push     0x404840                                      
+0040164b: push     ecx                                           
+0040164c: push     ebx                                           
+0040164d: push     eax                                           
+0040164e: call     0x402dda                                      
+00401653: push     0x4250b8                                      
+00401658: call     0x402dc2                                      
+0040165d: popal                                                  
+0040165e: cmp      dword ptr [0x40442c], 0                       
+00401665: je       0x4016b4                                      
+00401667: lea      ecx, [0x4041d4]                               
+0040166d: pushal                                                 
+0040166e: mov      ebx, ecx                                      
+00401670: push     0x4250b8                                      
+00401675: call     0x402d92                                      
+0040167a: push     -0xb                                          
+0040167c: call     0x402db0                                      
+00401681: push     0xf                                           
+00401683: push     eax                                           
+00401684: call     0x402dce                                      
+00401689: push     ebx                                           
+0040168a: call     0x402df8                                      
+0040168f: push     eax                                           
+00401690: push     -0xb                                          
+00401692: call     0x402db0                                      
+00401697: pop      ecx                                           
+00401698: push     0                                             
+0040169a: push     0x404840                                      
+0040169f: push     ecx                                           
+004016a0: push     ebx                                           
+004016a1: push     eax                                           
+004016a2: call     0x402dda                                      
+004016a7: push     0x4250b8                                      
+004016ac: call     0x402dc2                                      
+004016b1: popal                                                  
+004016b2: jmp      0x4016ff                                      
+004016b4: lea      ecx, [0x4041dc]                               
+004016ba: pushal                                                 
+004016bb: mov      ebx, ecx                                      
+004016bd: push     0x4250b8                                      
+004016c2: call     0x402d92                                      
+004016c7: push     -0xb                                          
+004016c9: call     0x402db0                                      
+004016ce: push     0xf                                           
+004016d0: push     eax                                           
+004016d1: call     0x402dce                                      
+004016d6: push     ebx                                           
+004016d7: call     0x402df8                                      
+004016dc: push     eax                                           
+004016dd: push     -0xb                                          
+004016df: call     0x402db0                                      
+004016e4: pop      ecx                                           
+004016e5: push     0                                             
+004016e7: push     0x404840                                      
+004016ec: push     ecx                                           
+004016ed: push     ebx                                           
+004016ee: push     eax                                           
+004016ef: call     0x402dda                                      
+004016f4: push     0x4250b8                                      
+004016f9: call     0x402dc2                                      
+004016fe: popal                                                  
+004016ff: push     0x4041e4                                      ; 'updateinterval'
+00401704: call     0x40199f                                      
+00401709: push     0x404440                                      
+0040170e: call     0x402d50                                      
+00401713: mov      dword ptr [0x404438], eax                     
+00401718: pushal                                                 
+00401719: push     0x4250b8                                      
+0040171e: call     0x402d92                                      
+00401723: push     -0xb                                          
+00401725: call     0x402db0                                      
+0040172a: push     7                                             
+0040172c: push     eax                                           
+0040172d: call     0x402dce                                      
+00401732: mov      ebx, 0x4041f4                                 
+00401737: push     ebx                                           
+00401738: call     0x402df8                                      
+0040173d: push     eax                                           
+0040173e: push     -0xb                                          
+00401740: call     0x402db0                                      
+00401745: pop      ecx                                           
+00401746: push     0                                             
+00401748: push     0x404840                                      
+0040174d: push     ecx                                           
+0040174e: push     ebx                                           
+0040174f: push     eax                                           
+00401750: call     0x402dda                                      
+00401755: push     0x4250b8                                      
+0040175a: call     0x402dc2                                      
+0040175f: popal                                                  
+00401760: pushal                                                 
+00401761: push     0x4250b8                                      
+00401766: call     0x402d92                                      
+0040176b: push     -0xb                                          
+0040176d: call     0x402db0                                      
+00401772: push     7                                             
+00401774: push     eax                                           
+00401775: call     0x402dce                                      
+0040177a: mov      ebx, 0x4041f8                                 ; 'Update interval set to: '
+0040177f: push     ebx                                           
+00401780: call     0x402df8                                      
+00401785: push     eax                                           
+00401786: push     -0xb                                          
+00401788: call     0x402db0                                      
+0040178d: pop      ecx                                           
+0040178e: push     0                                             
+00401790: push     0x404840                                      
+00401795: push     ecx                                           
+00401796: push     ebx                                           
+00401797: push     eax                                           
+00401798: call     0x402dda                                      
+0040179d: push     0x4250b8                                      
+004017a2: call     0x402dc2                                      
+004017a7: popal                                                  
+004017a8: lea      ecx, [0x404440]                               
+004017ae: pushal                                                 
+004017af: mov      ebx, ecx                                      
+004017b1: push     0x4250b8                                      
+004017b6: call     0x402d92                                      
+004017bb: push     -0xb                                          
+004017bd: call     0x402db0                                      
+004017c2: push     0xf                                           
+004017c4: push     eax                                           
+004017c5: call     0x402dce                                      
+004017ca: push     ebx                                           
+004017cb: call     0x402df8                                      
+004017d0: push     eax                                           
+004017d1: push     -0xb                                          
+004017d3: call     0x402db0                                      
+004017d8: pop      ecx                                           
+004017d9: push     0                                             
+004017db: push     0x404840                                      
+004017e0: push     ecx                                           
+004017e1: push     ebx                                           
+004017e2: push     eax                                           
+004017e3: call     0x402dda                                      
+004017e8: push     0x4250b8                                      
+004017ed: call     0x402dc2                                      
+004017f2: popal                                                  
+004017f3: pushal                                                 
+004017f4: push     0x4250b8                                      
+004017f9: call     0x402d92                                      
+004017fe: push     -0xb                                          
+00401800: call     0x402db0                                      
+00401805: push     7                                             
+00401807: push     eax                                           
+00401808: call     0x402dce                                      
+0040180d: mov      ebx, 0x404214                                 
+00401812: push     ebx                                           
+00401813: call     0x402df8                                      
+00401818: push     eax                                           
+00401819: push     -0xb                                          
+0040181b: call     0x402db0                                      
+00401820: pop      ecx                                           
+00401821: push     0                                             
+00401823: push     0x404840                                      
+00401828: push     ecx                                           
+00401829: push     ebx                                           
+0040182a: push     eax                                           
+0040182b: call     0x402dda                                      
+00401830: push     0x4250b8                                      
+00401835: call     0x402dc2                                      
+0040183a: popal                                                  
+0040183b: pushal                                                 
+0040183c: push     0x4250b8                                      
+00401841: call     0x402d92                                      
+00401846: push     -0xb                                          
+00401848: call     0x402db0                                      
+0040184d: push     7                                             
+0040184f: push     eax                                           
+00401850: call     0x402dce                                      
+00401855: mov      ebx, 0x404218                                 
+0040185a: push     ebx                                           
+0040185b: call     0x402df8                                      
+00401860: push     eax                                           
+00401861: push     -0xb                                          
+00401863: call     0x402db0                                      
+00401868: pop      ecx                                           
+00401869: push     0                                             
+0040186b: push     0x404840                                      
+00401870: push     ecx                                           
+00401871: push     ebx                                           
+00401872: push     eax                                           
+00401873: call     0x402dda                                      
+00401878: push     0x4250b8                                      
+0040187d: call     0x402dc2                                      
+00401882: popal                                                  
+00401883: pushal                                                 
+00401884: push     0x4250b8                                      
+00401889: call     0x402d92                                      
+0040188e: push     -0xb                                          
+00401890: call     0x402db0                                      
+00401895: push     7                                             
+00401897: push     eax                                           
+00401898: call     0x402dce                                      
+0040189d: mov      ebx, 0x40421c                                 
+004018a2: push     ebx                                           
+004018a3: call     0x402df8                                      
+004018a8: push     eax                                           
+004018a9: push     -0xb                                          
+004018ab: call     0x402db0                                      
+004018b0: pop      ecx                                           
+004018b1: push     0                                             
+004018b3: push     0x404840                                      
+004018b8: push     ecx                                           
+004018b9: push     ebx                                           
+004018ba: push     eax                                           
+004018bb: call     0x402dda                                      
+004018c0: push     0x4250b8                                      
+004018c5: call     0x402dc2                                      
+004018ca: popal                                                  
+004018cb: pushal                                                 
+004018cc: push     0x4250b8                                      
+004018d1: call     0x402d92                                      
+004018d6: push     -0xb                                          
+004018d8: call     0x402db0                                      
+004018dd: push     7                                             
+004018df: push     eax                                           
+004018e0: call     0x402dce                                      
+004018e5: mov      ebx, 0x404238                                 
+004018ea: push     ebx                                           
+004018eb: call     0x402df8                                      
+004018f0: push     eax                                           
+004018f1: push     -0xb                                          
+004018f3: call     0x402db0                                      
+004018f8: pop      ecx                                           
+004018f9: push     0                                             
+004018fb: push     0x404840                                      
+00401900: push     ecx                                           
+00401901: push     ebx                                           
+00401902: push     eax                                           
+00401903: call     0x402dda                                      
+00401908: push     0x4250b8                                      
+0040190d: call     0x402dc2                                      
+00401912: popal                                                  
+00401913: push     0x404428                                      
+00401918: push     0                                             
+0040191a: push     0                                             
+0040191c: push     0x4019f1                                      
+00401921: push     0                                             
+00401923: push     0                                             
+00401925: call     0x402d8c                                      
+0040192a: push     -0xb                                          
+0040192c: call     0x402db0                                      
+00401931: push     -0xa                                          
+00401933: call     0x402db0                                      
+00401938: push     0                                             
+0040193a: push     0                                             
+0040193c: push     0                                             
+0040193e: push     0                                             
+00401940: push     eax                                           
+00401941: call     0x402dc8                                      
+00401946: pushal                                                 
+00401947: push     0x4250b8                                      
+0040194c: call     0x402d92                                      
+00401951: push     -0xb                                          
+00401953: call     0x402db0                                      
+00401958: push     7                                             
+0040195a: push     eax                                           
+0040195b: call     0x402dce                                      
+00401960: mov      ebx, 0x404260                                 
+00401965: push     ebx                                           
+00401966: call     0x402df8                                      
+0040196b: push     eax                                           
+0040196c: push     -0xb                                          
+0040196e: call     0x402db0                                      
+00401973: pop      ecx                                           
+00401974: push     0                                             
+00401976: push     0x404840                                      
+0040197b: push     ecx                                           
+0040197c: push     ebx                                           
+0040197d: push     eax                                           
+0040197e: call     0x402dda                                      
+00401983: push     0x4250b8                                      
+00401988: call     0x402dc2                                      
+0040198d: popal                                                  
+0040198e: push     0x7d0                                         
+00401993: call     0x402dd4                                      
+00401998: push     0                                             
+0040199a: call     0x402d98                                      
+0040199f: push     ebp                                           
+004019a0: mov      ebp, esp                                      
+004019a2: add      esp, 0xfffffefc                               
+004019a8: push     0x404640                                      
+004019ad: lea      eax, [ebp - 0x104]                            
+004019b3: push     eax                                           
+004019b4: call     0x402df2                                      
+004019b9: push     0x404274                                      ; 'navserv.ini'
+004019be: lea      eax, [ebp - 0x104]                            
+004019c4: push     eax                                           
+004019c5: call     0x402de0                                      
+004019ca: lea      eax, [ebp - 0x104]                            
+004019d0: push     eax                                           
+004019d1: push     0x200                                         
+004019d6: push     0x404440                                      
+004019db: push     0x40443c                                      
+004019e0: push     dword ptr [ebp + 8]                           
+004019e3: push     0x404280                                      ; 'navserv'
+004019e8: call     0x402daa                                      
+004019ed: leave                                                  
+004019ee: ret      4                                             
+004019f1: push     ebp                                           
+004019f2: mov      ebp, esp                                      
+004019f4: add      esp, 0xfffffe48                               
+004019fa: lea      eax, [ebp - 0x18e]                            
+00401a00: push     eax                                           
+00401a01: push     0x202                                         
+00401a06: call     0x402dfe                                      
+00401a0b: or       eax, eax                                      
+00401a0d: jne      0x401a11                                      
+00401a0f: jmp      0x401a59                                      
+00401a11: pushal                                                 
+00401a12: push     0x4250b8                                      
+00401a17: call     0x402d92                                      
+00401a1c: push     -0xb                                          
+00401a1e: call     0x402db0                                      
+00401a23: push     0xc                                           
+00401a25: push     eax                                           
+00401a26: call     0x402dce                                      
+00401a2b: mov      ebx, 0x404288                                 
+00401a30: push     ebx                                           
+00401a31: call     0x402df8                                      
+00401a36: push     eax                                           
+00401a37: push     -0xb                                          
+00401a39: call     0x402db0                                      
+00401a3e: pop      ecx                                           
+00401a3f: push     0                                             
+00401a41: push     0x404840                                      
+00401a46: push     ecx                                           
+00401a47: push     ebx                                           
+00401a48: push     eax                                           
+00401a49: call     0x402dda                                      
+00401a4e: push     0x4250b8                                      
+00401a53: call     0x402dc2                                      
+00401a58: popal                                                  
+00401a59: push     0x404850                                      
+00401a5e: push     0                                             
+00401a60: push     0                                             
+00401a62: push     0x401bbd                                      
+00401a67: push     0                                             
+00401a69: push     0                                             
+00401a6b: call     0x402d8c                                      
+00401a70: mov      dword ptr [0x404844], eax                     
+00401a75: push     6                                             
+00401a77: push     1                                             
+00401a79: push     2                                             
+00401a7b: call     0x402e40                                      
+00401a80: mov      dword ptr [0x40484c], eax                     
+00401a85: push     dword ptr [0x40401c]                          
+00401a8b: call     0x402e1c                                      
+00401a90: mov      word ptr [ebp - 0x1a0], 2                     
+00401a99: mov      byte ptr [ebp - 0x198], 0                     
+00401aa0: mov      word ptr [ebp - 0x19e], ax                    
+00401aa7: mov      dword ptr [ebp - 0x19c], 0                    
+00401ab1: push     0x10                                          
+00401ab3: lea      eax, [ebp - 0x1a0]                            
+00401ab9: push     eax                                           
+00401aba: push     dword ptr [0x40484c]                          
+00401ac0: call     0x402e0a                                      
+00401ac5: cmp      eax, -1                                       
+00401ac8: jne      0x401b12                                      
+00401aca: pushal                                                 
+00401acb: push     0x4250b8                                      
+00401ad0: call     0x402d92                                      
+00401ad5: push     -0xb                                          
+00401ad7: call     0x402db0                                      
+00401adc: push     0xc                                           
+00401ade: push     eax                                           
+00401adf: call     0x402dce                                      
+00401ae4: mov      ebx, 0x4042a0                                 
+00401ae9: push     ebx                                           
+00401aea: call     0x402df8                                      
+00401aef: push     eax                                           
+00401af0: push     -0xb                                          
+00401af2: call     0x402db0                                      
+00401af7: pop      ecx                                           
+00401af8: push     0                                             
+00401afa: push     0x404840                                      
+00401aff: push     ecx                                           
+00401b00: push     ebx                                           
+00401b01: push     eax                                           
+00401b02: call     0x402dda                                      
+00401b07: push     0x4250b8                                      
+00401b0c: call     0x402dc2                                      
+00401b11: popal                                                  
+00401b12: push     5                                             
+00401b14: push     dword ptr [0x40484c]                          
+00401b1a: call     0x402e28                                      
+00401b1f: cmp      eax, -1                                       
+00401b22: jne      0x401b6c                                      
+00401b24: pushal                                                 
+00401b25: push     0x4250b8                                      
+00401b2a: call     0x402d92                                      
+00401b2f: push     -0xb                                          
+00401b31: call     0x402db0                                      
+00401b36: push     0xc                                           
+00401b38: push     eax                                           
+00401b39: call     0x402dce                                      
+00401b3e: mov      ebx, 0x4042c8                                 
+00401b43: push     ebx                                           
+00401b44: call     0x402df8                                      
+00401b49: push     eax                                           
+00401b4a: push     -0xb                                          
+00401b4c: call     0x402db0                                      
+00401b51: pop      ecx                                           
+00401b52: push     0                                             
+00401b54: push     0x404840                                      
+00401b59: push     ecx                                           
+00401b5a: push     ebx                                           
+00401b5b: push     eax                                           
+00401b5c: call     0x402dda                                      
+00401b61: push     0x4250b8                                      
+00401b66: call     0x402dc2                                      
+00401b6b: popal                                                  
+00401b6c: mov      dword ptr [ebp - 0x1b4], 0x10                 
+00401b76: lea      eax, [ebp - 0x1b4]                            
+00401b7c: push     eax                                           
+00401b7d: lea      eax, [ebp - 0x1b0]                            
+00401b83: push     eax                                           
+00401b84: push     dword ptr [0x40484c]                          
+00401b8a: call     0x402e04                                      
+00401b8f: cmp      eax, -1                                       
+00401b92: je       0x401bb7                                      
+00401b94: mov      ebx, eax                                      
+00401b96: lea      eax, [ebp - 0x1b8]                            
+00401b9c: push     eax                                           
+00401b9d: push     0                                             
+00401b9f: push     ebx                                           
+00401ba0: push     0x401e63                                      
+00401ba5: push     0x8000                                        
+00401baa: push     0                                             
+00401bac: call     0x402d8c                                      
+00401bb1: push     eax                                           
+00401bb2: call     0x402d86                                      
+00401bb7: jmp      0x401b6c                                      
+00401bb9: leave                                                  
+00401bba: ret      4                                             
+00401bbd: push     ebp                                           
+00401bbe: mov      ebp, esp                                      
+00401bc0: add      esp, 0xffffefec                               
+00401bc6: mov      dword ptr [ebp - 0x1008], 0                   
+00401bd0: call     0x402db6                                      
+00401bd5: mov      dword ptr [ebp - 0x100c], eax                 
+00401bdb: mov      dword ptr [ebp - 0x1010], eax                 
+00401be1: mov      dword ptr [ebp - 0x1014], 1                   
+00401beb: lea      ecx, [ebp - 0x1000]                           
+00401bf1: xor      edx, edx                                      
+00401bf3: mov      ebx, 0x404874                                 
+00401bf8: jmp      0x401cd9                                      
+00401bfd: cmp      dword ptr [ebx], 0                            
+00401c00: je       0x401cd2                                      
+00401c06: cmp      dword ptr [ebx + 0x1a8], 0                    
+00401c0d: jne      0x401c5e                                      
+00401c0f: mov      dword ptr [ebx + 0x1a8], 1                    
+00401c19: mov      byte ptr [ecx], 2                             
+00401c1c: inc      ecx                                           
+00401c1d: mov      byte ptr [ecx], dl                            
+00401c1f: inc      ecx                                           
+00401c20: mov      eax, dword ptr [ebx + 0x188]                  
+00401c26: mov      dword ptr [ecx], eax                          
+00401c28: add      ecx, 4                                        
+00401c2b: mov      eax, dword ptr [ebx + 0x1a0]                  
+00401c31: mov      dword ptr [ecx], eax                          
+00401c33: add      ecx, 4                                        
+00401c36: push     edx                                           
+00401c37: lea      esi, [ebx + 8]                                
+00401c3a: mov      dl, byte ptr [esi]                            
+00401c3c: or       dl, dl                                        
+00401c3e: je       0x401c46                                      
+00401c40: mov      byte ptr [ecx], dl                            
+00401c42: inc      esi                                           
+00401c43: inc      ecx                                           
+00401c44: jmp      0x401c3a                                      
+00401c46: mov      byte ptr [ecx], 0                             
+00401c49: inc      ecx                                           
+00401c4a: lea      esi, [ebx + 0x48]                             
+00401c4d: mov      dl, byte ptr [esi]                            
+00401c4f: or       dl, dl                                        
+00401c51: je       0x401c59                                      
+00401c53: mov      byte ptr [ecx], dl                            
+00401c55: inc      esi                                           
+00401c56: inc      ecx                                           
+00401c57: jmp      0x401c4d                                      
+00401c59: mov      byte ptr [ecx], 0                             
+00401c5c: inc      ecx                                           
+00401c5d: pop      edx                                           
+00401c5e: mov      eax, dword ptr [0x425074]                     
+00401c63: sub      eax, dword ptr [ebx + 0x1a4]                  
+00401c69: cmp      eax, 0x1e                                     
+00401c6c: jae      0x401cd2                                      
+00401c6e: cmp      dword ptr [ebx + 0x1ac], 0                    
+00401c75: je       0x401cd2                                      
+00401c77: mov      dword ptr [ebx + 0x1ac], 0                    
+00401c81: cmp      byte ptr [ebx + 8], 0                         
+00401c85: je       0x401cd2                                      
+00401c87: mov      byte ptr [ecx], 3                             
+00401c8a: inc      ecx                                           
+00401c8b: mov      byte ptr [ecx], dl                            
+00401c8d: inc      ecx                                           
+00401c8e: mov      eax, dword ptr [ebx + 0x190]                  
+00401c94: mov      word ptr [ecx], ax                            
+00401c97: add      ecx, 2                                        
+00401c9a: mov      eax, dword ptr [ebx + 0x194]                  
+00401ca0: mov      word ptr [ecx], ax                            
+00401ca3: add      ecx, 2                                        
+00401ca6: mov      eax, dword ptr [ebx + 0x198]                  
+00401cac: mov      byte ptr [ecx], al                            
+00401cae: inc      ecx                                           
+00401caf: mov      eax, dword ptr [ebx + 0x18c]                  
+00401cb5: mov      byte ptr [ecx], al                            
+00401cb7: inc      ecx                                           
+00401cb8: mov      ax, word ptr [ebx + 0x19c]                    
+00401cbf: mov      word ptr [ecx], ax                            
+00401cc2: add      ecx, 2                                        
+00401cc5: mov      ax, word ptr [ebx + 0x19e]                    
+00401ccc: mov      word ptr [ecx], ax                            
+00401ccf: add      ecx, 2                                        
+00401cd2: inc      edx                                           
+00401cd3: add      ebx, 0x1b4                                    
+00401cd9: cmp      ebx, 0x41fc74                                 
+00401cdf: jb       0x401bfd                                      
+00401ce5: cmp      dword ptr [0x404434], 0                       
+00401cec: je       0x401d80                                      
+00401cf2: cmp      dword ptr [ebp - 0x1014], 0                   
+00401cf9: je       0x401d80                                      
+00401cff: xor      edx, edx                                      
+00401d01: mov      ebx, 0x41fc74                                 
+00401d06: jmp      0x401d6e                                      
+00401d08: cmp      byte ptr [ebx], 0                             
+00401d0b: je       0x401d6a                                      
+00401d0d: cmp      dword ptr [ebx + 0x50], 0                     
+00401d11: jne      0x401d35                                      
+00401d13: mov      dword ptr [ebx + 0x50], 1                     
+00401d1a: mov      byte ptr [ecx], 1                             
+00401d1d: inc      ecx                                           
+00401d1e: mov      byte ptr [ecx], dl                            
+00401d20: inc      ecx                                           
+00401d21: push     edx                                           
+00401d22: lea      esi, [ebx]                                    
+00401d24: mov      dl, byte ptr [esi]                            
+00401d26: or       dl, dl                                        
+00401d28: je       0x401d30                                      
+00401d2a: mov      byte ptr [ecx], dl                            
+00401d2c: inc      esi                                           
+00401d2d: inc      ecx                                           
+00401d2e: jmp      0x401d24                                      
+00401d30: mov      byte ptr [ecx], 0                             
+00401d33: inc      ecx                                           
+00401d34: pop      edx                                           
+00401d35: mov      eax, dword ptr [0x425074]                     
+00401d3a: sub      eax, dword ptr [ebx + 0x4c]                   
+00401d3d: cmp      eax, 2                                        
+00401d40: jae      0x401d6a                                      
+00401d42: cmp      byte ptr [ebx], 0                             
+00401d45: je       0x401d6a                                      
+00401d47: mov      byte ptr [ecx], 4                             
+00401d4a: inc      ecx                                           
+00401d4b: mov      byte ptr [ecx], dl                            
+00401d4d: inc      ecx                                           
+00401d4e: mov      eax, dword ptr [ebx + 0x40]                   
+00401d51: mov      word ptr [ecx], ax                            
+00401d54: add      ecx, 2                                        
+00401d57: mov      eax, dword ptr [ebx + 0x44]                   
+00401d5a: mov      word ptr [ecx], ax                            
+00401d5d: add      ecx, 2                                        
+00401d60: mov      eax, dword ptr [ebx + 0x48]                   
+00401d63: mov      byte ptr [ecx], al                            
+00401d65: inc      ecx                                           
+00401d66: mov      byte ptr [ecx], 0                             
+00401d69: inc      ecx                                           
+00401d6a: inc      edx                                           
+00401d6b: add      ebx, 0x54                                     
+00401d6e: cmp      ebx, 0x425074                                 
+00401d74: jb       0x401d08                                      
+00401d76: mov      dword ptr [ebp - 0x1014], 0                   
+00401d80: lea      ebx, [ebp - 0x1000]                           
+00401d86: sub      ecx, ebx                                      
+00401d88: mov      dword ptr [ebp - 0x1004], ecx                 
+00401d8e: or       ecx, ecx                                      
+00401d90: je       0x401dc2                                      
+00401d92: mov      ebx, 0x404874                                 
+00401d97: jmp      0x401dba                                      
+00401d99: cmp      dword ptr [ebx], 0                            
+00401d9c: je       0x401db4                                      
+00401d9e: push     0                                             
+00401da0: push     dword ptr [ebp - 0x1004]                      
+00401da6: lea      eax, [ebp - 0x1000]                           
+00401dac: push     eax                                           
+00401dad: push     dword ptr [ebx]                               
+00401daf: call     0x402e34                                      
+00401db4: add      ebx, 0x1b4                                    
+00401dba: cmp      ebx, 0x41fc74                                 
+00401dc0: jb       0x401d99                                      
+00401dc2: call     0x402db6                                      
+00401dc7: mov      ecx, eax                                      
+00401dc9: sub      eax, dword ptr [ebp - 0x100c]                 
+00401dcf: sub      ecx, dword ptr [ebp - 0x1010]                 
+00401dd5: cmp      ecx, 0x3e8                                    
+00401ddb: jb       0x401df7                                      
+00401ddd: add      dword ptr [ebp - 0x1010], 0x3e8               
+00401de7: inc      dword ptr [0x425074]                          
+00401ded: mov      dword ptr [ebp - 0x1014], 1                   
+00401df7: cmp      eax, dword ptr [0x404438]                     
+00401dfd: jb       0x401e0d                                      
+00401dff: mov      ecx, dword ptr [0x404438]                     
+00401e05: add      dword ptr [ebp - 0x100c], ecx                 
+00401e0b: jmp      0x401e16                                      
+00401e0d: push     5                                             
+00401e0f: call     0x402dd4                                      
+00401e14: jmp      0x401dc2                                      
+00401e16: jmp      0x401beb                                      
+00401e1b: leave                                                  
+00401e1c: ret      4                                             
+00401e1f: push     ebp                                           
+00401e20: mov      ebp, esp                                      
+00401e22: push     0x404020                                      
+00401e27: push     dword ptr [ebp + 8]                           
+00401e2a: call     0x402dec                                      
+00401e2f: or       eax, eax                                      
+00401e31: jne      0x401e3e                                      
+00401e33: xor      ecx, ecx                                      
+00401e35: mov      eax, 1                                        
+00401e3a: leave                                                  
+00401e3b: ret      4                                             
+00401e3e: push     0x404041                                      
+00401e43: push     dword ptr [ebp + 8]                           
+00401e46: call     0x402dec                                      
+00401e4b: or       eax, eax                                      
+00401e4d: jne      0x401e5d                                      
+00401e4f: mov      ecx, 1                                        
+00401e54: mov      eax, 1                                        
+00401e59: leave                                                  
+00401e5a: ret      4                                             
+00401e5d: xor      eax, eax                                      
+00401e5f: leave                                                  
+00401e60: ret      4                                             
+00401e63: push     ebp                                           
+00401e64: mov      ebp, esp                                      
+00401e66: add      esp, 0xffffead0                               
+00401e6c: mov      dword ptr [ebp - 0x1004], 0                   
+00401e76: mov      dword ptr [ebp - 0x1530], 0                   
+00401e80: mov      dword ptr [ebp - 0x1528], 0                   
+00401e8a: mov      byte ptr [ebp - 0x1088], 0                    
+00401e91: mov      byte ptr [ebp - 0x10c8], 0                    
+00401e98: mov      dword ptr [ebp - 0x152c], 0                   
+00401ea2: push     0                                             
+00401ea4: push     0x1000                                        
+00401ea9: lea      eax, [ebp - 0x1000]                           
+00401eaf: push     eax                                           
+00401eb0: push     dword ptr [ebp + 8]                           
+00401eb3: call     0x402e2e                                      
+00401eb8: or       eax, eax                                      
+00401eba: je       0x401ec5                                      
+00401ebc: cmp      eax, -1                                       
+00401ebf: jne      0x402121                                      
+00401ec5: cmp      byte ptr [ebp - 0x1088], 0                    
+00401ecc: je       0x402100                                      
+00401ed2: pushal                                                 
+00401ed3: push     0x4250b8                                      
+00401ed8: call     0x402d92                                      
+00401edd: push     -0xb                                          
+00401edf: call     0x402db0                                      
+00401ee4: push     7                                             
+00401ee6: push     eax                                           
+00401ee7: call     0x402dce                                      
+00401eec: mov      ebx, 0x4042ec                                 ; 'Logging off '
+00401ef1: push     ebx                                           
+00401ef2: call     0x402df8                                      
+00401ef7: push     eax                                           
+00401ef8: push     -0xb                                          
+00401efa: call     0x402db0                                      
+00401eff: pop      ecx                                           
+00401f00: push     0                                             
+00401f02: push     0x404840                                      
+00401f07: push     ecx                                           
+00401f08: push     ebx                                           
+00401f09: push     eax                                           
+00401f0a: call     0x402dda                                      
+00401f0f: push     0x4250b8                                      
+00401f14: call     0x402dc2                                      
+00401f19: popal                                                  
+00401f1a: lea      ecx, [ebp - 0x1088]                           
+00401f20: pushal                                                 
+00401f21: mov      ebx, ecx                                      
+00401f23: push     0x4250b8                                      
+00401f28: call     0x402d92                                      
+00401f2d: push     -0xb                                          
+00401f2f: call     0x402db0                                      
+00401f34: push     0xf                                           
+00401f36: push     eax                                           
+00401f37: call     0x402dce                                      
+00401f3c: push     ebx                                           
+00401f3d: call     0x402df8                                      
+00401f42: push     eax                                           
+00401f43: push     -0xb                                          
+00401f45: call     0x402db0                                      
+00401f4a: pop      ecx                                           
+00401f4b: push     0                                             
+00401f4d: push     0x404840                                      
+00401f52: push     ecx                                           
+00401f53: push     ebx                                           
+00401f54: push     eax                                           
+00401f55: call     0x402dda                                      
+00401f5a: push     0x4250b8                                      
+00401f5f: call     0x402dc2                                      
+00401f64: popal                                                  
+00401f65: pushal                                                 
+00401f66: push     0x4250b8                                      
+00401f6b: call     0x402d92                                      
+00401f70: push     -0xb                                          
+00401f72: call     0x402db0                                      
+00401f77: push     7                                             
+00401f79: push     eax                                           
+00401f7a: call     0x402dce                                      
+00401f7f: mov      ebx, 0x4042fc                                 ; ' aka '
+00401f84: push     ebx                                           
+00401f85: call     0x402df8                                      
+00401f8a: push     eax                                           
+00401f8b: push     -0xb                                          
+00401f8d: call     0x402db0                                      
+00401f92: pop      ecx                                           
+00401f93: push     0                                             
+00401f95: push     0x404840                                      
+00401f9a: push     ecx                                           
+00401f9b: push     ebx                                           
+00401f9c: push     eax                                           
+00401f9d: call     0x402dda                                      
+00401fa2: push     0x4250b8                                      
+00401fa7: call     0x402dc2                                      
+00401fac: popal                                                  
+00401fad: lea      ecx, [ebp - 0x10c8]                           
+00401fb3: pushal                                                 
+00401fb4: mov      ebx, ecx                                      
+00401fb6: push     0x4250b8                                      
+00401fbb: call     0x402d92                                      
+00401fc0: push     -0xb                                          
+00401fc2: call     0x402db0                                      
+00401fc7: push     0xf                                           
+00401fc9: push     eax                                           
+00401fca: call     0x402dce                                      
+00401fcf: push     ebx                                           
+00401fd0: call     0x402df8                                      
+00401fd5: push     eax                                           
+00401fd6: push     -0xb                                          
+00401fd8: call     0x402db0                                      
+00401fdd: pop      ecx                                           
+00401fde: push     0                                             
+00401fe0: push     0x404840                                      
+00401fe5: push     ecx                                           
+00401fe6: push     ebx                                           
+00401fe7: push     eax                                           
+00401fe8: call     0x402dda                                      
+00401fed: push     0x4250b8                                      
+00401ff2: call     0x402dc2                                      
+00401ff7: popal                                                  
+00401ff8: pushal                                                 
+00401ff9: push     0x4250b8                                      
+00401ffe: call     0x402d92                                      
+00402003: push     -0xb                                          
+00402005: call     0x402db0                                      
+0040200a: push     7                                             
+0040200c: push     eax                                           
+0040200d: call     0x402dce                                      
+00402012: mov      ebx, 0x404304                                 ; ' Ip: '
+00402017: push     ebx                                           
+00402018: call     0x402df8                                      
+0040201d: push     eax                                           
+0040201e: push     -0xb                                          
+00402020: call     0x402db0                                      
+00402025: pop      ecx                                           
+00402026: push     0                                             
+00402028: push     0x404840                                      
+0040202d: push     ecx                                           
+0040202e: push     ebx                                           
+0040202f: push     eax                                           
+00402030: call     0x402dda                                      
+00402035: push     0x4250b8                                      
+0040203a: call     0x402dc2                                      
+0040203f: popal                                                  
+00402040: mov      dword ptr [ebp - 0x1124], 0x10                
+0040204a: lea      eax, [ebp - 0x1124]                           
+00402050: push     eax                                           
+00402051: lea      eax, [ebp - 0x1120]                           
+00402057: push     eax                                           
+00402058: push     dword ptr [ebp + 8]                           
+0040205b: call     0x402e16                                      
+00402060: or       eax, eax                                      
+00402062: jne      0x4020b8                                      
+00402064: push     dword ptr [ebp - 0x111c]                      
+0040206a: call     0x402e22                                      
+0040206f: or       eax, eax                                      
+00402071: je       0x4020b8                                      
+00402073: pushal                                                 
+00402074: mov      ebx, eax                                      
+00402076: push     0x4250b8                                      
+0040207b: call     0x402d92                                      
+00402080: push     -0xb                                          
+00402082: call     0x402db0                                      
+00402087: push     0xf                                           
+00402089: push     eax                                           
+0040208a: call     0x402dce                                      
+0040208f: push     ebx                                           
+00402090: call     0x402df8                                      
+00402095: push     eax                                           
+00402096: push     -0xb                                          
+00402098: call     0x402db0                                      
+0040209d: pop      ecx                                           
+0040209e: push     0                                             
+004020a0: push     0x404840                                      
+004020a5: push     ecx                                           
+004020a6: push     ebx                                           
+004020a7: push     eax                                           
+004020a8: call     0x402dda                                      
+004020ad: push     0x4250b8                                      
+004020b2: call     0x402dc2                                      
+004020b7: popal                                                  
+004020b8: pushal                                                 
+004020b9: push     0x4250b8                                      
+004020be: call     0x402d92                                      
+004020c3: push     -0xb                                          
+004020c5: call     0x402db0                                      
+004020ca: push     7                                             
+004020cc: push     eax                                           
+004020cd: call     0x402dce                                      
+004020d2: mov      ebx, 0x40430c                                 
+004020d7: push     ebx                                           
+004020d8: call     0x402df8                                      
+004020dd: push     eax                                           
+004020de: push     -0xb                                          
+004020e0: call     0x402db0                                      
+004020e5: pop      ecx                                           
+004020e6: push     0                                             
+004020e8: push     0x404840                                      
+004020ed: push     ecx                                           
+004020ee: push     ebx                                           
+004020ef: push     eax                                           
+004020f0: call     0x402dda                                      
+004020f5: push     0x4250b8                                      
+004020fa: call     0x402dc2                                      
+004020ff: popal                                                  
+00402100: push     2                                             
+00402102: push     dword ptr [ebp + 8]                           
+00402105: call     0x402e3a                                      
+0040210a: push     dword ptr [ebp + 8]                           
+0040210d: call     0x402e10                                      
+00402112: push     dword ptr [ebp + 8]                           
+00402115: call     0x402c47                                      
+0040211a: push     0                                             
+0040211c: call     0x402d9e                                      
+00402121: lea      ebx, [ebp - 0x1000]                           
+00402127: add      eax, ebx                                      
+00402129: mov      dword ptr [ebp - 0x1008], eax                 
+0040212f: cmp      ebx, dword ptr [ebp - 0x152c]                 
+00402135: jne      0x40213c                                      
+00402137: jmp      0x401e98                                      
+0040213c: mov      dword ptr [ebp - 0x152c], ebx                 
+00402142: cmp      ebx, dword ptr [ebp - 0x1008]                 
+00402148: jae      0x402b29                                      
+0040214e: mov      cl, byte ptr [ebx]                            
+00402150: cmp      cl, 1                                         
+00402153: jne      0x402712                                      
+00402159: cmp      dword ptr [ebp - 0x1004], 0                   
+00402160: jne      0x402b24                                      
+00402166: mov      eax, dword ptr [ebx + 1]                      
+00402169: mov      dword ptr [ebp - 0x110c], eax                 
+0040216f: add      ebx, 4                                        
+00402172: mov      eax, dword ptr [ebx + 1]                      
+00402175: mov      dword ptr [ebp - 0x1110], eax                 
+0040217b: add      ebx, 4                                        
+0040217e: lea      edi, [ebp - 0x1088]                           
+00402184: xor      ecx, ecx                                      
+00402186: inc      ebx                                           
+00402187: jmp      0x402196                                      
+00402189: mov      al, byte ptr [ebx]                            
+0040218b: mov      byte ptr [ecx + edi], al                      
+0040218e: inc      ecx                                           
+0040218f: inc      ebx                                           
+00402190: or       al, al                                        
+00402192: jne      0x402196                                      
+00402194: jmp      0x4021fc                                      
+00402196: cmp      ecx, 0x1f                                     
+00402199: jb       0x402189                                      
+0040219b: pushal                                                 
+0040219c: push     0x4250b8                                      
+004021a1: call     0x402d92                                      
+004021a6: push     -0xb                                          
+004021a8: call     0x402db0                                      
+004021ad: push     7                                             
+004021af: push     eax                                           
+004021b0: call     0x402dce                                      
+004021b5: mov      ebx, 0x404310                                 
+004021ba: push     ebx                                           
+004021bb: call     0x402df8                                      
+004021c0: push     eax                                           
+004021c1: push     -0xb                                          
+004021c3: call     0x402db0                                      
+004021c8: pop      ecx                                           
+004021c9: push     0                                             
+004021cb: push     0x404840                                      
+004021d0: push     ecx                                           
+004021d1: push     ebx                                           
+004021d2: push     eax                                           
+004021d3: call     0x402dda                                      
+004021d8: push     0x4250b8                                      
+004021dd: call     0x402dc2                                      
+004021e2: popal                                                  
+004021e3: push     2                                             
+004021e5: push     dword ptr [ebp + 8]                           
+004021e8: call     0x402e3a                                      
+004021ed: push     dword ptr [ebp + 8]                           
+004021f0: call     0x402e10                                      
+004021f5: push     0                                             
+004021f7: call     0x402d9e                                      
+004021fc: lea      edi, [ebp - 0x10c8]                           
+00402202: xor      ecx, ecx                                      
+00402204: jmp      0x402213                                      
+00402206: mov      al, byte ptr [ebx]                            
+00402208: mov      byte ptr [ecx + edi], al                      
+0040220b: inc      ecx                                           
+0040220c: inc      ebx                                           
+0040220d: or       al, al                                        
+0040220f: jne      0x402213                                      
+00402211: jmp      0x402279                                      
+00402213: cmp      ecx, 0x1f                                     
+00402216: jb       0x402206                                      
+00402218: pushal                                                 
+00402219: push     0x4250b8                                      
+0040221e: call     0x402d92                                      
+00402223: push     -0xb                                          
+00402225: call     0x402db0                                      
+0040222a: push     7                                             
+0040222c: push     eax                                           
+0040222d: call     0x402dce                                      
+00402232: mov      ebx, 0x40432c                                 
+00402237: push     ebx                                           
+00402238: call     0x402df8                                      
+0040223d: push     eax                                           
+0040223e: push     -0xb                                          
+00402240: call     0x402db0                                      
+00402245: pop      ecx                                           
+00402246: push     0                                             
+00402248: push     0x404840                                      
+0040224d: push     ecx                                           
+0040224e: push     ebx                                           
+0040224f: push     eax                                           
+00402250: call     0x402dda                                      
+00402255: push     0x4250b8                                      
+0040225a: call     0x402dc2                                      
+0040225f: popal                                                  
+00402260: push     2                                             
+00402262: push     dword ptr [ebp + 8]                           
+00402265: call     0x402e3a                                      
+0040226a: push     dword ptr [ebp + 8]                           
+0040226d: call     0x402e10                                      
+00402272: push     0                                             
+00402274: call     0x402d9e                                      
+00402279: pushal                                                 
+0040227a: push     0x4250b8                                      
+0040227f: call     0x402d92                                      
+00402284: push     -0xb                                          
+00402286: call     0x402db0                                      
+0040228b: push     7                                             
+0040228d: push     eax                                           
+0040228e: call     0x402dce                                      
+00402293: mov      ebx, 0x40434c                                 ; 'Logging on: '
+00402298: push     ebx                                           
+00402299: call     0x402df8                                      
+0040229e: push     eax                                           
+0040229f: push     -0xb                                          
+004022a1: call     0x402db0                                      
+004022a6: pop      ecx                                           
+004022a7: push     0                                             
+004022a9: push     0x404840                                      
+004022ae: push     ecx                                           
+004022af: push     ebx                                           
+004022b0: push     eax                                           
+004022b1: call     0x402dda                                      
+004022b6: push     0x4250b8                                      
+004022bb: call     0x402dc2                                      
+004022c0: popal                                                  
+004022c1: lea      eax, [ebp - 0x1088]                           
+004022c7: pushal                                                 
+004022c8: mov      ebx, eax                                      
+004022ca: push     0x4250b8                                      
+004022cf: call     0x402d92                                      
+004022d4: push     -0xb                                          
+004022d6: call     0x402db0                                      
+004022db: push     0xf                                           
+004022dd: push     eax                                           
+004022de: call     0x402dce                                      
+004022e3: push     ebx                                           
+004022e4: call     0x402df8                                      
+004022e9: push     eax                                           
+004022ea: push     -0xb                                          
+004022ec: call     0x402db0                                      
+004022f1: pop      ecx                                           
+004022f2: push     0                                             
+004022f4: push     0x404840                                      
+004022f9: push     ecx                                           
+004022fa: push     ebx                                           
+004022fb: push     eax                                           
+004022fc: call     0x402dda                                      
+00402301: push     0x4250b8                                      
+00402306: call     0x402dc2                                      
+0040230b: popal                                                  
+0040230c: pushal                                                 
+0040230d: push     0x4250b8                                      
+00402312: call     0x402d92                                      
+00402317: push     -0xb                                          
+00402319: call     0x402db0                                      
+0040231e: push     7                                             
+00402320: push     eax                                           
+00402321: call     0x402dce                                      
+00402326: mov      ebx, 0x40435c                                 ; ' aka '
+0040232b: push     ebx                                           
+0040232c: call     0x402df8                                      
+00402331: push     eax                                           
+00402332: push     -0xb                                          
+00402334: call     0x402db0                                      
+00402339: pop      ecx                                           
+0040233a: push     0                                             
+0040233c: push     0x404840                                      
+00402341: push     ecx                                           
+00402342: push     ebx                                           
+00402343: push     eax                                           
+00402344: call     0x402dda                                      
+00402349: push     0x4250b8                                      
+0040234e: call     0x402dc2                                      
+00402353: popal                                                  
+00402354: lea      eax, [ebp - 0x10c8]                           
+0040235a: pushal                                                 
+0040235b: mov      ebx, eax                                      
+0040235d: push     0x4250b8                                      
+00402362: call     0x402d92                                      
+00402367: push     -0xb                                          
+00402369: call     0x402db0                                      
+0040236e: push     0xf                                           
+00402370: push     eax                                           
+00402371: call     0x402dce                                      
+00402376: push     ebx                                           
+00402377: call     0x402df8                                      
+0040237c: push     eax                                           
+0040237d: push     -0xb                                          
+0040237f: call     0x402db0                                      
+00402384: pop      ecx                                           
+00402385: push     0                                             
+00402387: push     0x404840                                      
+0040238c: push     ecx                                           
+0040238d: push     ebx                                           
+0040238e: push     eax                                           
+0040238f: call     0x402dda                                      
+00402394: push     0x4250b8                                      
+00402399: call     0x402dc2                                      
+0040239e: popal                                                  
+0040239f: pushal                                                 
+004023a0: push     0x4250b8                                      
+004023a5: call     0x402d92                                      
+004023aa: push     -0xb                                          
+004023ac: call     0x402db0                                      
+004023b1: push     7                                             
+004023b3: push     eax                                           
+004023b4: call     0x402dce                                      
+004023b9: mov      ebx, 0x404364                                 
+004023be: push     ebx                                           
+004023bf: call     0x402df8                                      
+004023c4: push     eax                                           
+004023c5: push     -0xb                                          
+004023c7: call     0x402db0                                      
+004023cc: pop      ecx                                           
+004023cd: push     0                                             
+004023cf: push     0x404840                                      
+004023d4: push     ecx                                           
+004023d5: push     ebx                                           
+004023d6: push     eax                                           
+004023d7: call     0x402dda                                      
+004023dc: push     0x4250b8                                      
+004023e1: call     0x402dc2                                      
+004023e6: popal                                                  
+004023e7: lea      edi, [ebp - 0x1108]                           
+004023ed: xor      ecx, ecx                                      
+004023ef: jmp      0x4023fe                                      
+004023f1: mov      al, byte ptr [ebx]                            
+004023f3: mov      byte ptr [ecx + edi], al                      
+004023f6: inc      ecx                                           
+004023f7: inc      ebx                                           
+004023f8: or       al, al                                        
+004023fa: jne      0x4023fe                                      
+004023fc: jmp      0x402464                                      
+004023fe: cmp      ecx, 0x40                                     
+00402401: jb       0x4023f1                                      
+00402403: pushal                                                 
+00402404: push     0x4250b8                                      
+00402409: call     0x402d92                                      
+0040240e: push     -0xb                                          
+00402410: call     0x402db0                                      
+00402415: push     7                                             
+00402417: push     eax                                           
+00402418: call     0x402dce                                      
+0040241d: mov      ebx, 0x404368                                 
+00402422: push     ebx                                           
+00402423: call     0x402df8                                      
+00402428: push     eax                                           
+00402429: push     -0xb                                          
+0040242b: call     0x402db0                                      
+00402430: pop      ecx                                           
+00402431: push     0                                             
+00402433: push     0x404840                                      
+00402438: push     ecx                                           
+00402439: push     ebx                                           
+0040243a: push     eax                                           
+0040243b: call     0x402dda                                      
+00402440: push     0x4250b8                                      
+00402445: call     0x402dc2                                      
+0040244a: popal                                                  
+0040244b: push     2                                             
+0040244d: push     dword ptr [ebp + 8]                           
+00402450: call     0x402e3a                                      
+00402455: push     dword ptr [ebp + 8]                           
+00402458: call     0x402e10                                      
+0040245d: push     0                                             
+0040245f: call     0x402d9e                                      
+00402464: lea      eax, [ebp - 0x1108]                           
+0040246a: pushal                                                 
+0040246b: mov      ebx, eax                                      
+0040246d: push     0x4250b8                                      
+00402472: call     0x402d92                                      
+00402477: push     -0xb                                          
+00402479: call     0x402db0                                      
+0040247e: push     0xf                                           
+00402480: push     eax                                           
+00402481: call     0x402dce                                      
+00402486: push     ebx                                           
+00402487: call     0x402df8                                      
+0040248c: push     eax                                           
+0040248d: push     -0xb                                          
+0040248f: call     0x402db0                                      
+00402494: pop      ecx                                           
+00402495: push     0                                             
+00402497: push     0x404840                                      
+0040249c: push     ecx                                           
+0040249d: push     ebx                                           
+0040249e: push     eax                                           
+0040249f: call     0x402dda                                      
+004024a4: push     0x4250b8                                      
+004024a9: call     0x402dc2                                      
+004024ae: popal                                                  
+004024af: pushal                                                 
+004024b0: push     0x4250b8                                      
+004024b5: call     0x402d92                                      
+004024ba: push     -0xb                                          
+004024bc: call     0x402db0                                      
+004024c1: push     7                                             
+004024c3: push     eax                                           
+004024c4: call     0x402dce                                      
+004024c9: mov      ebx, 0x404380                                 ; ' Ip: '
+004024ce: push     ebx                                           
+004024cf: call     0x402df8                                      
+004024d4: push     eax                                           
+004024d5: push     -0xb                                          
+004024d7: call     0x402db0                                      
+004024dc: pop      ecx                                           
+004024dd: push     0                                             
+004024df: push     0x404840                                      
+004024e4: push     ecx                                           
+004024e5: push     ebx                                           
+004024e6: push     eax                                           
+004024e7: call     0x402dda                                      
+004024ec: push     0x4250b8                                      
+004024f1: call     0x402dc2                                      
+004024f6: popal                                                  
+004024f7: mov      dword ptr [ebp - 0x1124], 0x10                
+00402501: lea      eax, [ebp - 0x1124]                           
+00402507: push     eax                                           
+00402508: lea      eax, [ebp - 0x1120]                           
+0040250e: push     eax                                           
+0040250f: push     dword ptr [ebp + 8]                           
+00402512: call     0x402e16                                      
+00402517: or       eax, eax                                      
+00402519: jne      0x40256f                                      
+0040251b: push     dword ptr [ebp - 0x111c]                      
+00402521: call     0x402e22                                      
+00402526: or       eax, eax                                      
+00402528: je       0x40256f                                      
+0040252a: pushal                                                 
+0040252b: mov      ebx, eax                                      
+0040252d: push     0x4250b8                                      
+00402532: call     0x402d92                                      
+00402537: push     -0xb                                          
+00402539: call     0x402db0                                      
+0040253e: push     0xf                                           
+00402540: push     eax                                           
+00402541: call     0x402dce                                      
+00402546: push     ebx                                           
+00402547: call     0x402df8                                      
+0040254c: push     eax                                           
+0040254d: push     -0xb                                          
+0040254f: call     0x402db0                                      
+00402554: pop      ecx                                           
+00402555: push     0                                             
+00402557: push     0x404840                                      
+0040255c: push     ecx                                           
+0040255d: push     ebx                                           
+0040255e: push     eax                                           
+0040255f: call     0x402dda                                      
+00402564: push     0x4250b8                                      
+00402569: call     0x402dc2                                      
+0040256e: popal                                                  
+0040256f: pushal                                                 
+00402570: push     0x4250b8                                      
+00402575: call     0x402d92                                      
+0040257a: push     -0xb                                          
+0040257c: call     0x402db0                                      
+00402581: push     7                                             
+00402583: push     eax                                           
+00402584: call     0x402dce                                      
+00402589: mov      ebx, 0x404388                                 
+0040258e: push     ebx                                           
+0040258f: call     0x402df8                                      
+00402594: push     eax                                           
+00402595: push     -0xb                                          
+00402597: call     0x402db0                                      
+0040259c: pop      ecx                                           
+0040259d: push     0                                             
+0040259f: push     0x404840                                      
+004025a4: push     ecx                                           
+004025a5: push     ebx                                           
+004025a6: push     eax                                           
+004025a7: call     0x402dda                                      
+004025ac: push     0x4250b8                                      
+004025b1: call     0x402dc2                                      
+004025b6: popal                                                  
+004025b7: push     ebx                                           
+004025b8: lea      eax, [ebp - 0x1108]                           
+004025be: push     eax                                           
+004025bf: call     0x401e1f                                      
+004025c4: mov      dword ptr [ebp - 0x1530], ecx                 
+004025ca: pop      ebx                                           
+004025cb: or       eax, eax                                      
+004025cd: je       0x4026ac                                      
+004025d3: push     ebx                                           
+004025d4: push     dword ptr [ebp + 8]                           
+004025d7: call     0x402c18                                      
+004025dc: or       eax, eax                                      
+004025de: je       0x4026a9                                      
+004025e4: mov      dword ptr [ebp - 0x1528], esi                 
+004025ea: mov      dword ptr [ebp - 0x1004], eax                 
+004025f0: mov      ecx, dword ptr [ebp + 8]                      
+004025f3: mov      dword ptr [eax], ecx                          
+004025f5: mov      ecx, dword ptr [ebp - 0x1530]                 
+004025fb: mov      dword ptr [eax + 0x1b0], ecx                  
+00402601: mov      ecx, dword ptr [0x425074]                     
+00402607: mov      dword ptr [eax + 0x1a4], ecx                  
+0040260d: mov      ecx, dword ptr [ebp - 0x110c]                 
+00402613: mov      dword ptr [eax + 0x188], ecx                  
+00402619: mov      ecx, dword ptr [ebp - 0x1110]                 
+0040261f: mov      dword ptr [eax + 0x1a0], ecx                  
+00402625: mov      dword ptr [eax + 0x1a8], 0                    
+0040262f: mov      word ptr [eax + 0x19c], 0                     
+00402638: mov      word ptr [eax + 0x19e], 0                     
+00402641: mov      ebx, eax                                      
+00402643: lea      eax, [ebp - 0x1088]                           
+00402649: push     eax                                           
+0040264a: lea      eax, [ebx + 8]                                
+0040264d: push     eax                                           
+0040264e: call     0x402df2                                      
+00402653: lea      eax, [ebp - 0x10c8]                           
+00402659: push     eax                                           
+0040265a: lea      eax, [ebx + 0x48]                             
+0040265d: push     eax                                           
+0040265e: call     0x402df2                                      
+00402663: mov      byte ptr [ebp - 0x1524], 8                    
+0040266a: mov      al, byte ptr [0x404434]                       
+0040266f: mov      byte ptr [ebp - 0x1523], al                   
+00402675: mov      al, byte ptr [0x404430]                       
+0040267a: mov      byte ptr [ebp - 0x1522], al                   
+00402680: mov      al, byte ptr [ebx + 0x1b0]                    
+00402686: mov      byte ptr [ebp - 0x1521], al                   
+0040268c: push     0                                             
+0040268e: push     4                                             
+00402690: lea      eax, [ebp - 0x1524]                           
+00402696: push     eax                                           
+00402697: push     dword ptr [ebx]                               
+00402699: call     0x402e34                                      
+0040269e: push     dword ptr [ebp - 0x1004]                      
+004026a4: call     0x402c72                                      
+004026a9: pop      ebx                                           
+004026aa: jmp      0x40270d                                      
+004026ac: pushal                                                 
+004026ad: push     0x4250b8                                      
+004026b2: call     0x402d92                                      
+004026b7: push     -0xb                                          
+004026b9: call     0x402db0                                      
+004026be: push     7                                             
+004026c0: push     eax                                           
+004026c1: call     0x402dce                                      
+004026c6: mov      ebx, 0x40438c                                 
+004026cb: push     ebx                                           
+004026cc: call     0x402df8                                      
+004026d1: push     eax                                           
+004026d2: push     -0xb                                          
+004026d4: call     0x402db0                                      
+004026d9: pop      ecx                                           
+004026da: push     0                                             
+004026dc: push     0x404840                                      
+004026e1: push     ecx                                           
+004026e2: push     ebx                                           
+004026e3: push     eax                                           
+004026e4: call     0x402dda                                      
+004026e9: push     0x4250b8                                      
+004026ee: call     0x402dc2                                      
+004026f3: popal                                                  
+004026f4: push     2                                             
+004026f6: push     dword ptr [ebp + 8]                           
+004026f9: call     0x402e3a                                      
+004026fe: push     dword ptr [ebp + 8]                           
+00402701: call     0x402e10                                      
+00402706: push     0                                             
+00402708: call     0x402d9e                                      
+0040270d: jmp      0x402b24                                      
+00402712: cmp      dword ptr [ebp - 0x1004], 0                   
+00402719: jne      0x40277c                                      
+0040271b: pushal                                                 
+0040271c: push     0x4250b8                                      
+00402721: call     0x402d92                                      
+00402726: push     -0xb                                          
+00402728: call     0x402db0                                      
+0040272d: push     7                                             
+0040272f: push     eax                                           
+00402730: call     0x402dce                                      
+00402735: mov      ebx, 0x4043a0                                 
+0040273a: push     ebx                                           
+0040273b: call     0x402df8                                      
+00402740: push     eax                                           
+00402741: push     -0xb                                          
+00402743: call     0x402db0                                      
+00402748: pop      ecx                                           
+00402749: push     0                                             
+0040274b: push     0x404840                                      
+00402750: push     ecx                                           
+00402751: push     ebx                                           
+00402752: push     eax                                           
+00402753: call     0x402dda                                      
+00402758: push     0x4250b8                                      
+0040275d: call     0x402dc2                                      
+00402762: popal                                                  
+00402763: push     2                                             
+00402765: push     dword ptr [ebp + 8]                           
+00402768: call     0x402e3a                                      
+0040276d: push     dword ptr [ebp + 8]                           
+00402770: call     0x402e10                                      
+00402775: push     0                                             
+00402777: call     0x402d9e                                      
+0040277c: cmp      cl, 2                                         
+0040277f: jne      0x4027e5                                      
+00402781: mov      eax, dword ptr [ebp - 0x1004]                 
+00402787: movzx    esi, word ptr [ebx + 1]                       
+0040278b: movzx    edi, word ptr [ebx + 3]                       
+0040278f: movzx    ecx, byte ptr [ebx + 5]                       
+00402793: movzx    edx, byte ptr [ebx + 6]                       
+00402797: add      ebx, 7                                        
+0040279a: mov      dword ptr [eax + 0x190], esi                  
+004027a0: mov      dword ptr [eax + 0x194], edi                  
+004027a6: mov      dword ptr [eax + 0x198], ecx                  
+004027ac: mov      dword ptr [eax + 0x18c], edx                  
+004027b2: movzx    esi, word ptr [ebx]                           
+004027b5: movzx    edi, word ptr [ebx + 2]                       
+004027b9: mov      word ptr [eax + 0x19c], si                    
+004027c0: mov      word ptr [eax + 0x19e], di                    
+004027c7: add      ebx, 4                                        
+004027ca: mov      ecx, dword ptr [0x425074]                     
+004027d0: mov      dword ptr [eax + 0x1a4], ecx                  
+004027d6: mov      dword ptr [eax + 0x1ac], 1                    
+004027e0: jmp      0x402b24                                      
+004027e5: cmp      cl, 3                                         
+004027e8: jne      0x402901                                      
+004027ee: lea      edi, [ebp - 0x1048]                           
+004027f4: xor      ecx, ecx                                      
+004027f6: inc      ebx                                           
+004027f7: jmp      0x402809                                      
+004027f9: mov      al, byte ptr [ebx]                            
+004027fb: mov      byte ptr [ecx + edi], al                      
+004027fe: inc      ecx                                           
+004027ff: inc      ebx                                           
+00402800: or       al, al                                        
+00402802: jne      0x402809                                      
+00402804: jmp      0x4028c2                                      
+00402809: cmp      ecx, 0x40                                     
+0040280c: jb       0x4027f9                                      
+0040280e: pushal                                                 
+0040280f: push     0x4250b8                                      
+00402814: call     0x402d92                                      
+00402819: push     -0xb                                          
+0040281b: call     0x402db0                                      
+00402820: push     7                                             
+00402822: push     eax                                           
+00402823: call     0x402dce                                      
+00402828: mov      ebx, 0x4043c8                                 ; 'Internal Error for player '
+0040282d: push     ebx                                           
+0040282e: call     0x402df8                                      
+00402833: push     eax                                           
+00402834: push     -0xb                                          
+00402836: call     0x402db0                                      
+0040283b: pop      ecx                                           
+0040283c: push     0                                             
+0040283e: push     0x404840                                      
+00402843: push     ecx                                           
+00402844: push     ebx                                           
+00402845: push     eax                                           
+00402846: call     0x402dda                                      
+0040284b: push     0x4250b8                                      
+00402850: call     0x402dc2                                      
+00402855: popal                                                  
+00402856: lea      ecx, [ebp - 0x1088]                           
+0040285c: pushal                                                 
+0040285d: mov      ebx, ecx                                      
+0040285f: push     0x4250b8                                      
+00402864: call     0x402d92                                      
+00402869: push     -0xb                                          
+0040286b: call     0x402db0                                      
+00402870: push     0xf                                           
+00402872: push     eax                                           
+00402873: call     0x402dce                                      
+00402878: push     ebx                                           
+00402879: call     0x402df8                                      
+0040287e: push     eax                                           
+0040287f: push     -0xb                                          
+00402881: call     0x402db0                                      
+00402886: pop      ecx                                           
+00402887: push     0                                             
+00402889: push     0x404840                                      
+0040288e: push     ecx                                           
+0040288f: push     ebx                                           
+00402890: push     eax                                           
+00402891: call     0x402dda                                      
+00402896: push     0x4250b8                                      
+0040289b: call     0x402dc2                                      
+004028a0: popal                                                  
+004028a1: push     dword ptr [ebp + 8]                           
+004028a4: call     0x402c47                                      
+004028a9: push     2                                             
+004028ab: push     dword ptr [ebp + 8]                           
+004028ae: call     0x402e3a                                      
+004028b3: push     dword ptr [ebp + 8]                           
+004028b6: call     0x402e10                                      
+004028bb: push     0                                             
+004028bd: call     0x402d9e                                      
+004028c2: push     ebx                                           
+004028c3: lea      eax, [ebp - 0x1048]                           
+004028c9: push     eax                                           
+004028ca: call     0x402b32                                      
+004028cf: pop      ebx                                           
+004028d0: or       eax, eax                                      
+004028d2: je       0x4028f9                                      
+004028d4: movzx    esi, word ptr [ebx]                           
+004028d7: movzx    edi, word ptr [ebx + 2]                       
+004028db: movzx    ecx, byte ptr [ebx + 4]                       
+004028df: add      ebx, 5                                        
+004028e2: mov      dword ptr [eax + 0x40], esi                   
+004028e5: mov      dword ptr [eax + 0x44], edi                   
+004028e8: mov      dword ptr [eax + 0x48], ecx                   
+004028eb: mov      edx, dword ptr [0x425074]                     
+004028f1: mov      dword ptr [eax + 0x4c], edx                   
+004028f4: jmp      0x402b24                                      
+004028f9: add      ebx, 5                                        
+004028fc: jmp      0x402b24                                      
+00402901: cmp      cl, 4                                         
+00402904: jne      0x40290c                                      
+00402906: inc      ebx                                           
+00402907: jmp      0x402b24                                      
+0040290c: cmp      cl, 6                                         
+0040290f: jne      0x402932                                      
+00402911: mov      ecx, dword ptr [ebx + 1]                      
+00402914: add      ebx, 5                                        
+00402917: mov      eax, dword ptr [ebp - 0x1004]                 
+0040291d: mov      dword ptr [eax + 0x1a0], ecx                  
+00402923: mov      dword ptr [eax + 0x1a8], 0                    
+0040292d: jmp      0x402b24                                      
+00402932: cmp      cl, 7                                         
+00402935: jne      0x402b07                                      
+0040293b: mov      byte ptr [ebp - 0x1524], 7                    
+00402942: mov      eax, dword ptr [ebp - 0x1528]                 
+00402948: mov      byte ptr [ebp - 0x1523], al                   
+0040294e: inc      ebx                                           
+0040294f: lea      eax, [ebp - 0x10c8]                           
+00402955: pushal                                                 
+00402956: mov      ebx, eax                                      
+00402958: push     0x4250b8                                      
+0040295d: call     0x402d92                                      
+00402962: push     -0xb                                          
+00402964: call     0x402db0                                      
+00402969: push     0xf                                           
+0040296b: push     eax                                           
+0040296c: call     0x402dce                                      
+00402971: push     ebx                                           
+00402972: call     0x402df8                                      
+00402977: push     eax                                           
+00402978: push     -0xb                                          
+0040297a: call     0x402db0                                      
+0040297f: pop      ecx                                           
+00402980: push     0                                             
+00402982: push     0x404840                                      
+00402987: push     ecx                                           
+00402988: push     ebx                                           
+00402989: push     eax                                           
+0040298a: call     0x402dda                                      
+0040298f: push     0x4250b8                                      
+00402994: call     0x402dc2                                      
+00402999: popal                                                  
+0040299a: pushal                                                 
+0040299b: push     0x4250b8                                      
+004029a0: call     0x402d92                                      
+004029a5: push     -0xb                                          
+004029a7: call     0x402db0                                      
+004029ac: push     7                                             
+004029ae: push     eax                                           
+004029af: call     0x402dce                                      
+004029b4: mov      ebx, 0x4043e4                                 
+004029b9: push     ebx                                           
+004029ba: call     0x402df8                                      
+004029bf: push     eax                                           
+004029c0: push     -0xb                                          
+004029c2: call     0x402db0                                      
+004029c7: pop      ecx                                           
+004029c8: push     0                                             
+004029ca: push     0x404840                                      
+004029cf: push     ecx                                           
+004029d0: push     ebx                                           
+004029d1: push     eax                                           
+004029d2: call     0x402dda                                      
+004029d7: push     0x4250b8                                      
+004029dc: call     0x402dc2                                      
+004029e1: popal                                                  
+004029e2: pushal                                                 
+004029e3: mov      ebx, ebx                                      
+004029e5: push     0x4250b8                                      
+004029ea: call     0x402d92                                      
+004029ef: push     -0xb                                          
+004029f1: call     0x402db0                                      
+004029f6: push     0xf                                           
+004029f8: push     eax                                           
+004029f9: call     0x402dce                                      
+004029fe: push     ebx                                           
+004029ff: call     0x402df8                                      
+00402a04: push     eax                                           
+00402a05: push     -0xb                                          
+00402a07: call     0x402db0                                      
+00402a0c: pop      ecx                                           
+00402a0d: push     0                                             
+00402a0f: push     0x404840                                      
+00402a14: push     ecx                                           
+00402a15: push     ebx                                           
+00402a16: push     eax                                           
+00402a17: call     0x402dda                                      
+00402a1c: push     0x4250b8                                      
+00402a21: call     0x402dc2                                      
+00402a26: popal                                                  
+00402a27: lea      edi, [ebp - 0x1522]                           
+00402a2d: xor      ecx, ecx                                      
+00402a2f: jmp      0x402a3e                                      
+00402a31: mov      al, byte ptr [ebx]                            
+00402a33: mov      byte ptr [ecx + edi], al                      
+00402a36: inc      ecx                                           
+00402a37: inc      ebx                                           
+00402a38: or       al, al                                        
+00402a3a: jne      0x402a3e                                      
+00402a3c: jmp      0x402a4b                                      
+00402a3e: cmp      ecx, 0x100                                    
+00402a44: jb       0x402a31                                      
+00402a46: jmp      0x401e98                                      
+00402a4b: mov      eax, dword ptr [ebp - 0x1004]                 
+00402a51: cmp      dword ptr [eax + 0x1b0], 0                    
+00402a58: jne      0x402a63                                      
+00402a5a: cmp      dword ptr [0x40442c], 0                       
+00402a61: jne      0x402abd                                      
+00402a63: lea      eax, [ecx + 2]                                
+00402a66: push     eax                                           
+00402a67: lea      eax, [ebp - 0x1524]                           
+00402a6d: push     eax                                           
+00402a6e: call     0x402be6                                      
+00402a73: pushal                                                 
+00402a74: push     0x4250b8                                      
+00402a79: call     0x402d92                                      
+00402a7e: push     -0xb                                          
+00402a80: call     0x402db0                                      
+00402a85: push     7                                             
+00402a87: push     eax                                           
+00402a88: call     0x402dce                                      
+00402a8d: mov      ebx, 0x4043e8                                 
+00402a92: push     ebx                                           
+00402a93: call     0x402df8                                      
+00402a98: push     eax                                           
+00402a99: push     -0xb                                          
+00402a9b: call     0x402db0                                      
+00402aa0: pop      ecx                                           
+00402aa1: push     0                                             
+00402aa3: push     0x404840                                      
+00402aa8: push     ecx                                           
+00402aa9: push     ebx                                           
+00402aaa: push     eax                                           
+00402aab: call     0x402dda                                      
+00402ab0: push     0x4250b8                                      
+00402ab5: call     0x402dc2                                      
+00402aba: popal                                                  
+00402abb: jmp      0x402b24                                      
+00402abd: pushal                                                 
+00402abe: push     0x4250b8                                      
+00402ac3: call     0x402d92                                      
+00402ac8: push     -0xb                                          
+00402aca: call     0x402db0                                      
+00402acf: push     7                                             
+00402ad1: push     eax                                           
+00402ad2: call     0x402dce                                      
+00402ad7: mov      ebx, 0x4043ec                                 
+00402adc: push     ebx                                           
+00402add: call     0x402df8                                      
+00402ae2: push     eax                                           
+00402ae3: push     -0xb                                          
+00402ae5: call     0x402db0                                      
+00402aea: pop      ecx                                           
+00402aeb: push     0                                             
+00402aed: push     0x404840                                      
+00402af2: push     ecx                                           
+00402af3: push     ebx                                           
+00402af4: push     eax                                           
+00402af5: call     0x402dda                                      
+00402afa: push     0x4250b8                                      
+00402aff: call     0x402dc2                                      
+00402b04: popal                                                  
+00402b05: jmp      0x402b24                                      
+00402b07: cmp      cl, 8                                         
+00402b0a: jne      0x402b13                                      
+00402b0c: jmp      0x401e98                                      
+00402b11: jmp      0x402b24                                      
+00402b13: cmp      cl, 9                                         
+00402b16: jne      0x402b1f                                      
+00402b18: jmp      0x401e98                                      
+00402b1d: jmp      0x402b24                                      
+00402b1f: jmp      0x401e98                                      
+00402b24: jmp      0x40212f                                      
+00402b29: jmp      0x401e98                                      
+00402b2e: leave                                                  
+00402b2f: ret      4                                             
+00402b32: push     ebp                                           
+00402b33: mov      ebp, esp                                      
+00402b35: add      esp, -8                                       
+00402b38: mov      dword ptr [ebp - 4], 0xffffffff               
+00402b3f: mov      dword ptr [ebp - 8], 0                        
+00402b46: mov      ebx, 0x41fc74                                 
+00402b4b: jmp      0x402bbf                                      
+00402b4d: cmp      byte ptr [ebx], 0                             
+00402b50: jne      0x402b6a                                      
+00402b52: push     dword ptr [ebp + 8]                           
+00402b55: lea      eax, [ebx]                                    
+00402b57: push     eax                                           
+00402b58: call     0x402df2                                      
+00402b5d: mov      dword ptr [ebx + 0x50], 0                     
+00402b64: mov      eax, ebx                                      
+00402b66: leave                                                  
+00402b67: ret      4                                             
+00402b6a: push     dword ptr [ebp + 8]                           
+00402b6d: lea      eax, [ebx]                                    
+00402b6f: push     eax                                           
+00402b70: call     0x402de6                                      
+00402b75: or       eax, eax                                      
+00402b77: jne      0x402b96                                      
+00402b79: mov      ecx, dword ptr [0x425074]                     
+00402b7f: sub      ecx, dword ptr [ebx + 0x4c]                   
+00402b82: cmp      ecx, 0x1e                                     
+00402b85: jb       0x402b8e                                      
+00402b87: mov      dword ptr [ebx + 0x50], 0                     
+00402b8e: mov      eax, ebx                                      
+00402b90: leave                                                  
+00402b91: ret      4                                             
+00402b94: jmp      0x402bbc                                      
+00402b96: mov      eax, dword ptr [ebx + 0x4c]                   
+00402b99: cmp      eax, dword ptr [ebp - 4]                      
+00402b9c: jae      0x402ba4                                      
+00402b9e: mov      dword ptr [ebp - 4], eax                      
+00402ba1: mov      dword ptr [ebp - 8], ebx                      
+00402ba4: mov      ecx, dword ptr [0x425074]                     
+00402baa: sub      ecx, eax                                      
+00402bac: cmp      ecx, 0x1e                                     
+00402baf: jbe      0x402bbc                                      
+00402bb1: cmp      dword ptr [ebp - 8], 0                        
+00402bb5: je       0x402bba                                      
+00402bb7: mov      ebx, dword ptr [ebp - 8]                      
+00402bba: jmp      0x402bca                                      
+00402bbc: add      ebx, 0x54                                     
+00402bbf: cmp      ebx, 0x425074                                 
+00402bc5: jb       0x402b4d                                      
+00402bc7: mov      ebx, dword ptr [ebp - 8]                      
+00402bca: or       ebx, ebx                                      
+00402bcc: je       0x402be0                                      
+00402bce: push     dword ptr [ebp + 8]                           
+00402bd1: lea      eax, [ebx]                                    
+00402bd3: push     eax                                           
+00402bd4: call     0x402df2                                      
+00402bd9: mov      dword ptr [ebx + 0x50], 0                     
+00402be0: mov      eax, ebx                                      
+00402be2: leave                                                  
+00402be3: ret      4                                             
+00402be6: push     ebp                                           
+00402be7: mov      ebp, esp                                      
+00402be9: mov      ecx, 0x404874                                 
+00402bee: jmp      0x402c0c                                      
+00402bf0: cmp      dword ptr [ecx], 0                            
+00402bf3: je       0x402c06                                      
+00402bf5: push     ecx                                           
+00402bf6: push     0                                             
+00402bf8: push     dword ptr [ebp + 0xc]                         
+00402bfb: push     dword ptr [ebp + 8]                           
+00402bfe: push     dword ptr [ecx]                               
+00402c00: call     0x402e34                                      
+00402c05: pop      ecx                                           
+00402c06: add      ecx, 0x1b4                                    
+00402c0c: cmp      ecx, 0x41fc74                                 
+00402c12: jb       0x402bf0                                      
+00402c14: leave                                                  
+00402c15: ret      8                                             
+00402c18: push     ebp                                           
+00402c19: mov      ebp, esp                                      
+00402c1b: mov      edx, dword ptr [ebp + 8]                      
+00402c1e: mov      ecx, 0x404874                                 
+00402c23: xor      eax, eax                                      
+00402c25: xor      esi, esi                                      
+00402c27: jmp      0x402c3b                                      
+00402c29: cmp      dword ptr [ecx], 0                            
+00402c2c: jne      0x402c34                                      
+00402c2e: mov      dword ptr [ecx], edx                          
+00402c30: mov      eax, ecx                                      
+00402c32: jmp      0x402c43                                      
+00402c34: inc      esi                                           
+00402c35: add      ecx, 0x1b4                                    
+00402c3b: cmp      ecx, 0x41fc74                                 
+00402c41: jb       0x402c29                                      
+00402c43: leave                                                  
+00402c44: ret      4                                             
+00402c47: push     ebp                                           
+00402c48: mov      ebp, esp                                      
+00402c4a: mov      edx, dword ptr [ebp + 8]                      
+00402c4d: mov      ecx, 0x404874                                 
+00402c52: jmp      0x402c66                                      
+00402c54: cmp      dword ptr [ecx], edx                          
+00402c56: jne      0x402c60                                      
+00402c58: mov      dword ptr [ecx], 0                            
+00402c5e: jmp      0x402c6e                                      
+00402c60: add      ecx, 0x1b4                                    
+00402c66: cmp      ecx, 0x41fc74                                 
+00402c6c: jb       0x402c54                                      
+00402c6e: leave                                                  
+00402c6f: ret      4                                             
+00402c72: push     ebp                                           
+00402c73: mov      ebp, esp                                      
+00402c75: add      esp, 0xffffd000                               
+00402c7b: lea      ecx, [ebp - 0x3000]                           
+00402c81: xor      edx, edx                                      
+00402c83: mov      ebx, 0x41fc74                                 
+00402c88: jmp      0x402cbd                                      
+00402c8a: cmp      byte ptr [ebx], 0                             
+00402c8d: je       0x402cb9                                      
+00402c8f: lea      eax, [ebx]                                    
+00402c91: mov      eax, dword ptr [0x425074]                     
+00402c96: sub      eax, dword ptr [ebx + 0x4c]                   
+00402c99: cmp      eax, 0x1e                                     
+00402c9c: jae      0x402cb9                                      
+00402c9e: mov      byte ptr [ecx], 1                             
+00402ca1: inc      ecx                                           
+00402ca2: mov      byte ptr [ecx], dl                            
+00402ca4: inc      ecx                                           
+00402ca5: push     edx                                           
+00402ca6: lea      esi, [ebx]                                    
+00402ca8: mov      dl, byte ptr [esi]                            
+00402caa: or       dl, dl                                        
+00402cac: je       0x402cb4                                      
+00402cae: mov      byte ptr [ecx], dl                            
+00402cb0: inc      esi                                           
+00402cb1: inc      ecx                                           
+00402cb2: jmp      0x402ca8                                      
+00402cb4: mov      byte ptr [ecx], 0                             
+00402cb7: inc      ecx                                           
+00402cb8: pop      edx                                           
+00402cb9: inc      edx                                           
+00402cba: add      ebx, 0x54                                     
+00402cbd: cmp      ebx, 0x425074                                 
+00402cc3: jb       0x402c8a                                      
+00402cc5: xor      edx, edx                                      
+00402cc7: mov      ebx, 0x404874                                 
+00402ccc: jmp      0x402d1f                                      
+00402cce: cmp      dword ptr [ebx], 0                            
+00402cd1: je       0x402d18                                      
+00402cd3: mov      byte ptr [ecx], 2                             
+00402cd6: inc      ecx                                           
+00402cd7: mov      byte ptr [ecx], dl                            
+00402cd9: inc      ecx                                           
+00402cda: mov      eax, dword ptr [ebx + 0x188]                  
+00402ce0: mov      dword ptr [ecx], eax                          
+00402ce2: add      ecx, 4                                        
+00402ce5: mov      eax, dword ptr [ebx + 0x1a0]                  
+00402ceb: mov      dword ptr [ecx], eax                          
+00402ced: add      ecx, 4                                        
+00402cf0: push     edx                                           
+00402cf1: lea      esi, [ebx + 8]                                
+00402cf4: mov      dl, byte ptr [esi]                            
+00402cf6: or       dl, dl                                        
+00402cf8: je       0x402d00                                      
+00402cfa: mov      byte ptr [ecx], dl                            
+00402cfc: inc      esi                                           
+00402cfd: inc      ecx                                           
+00402cfe: jmp      0x402cf4                                      
+00402d00: mov      byte ptr [ecx], 0                             
+00402d03: inc      ecx                                           
+00402d04: lea      esi, [ebx + 0x48]                             
+00402d07: mov      dl, byte ptr [esi]                            
+00402d09: or       dl, dl                                        
+00402d0b: je       0x402d13                                      
+00402d0d: mov      byte ptr [ecx], dl                            
+00402d0f: inc      esi                                           
+00402d10: inc      ecx                                           
+00402d11: jmp      0x402d07                                      
+00402d13: mov      byte ptr [ecx], 0                             
+00402d16: inc      ecx                                           
+00402d17: pop      edx                                           
+00402d18: inc      edx                                           
+00402d19: add      ebx, 0x1b4                                    
+00402d1f: cmp      ebx, 0x41fc74                                 
+00402d25: jb       0x402cce                                      
+00402d27: lea      ebx, [ebp - 0x3000]                           
+00402d2d: sub      ecx, ebx                                      
+00402d2f: or       ecx, ecx                                      
+00402d31: je       0x402d41                                      
+00402d33: mov      eax, dword ptr [ebp + 8]                      
+00402d36: push     0                                             
+00402d38: push     ecx                                           
+00402d39: push     ebx                                           
+00402d3a: push     dword ptr [eax]                               
+00402d3c: call     0x402e34                                      
+00402d41: leave                                                  
+00402d42: ret      4                                             
+00402d45: int3                                                   
+00402d46: int3                                                   
+00402d47: int3                                                   
+00402d48: int3                                                   
+00402d49: int3                                                   
+00402d4a: int3                                                   
+00402d4b: int3                                                   
+00402d4c: int3                                                   
+00402d4d: int3                                                   
+00402d4e: int3                                                   
+00402d4f: int3                                                   
+00402d50: push     ebp                                           
+00402d51: mov      ebp, esp                                      
+00402d53: push     esi                                           
+00402d54: push     edi                                           
+00402d55: xor      eax, eax                                      
+00402d57: mov      esi, dword ptr [ebp + 8]                      
+00402d5a: xor      ecx, ecx                                      
+00402d5c: xor      edx, edx                                      
+00402d5e: mov      al, byte ptr [esi]                            
+00402d60: inc      esi                                           
+00402d61: cmp      al, 2                                         
+00402d63: jne      0x402d77                                      
+00402d65: mov      al, byte ptr [esi]                            
+00402d67: not      edx                                           
+00402d69: inc      esi                                           
+00402d6a: jmp      0x402d77                                      
+00402d6c: sub      al, 0x30                                      
+00402d6e: lea      ecx, [ecx + ecx*4]                            
+00402d71: lea      ecx, [eax + ecx*2]                            
+00402d74: mov      al, byte ptr [esi]                            
+00402d76: inc      esi                                           
+00402d77: or       al, al                                        
+00402d79: jne      0x402d6c                                      
+00402d7b: lea      eax, [ecx + edx]                              
+00402d7e: xor      eax, edx                                      
+00402d80: pop      edi                                           
+00402d81: pop      esi                                           
+00402d82: leave                                                  
+00402d83: ret      4                                             
+00402d86: jmp      dword ptr [0x403000]                          ; CloseHandle
+00402d8c: jmp      dword ptr [0x403004]                          ; CreateThread
+00402d92: jmp      dword ptr [0x403008]                          ; EnterCriticalSection
+00402d98: jmp      dword ptr [0x40300c]                          ; ExitProcess
+00402d9e: jmp      dword ptr [0x403010]                          ; ExitThread
+00402da4: jmp      dword ptr [0x403014]                          ; GetModuleFileNameA
+00402daa: jmp      dword ptr [0x403018]                          ; GetPrivateProfileStringA
+00402db0: jmp      dword ptr [0x40301c]                          ; GetStdHandle
+00402db6: jmp      dword ptr [0x403020]                          ; GetTickCount
+00402dbc: jmp      dword ptr [0x403024]                          ; InitializeCriticalSection
+00402dc2: jmp      dword ptr [0x403028]                          ; LeaveCriticalSection
+00402dc8: jmp      dword ptr [0x40302c]                          ; ReadFile
+00402dce: jmp      dword ptr [0x403030]                          ; SetConsoleTextAttribute
+00402dd4: jmp      dword ptr [0x403034]                          ; Sleep
+00402dda: jmp      dword ptr [0x403038]                          ; WriteConsoleA
+00402de0: jmp      dword ptr [0x40303c]                          ; lstrcatA
+00402de6: jmp      dword ptr [0x403040]                          ; lstrcmpA
+00402dec: jmp      dword ptr [0x403044]                          ; lstrcmpiA
+00402df2: jmp      dword ptr [0x403048]                          ; lstrcpyA
+00402df8: jmp      dword ptr [0x40304c]                          ; lstrlenA
+00402dfe: jmp      dword ptr [0x403054]                          ; WSAStartup
+00402e04: jmp      dword ptr [0x403058]                          ; accept
+00402e0a: jmp      dword ptr [0x40305c]                          ; bind
+00402e10: jmp      dword ptr [0x403060]                          ; closesocket
+00402e16: jmp      dword ptr [0x403064]                          ; getpeername
+00402e1c: jmp      dword ptr [0x403068]                          ; htons
+00402e22: jmp      dword ptr [0x40306c]                          ; inet_ntoa
+00402e28: jmp      dword ptr [0x403070]                          ; listen
+00402e2e: jmp      dword ptr [0x403074]                          ; recv
+00402e34: jmp      dword ptr [0x403078]                          ; send
+00402e3a: jmp      dword ptr [0x40307c]                          ; shutdown
+00402e40: jmp      dword ptr [0x403080]                          ; socket
+00402e46: add      byte ptr [eax], al                            
+00402e48: add      byte ptr [eax], al                            
+00402e4a: add      byte ptr [eax], al                            
+00402e4c: add      byte ptr [eax], al                            
+00402e4e: add      byte ptr [eax], al                            
+00402e50: add      byte ptr [eax], al                            
+00402e52: add      byte ptr [eax], al                            
+00402e54: add      byte ptr [eax], al                            
+00402e56: add      byte ptr [eax], al                            
+00402e58: add      byte ptr [eax], al                            
+00402e5a: add      byte ptr [eax], al                            
+00402e5c: add      byte ptr [eax], al                            
+00402e5e: add      byte ptr [eax], al                            
+00402e60: add      byte ptr [eax], al                            
+00402e62: add      byte ptr [eax], al                            
+00402e64: add      byte ptr [eax], al                            
+00402e66: add      byte ptr [eax], al                            
+00402e68: add      byte ptr [eax], al                            
+00402e6a: add      byte ptr [eax], al                            
+00402e6c: add      byte ptr [eax], al                            
+00402e6e: add      byte ptr [eax], al                            
+00402e70: add      byte ptr [eax], al                            
+00402e72: add      byte ptr [eax], al                            
+00402e74: add      byte ptr [eax], al                            
+00402e76: add      byte ptr [eax], al                            
+00402e78: add      byte ptr [eax], al                            
+00402e7a: add      byte ptr [eax], al                            
+00402e7c: add      byte ptr [eax], al                            
+00402e7e: add      byte ptr [eax], al                            
+00402e80: add      byte ptr [eax], al                            
+00402e82: add      byte ptr [eax], al                            
+00402e84: add      byte ptr [eax], al                            
+00402e86: add      byte ptr [eax], al                            
+00402e88: add      byte ptr [eax], al                            
+00402e8a: add      byte ptr [eax], al                            
+00402e8c: add      byte ptr [eax], al                            
+00402e8e: add      byte ptr [eax], al                            
+00402e90: add      byte ptr [eax], al                            
+00402e92: add      byte ptr [eax], al                            
+00402e94: add      byte ptr [eax], al                            
+00402e96: add      byte ptr [eax], al                            
+00402e98: add      byte ptr [eax], al                            
+00402e9a: add      byte ptr [eax], al                            
+00402e9c: add      byte ptr [eax], al                            
+00402e9e: add      byte ptr [eax], al                            
+00402ea0: add      byte ptr [eax], al                            
+00402ea2: add      byte ptr [eax], al                            
+00402ea4: add      byte ptr [eax], al                            
+00402ea6: add      byte ptr [eax], al                            
+00402ea8: add      byte ptr [eax], al                            
+00402eaa: add      byte ptr [eax], al                            
+00402eac: add      byte ptr [eax], al                            
+00402eae: add      byte ptr [eax], al                            
+00402eb0: add      byte ptr [eax], al                            
+00402eb2: add      byte ptr [eax], al                            
+00402eb4: add      byte ptr [eax], al                            
+00402eb6: add      byte ptr [eax], al                            
+00402eb8: add      byte ptr [eax], al                            
+00402eba: add      byte ptr [eax], al                            
+00402ebc: add      byte ptr [eax], al                            
+00402ebe: add      byte ptr [eax], al                            
+00402ec0: add      byte ptr [eax], al                            
+00402ec2: add      byte ptr [eax], al                            
+00402ec4: add      byte ptr [eax], al                            
+00402ec6: add      byte ptr [eax], al                            
+00402ec8: add      byte ptr [eax], al                            
+00402eca: add      byte ptr [eax], al                            
+00402ecc: add      byte ptr [eax], al                            
+00402ece: add      byte ptr [eax], al                            
+00402ed0: add      byte ptr [eax], al                            
+00402ed2: add      byte ptr [eax], al                            
+00402ed4: add      byte ptr [eax], al                            
+00402ed6: add      byte ptr [eax], al                            
+00402ed8: add      byte ptr [eax], al                            
+00402eda: add      byte ptr [eax], al                            
+00402edc: add      byte ptr [eax], al                            
+00402ede: add      byte ptr [eax], al                            
+00402ee0: add      byte ptr [eax], al                            
+00402ee2: add      byte ptr [eax], al                            
+00402ee4: add      byte ptr [eax], al                            
+00402ee6: add      byte ptr [eax], al                            
+00402ee8: add      byte ptr [eax], al                            
+00402eea: add      byte ptr [eax], al                            
+00402eec: add      byte ptr [eax], al                            
+00402eee: add      byte ptr [eax], al                            
+00402ef0: add      byte ptr [eax], al                            
+00402ef2: add      byte ptr [eax], al                            
+00402ef4: add      byte ptr [eax], al                            
+00402ef6: add      byte ptr [eax], al                            
+00402ef8: add      byte ptr [eax], al                            
+00402efa: add      byte ptr [eax], al                            
+00402efc: add      byte ptr [eax], al                            
+00402efe: add      byte ptr [eax], al                            
+00402f00: add      byte ptr [eax], al                            
+00402f02: add      byte ptr [eax], al                            
+00402f04: add      byte ptr [eax], al                            
+00402f06: add      byte ptr [eax], al                            
+00402f08: add      byte ptr [eax], al                            
+00402f0a: add      byte ptr [eax], al                            
+00402f0c: add      byte ptr [eax], al                            
+00402f0e: add      byte ptr [eax], al                            
+00402f10: add      byte ptr [eax], al                            
+00402f12: add      byte ptr [eax], al                            
+00402f14: add      byte ptr [eax], al                            
+00402f16: add      byte ptr [eax], al                            
+00402f18: add      byte ptr [eax], al                            
+00402f1a: add      byte ptr [eax], al                            
+00402f1c: add      byte ptr [eax], al                            
+00402f1e: add      byte ptr [eax], al                            
+00402f20: add      byte ptr [eax], al                            
+00402f22: add      byte ptr [eax], al                            
+00402f24: add      byte ptr [eax], al                            
+00402f26: add      byte ptr [eax], al                            
+00402f28: add      byte ptr [eax], al                            
+00402f2a: add      byte ptr [eax], al                            
+00402f2c: add      byte ptr [eax], al                            
+00402f2e: add      byte ptr [eax], al                            
+00402f30: add      byte ptr [eax], al                            
+00402f32: add      byte ptr [eax], al                            
+00402f34: add      byte ptr [eax], al                            
+00402f36: add      byte ptr [eax], al                            
+00402f38: add      byte ptr [eax], al                            
+00402f3a: add      byte ptr [eax], al                            
+00402f3c: add      byte ptr [eax], al                            
+00402f3e: add      byte ptr [eax], al                            
+00402f40: add      byte ptr [eax], al                            
+00402f42: add      byte ptr [eax], al                            
+00402f44: add      byte ptr [eax], al                            
+00402f46: add      byte ptr [eax], al                            
+00402f48: add      byte ptr [eax], al                            
+00402f4a: add      byte ptr [eax], al                            
+00402f4c: add      byte ptr [eax], al                            
+00402f4e: add      byte ptr [eax], al                            
+00402f50: add      byte ptr [eax], al                            
+00402f52: add      byte ptr [eax], al                            
+00402f54: add      byte ptr [eax], al                            
+00402f56: add      byte ptr [eax], al                            
+00402f58: add      byte ptr [eax], al                            
+00402f5a: add      byte ptr [eax], al                            
+00402f5c: add      byte ptr [eax], al                            
+00402f5e: add      byte ptr [eax], al                            
+00402f60: add      byte ptr [eax], al                            
+00402f62: add      byte ptr [eax], al                            
+00402f64: add      byte ptr [eax], al                            
+00402f66: add      byte ptr [eax], al                            
+00402f68: add      byte ptr [eax], al                            
+00402f6a: add      byte ptr [eax], al                            
+00402f6c: add      byte ptr [eax], al                            
+00402f6e: add      byte ptr [eax], al                            
+00402f70: add      byte ptr [eax], al                            
+00402f72: add      byte ptr [eax], al                            
+00402f74: add      byte ptr [eax], al                            
+00402f76: add      byte ptr [eax], al                            
+00402f78: add      byte ptr [eax], al                            
+00402f7a: add      byte ptr [eax], al                            
+00402f7c: add      byte ptr [eax], al                            
+00402f7e: add      byte ptr [eax], al                            
+00402f80: add      byte ptr [eax], al                            
+00402f82: add      byte ptr [eax], al                            
+00402f84: add      byte ptr [eax], al                            
+00402f86: add      byte ptr [eax], al                            
+00402f88: add      byte ptr [eax], al                            
+00402f8a: add      byte ptr [eax], al                            
+00402f8c: add      byte ptr [eax], al                            
+00402f8e: add      byte ptr [eax], al                            
+00402f90: add      byte ptr [eax], al                            
+00402f92: add      byte ptr [eax], al                            
+00402f94: add      byte ptr [eax], al                            
+00402f96: add      byte ptr [eax], al                            
+00402f98: add      byte ptr [eax], al                            
+00402f9a: add      byte ptr [eax], al                            
+00402f9c: add      byte ptr [eax], al                            
+00402f9e: add      byte ptr [eax], al                            
+00402fa0: add      byte ptr [eax], al                            
+00402fa2: add      byte ptr [eax], al                            
+00402fa4: add      byte ptr [eax], al                            
+00402fa6: add      byte ptr [eax], al                            
+00402fa8: add      byte ptr [eax], al                            
+00402faa: add      byte ptr [eax], al                            
+00402fac: add      byte ptr [eax], al                            
+00402fae: add      byte ptr [eax], al                            
+00402fb0: add      byte ptr [eax], al                            
+00402fb2: add      byte ptr [eax], al                            
+00402fb4: add      byte ptr [eax], al                            
+00402fb6: add      byte ptr [eax], al                            
+00402fb8: add      byte ptr [eax], al                            
+00402fba: add      byte ptr [eax], al                            
+00402fbc: add      byte ptr [eax], al                            
+00402fbe: add      byte ptr [eax], al                            
+00402fc0: add      byte ptr [eax], al                            
+00402fc2: add      byte ptr [eax], al                            
+00402fc4: add      byte ptr [eax], al                            
+00402fc6: add      byte ptr [eax], al                            
+00402fc8: add      byte ptr [eax], al                            
+00402fca: add      byte ptr [eax], al                            
+00402fcc: add      byte ptr [eax], al                            
+00402fce: add      byte ptr [eax], al                            
+00402fd0: add      byte ptr [eax], al                            
+00402fd2: add      byte ptr [eax], al                            
+00402fd4: add      byte ptr [eax], al                            
+00402fd6: add      byte ptr [eax], al                            
+00402fd8: add      byte ptr [eax], al                            
+00402fda: add      byte ptr [eax], al                            
+00402fdc: add      byte ptr [eax], al                            
+00402fde: add      byte ptr [eax], al                            
+00402fe0: add      byte ptr [eax], al                            
+00402fe2: add      byte ptr [eax], al                            
+00402fe4: add      byte ptr [eax], al                            
+00402fe6: add      byte ptr [eax], al                            
+00402fe8: add      byte ptr [eax], al                            
+00402fea: add      byte ptr [eax], al                            
+00402fec: add      byte ptr [eax], al                            
+00402fee: add      byte ptr [eax], al                            
+00402ff0: add      byte ptr [eax], al                            
+00402ff2: add      byte ptr [eax], al                            
+00402ff4: add      byte ptr [eax], al                            
+00402ff6: add      byte ptr [eax], al                            
+00402ff8: add      byte ptr [eax], al                            
+00402ffa: add      byte ptr [eax], al                            
+00402ffc: add      byte ptr [eax], al                            
+00402ffe: add      byte ptr [eax], al                            

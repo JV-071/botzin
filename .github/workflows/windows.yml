@@ -1,0 +1,67 @@
+name: Botzin Windows x86
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: botzin-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  components:
+    name: Components ${{ matrix.configuration }} x86
+    runs-on: windows-2022
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        configuration: [Debug, Release]
+    env:
+      SCCACHE_GHA_ENABLED: 'true'
+      SCCACHE_CACHE_SIZE: '512M'
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - uses: mozilla-actions/sccache-action@fd02668681acd5f960e1372061bee5e3e987195c
+        with:
+          version: v0.16.0
+      - name: Build and test reconstructed components
+        shell: pwsh
+        run: ./tools/build-cloud.ps1 -Configuration '${{ matrix.configuration }}'
+      - name: Profile format checks
+        shell: pwsh
+        run: python tools/sparse_profiles.py
+      - name: Publish components and diagnostics
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
+        with:
+          name: botzin-${{ matrix.configuration }}-x86
+          path: |
+            artifacts/
+            build/${{ matrix.configuration }}/Testing/Temporary/LastTest.log
+          if-no-files-found: error
+          retention-days: 7
+          compression-level: 1
+  pending-sources:
+    name: Pending source compilation
+    runs-on: windows-2022
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - name: Check remaining native sources
+        shell: pwsh
+        run: ./tools/check-recovered.ps1
+      - name: Publish compiler diagnostics
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
+        with:
+          name: botzin-pending-diagnostics
+          path: artifacts/
+          if-no-files-found: error
+          retention-days: 7
+          compression-level: 1

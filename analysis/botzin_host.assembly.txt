@@ -1,0 +1,282 @@
+10001000: push     ebp                                           
+10001001: mov      ebp, esp                                      
+10001003: push     dword ptr [ebp + 8]                           
+10001006: pop      dword ptr [0x10003070]                        
+1000100c: cmp      dword ptr [ebp + 0xc], 1                      
+10001010: jne      0x10001038                                    
+10001012: pushal                                                 
+10001013: call     0x10001374                                    
+10001018: mov      dword ptr [0x10003074], eax                   
+1000101d: push     0x1000307c                                    
+10001022: push     0                                             
+10001024: push     0x10003078                                    
+10001029: push     0x10001041                                    
+1000102e: push     0                                             
+10001030: push     0                                             
+10001032: call     0x10001362                                    
+10001037: popal                                                  
+10001038: mov      eax, 1                                        
+1000103d: leave                                                  
+1000103e: ret      0xc                                           
+10001041: push     ebp                                           
+10001042: mov      ebp, esp                                      
+10001044: push     0xa                                           
+10001046: push     0                                             
+10001048: push     0                                             
+1000104a: push     dword ptr [0x10003070]                        
+10001050: call     0x10001198                                    
+10001055: push     1                                             
+10001057: call     0x1000136e                                    
+1000105c: leave                                                  
+1000105d: ret      4                                             
+10001060: push     ebp                                           
+10001061: mov      ebp, esp                                      
+10001063: add      esp, 0xfffffb9c                               
+10001069: mov      eax, dword ptr [ebp + 0xc]                    
+1000106c: cmp      eax, 0x110                                    
+10001071: jne      0x10001081                                    
+10001073: push     dword ptr [ebp + 8]                           
+10001076: pop      dword ptr [0x10003085]                        
+1000107c: jmp      0x10001192                                    
+10001081: cmp      eax, 0x111                                    
+10001086: jne      0x1000116e                                    
+1000108c: mov      eax, dword ptr [ebp + 0x10]                   
+1000108f: cmp      eax, 0x539                                    
+10001094: jne      0x1000112e                                    
+1000109a: mov      dword ptr [ebp - 0x464], 0x30                 
+100010a4: mov      dword ptr [ebp - 0x460], 3                    
+100010ae: mov      dword ptr [ebp - 0x458], 0                    
+100010b8: mov      dword ptr [ebp - 0x454], 0x1e                 
+100010c2: push     dword ptr [0x10003070]                        
+100010c8: pop      dword ptr [ebp - 0x450]                       
+100010ce: mov      dword ptr [ebp - 0x444], 0x10                 
+100010d8: mov      dword ptr [ebp - 0x440], 0x1000302a           
+100010e2: push     0x7f00                                        
+100010e7: push     0                                             
+100010e9: call     0x1000134a                                    
+100010ee: mov      dword ptr [ebp - 0x44c], eax                  
+100010f4: mov      dword ptr [ebp - 0x438], eax                  
+100010fa: push     0x7f00                                        
+100010ff: push     0                                             
+10001101: call     0x10001344                                    
+10001106: mov      dword ptr [ebp - 0x448], eax                  
+1000110c: mov      ecx, dword ptr [ebp + 0x14]                   
+1000110f: mov      eax, dword ptr [ecx]                          
+10001111: mov      dword ptr [ebp - 0x43c], eax                  
+10001117: mov      eax, dword ptr [ecx + 4]                      
+1000111a: mov      dword ptr [ebp - 0x45c], eax                  
+10001120: lea      eax, [ebp - 0x464]                            
+10001126: push     eax                                           
+10001127: call     0x10001356                                    
+1000112c: jmp      0x10001192                                    
+1000112e: cmp      eax, 0x53a                                    
+10001133: jne      0x1000114f                                    
+10001135: mov      eax, dword ptr [ebp + 0x14]                   
+10001138: push     0                                             
+1000113a: push     dword ptr [eax + 8]                           
+1000113d: push     dword ptr [eax + 4]                           
+10001140: push     dword ptr [eax]                               
+10001142: push     dword ptr [0x10003070]                        
+10001148: call     0x1000132c                                    
+1000114d: jmp      0x10001192                                    
+1000114f: cmp      eax, 0x53b                                    
+10001154: jne      0x10001192                                    
+10001156: push     dword ptr [ebp + 0x14]                        
+10001159: push     0x10003080                                    
+1000115e: push     0x10003080                                    
+10001163: call     dword ptr [0x10003089]                        
+10001169: add      esp, 0xc                                      
+1000116c: jmp      0x10001192                                    
+1000116e: cmp      dword ptr [ebp + 0xc], 2                      
+10001172: jne      0x1000117d                                    
+10001174: push     0                                             
+10001176: call     0x10001350                                    
+1000117b: jmp      0x10001192                                    
+1000117d: push     dword ptr [ebp + 0x14]                        
+10001180: push     dword ptr [ebp + 0x10]                        
+10001183: push     dword ptr [ebp + 0xc]                         
+10001186: push     dword ptr [ebp + 8]                           
+10001189: call     0x10001332                                    
+1000118e: leave                                                  
+1000118f: ret      0x10                                          
+10001192: xor      eax, eax                                      
+10001194: leave                                                  
+10001195: ret      0x10                                          
+10001198: push     ebp                                           
+10001199: mov      ebp, esp                                      
+1000119b: add      esp, -0x5c                                    
+1000119e: call     0x1000139e                                    
+100011a3: mov      dword ptr [ebp - 0x30], 0x30                  
+100011aa: mov      dword ptr [ebp - 0x2c], 3                     
+100011b1: mov      dword ptr [ebp - 0x28], 0x10001060            
+100011b8: mov      dword ptr [ebp - 0x24], 0                     
+100011bf: mov      dword ptr [ebp - 0x20], 0x1e                  
+100011c6: push     dword ptr [ebp + 8]                           
+100011c9: pop      dword ptr [ebp - 0x1c]                        
+100011cc: mov      dword ptr [ebp - 0x10], 0x10                  
+100011d3: mov      dword ptr [ebp - 0xc], 0x1000302a             
+100011da: mov      dword ptr [ebp - 8], 0x10003020               ; 'TBOTDLG00'
+100011e1: push     0x7f00                                        
+100011e6: push     0                                             
+100011e8: call     0x1000134a                                    
+100011ed: mov      dword ptr [ebp - 0x18], eax                   
+100011f0: mov      dword ptr [ebp - 4], eax                      
+100011f3: push     0x7f00                                        
+100011f8: push     0                                             
+100011fa: call     0x10001344                                    
+100011ff: mov      dword ptr [ebp - 0x14], eax                   
+10001202: lea      eax, [ebp - 0x30]                             
+10001205: push     eax                                           
+10001206: call     0x10001356                                    
+1000120b: push     0                                             
+1000120d: push     0x10001060                                    
+10001212: push     0                                             
+10001214: push     0x7cf                                         
+10001219: push     dword ptr [0x10003070]                        
+1000121f: call     0x1000132c                                    
+10001224: push     0x104                                         
+10001229: push     0x1000308d                                    
+1000122e: push     dword ptr [0x10003070]                        
+10001234: call     0x1000137a                                    
+10001239: lea      ecx, [0x1000308d]                             
+1000123f: add      eax, ecx                                      
+10001241: jmp      0x10001244                                    
+10001243: dec      eax                                           
+10001244: cmp      byte ptr [eax], 0x5c                          
+10001247: je       0x1000124d                                    
+10001249: cmp      eax, ecx                                      
+1000124b: ja       0x10001243                                    
+1000124d: mov      byte ptr [eax + 1], 0                         
+10001251: inc      eax                                           
+10001252: push     eax                                           
+10001253: push     0x1000302b                                    ; 'USkin.dll'
+10001258: push     eax                                           
+10001259: call     0x10001392                                    
+1000125e: push     0x1000308d                                    
+10001263: call     0x10001386                                    
+10001268: mov      dword ptr [0x10003191], eax                   
+1000126d: push     0x10003038                                    ; 'USkinInit'
+10001272: push     eax                                           
+10001273: call     0x10001380                                    
+10001278: mov      dword ptr [0x10003089], eax                   
+1000127d: push     0x10003044                                    ; 'USkinExit'
+10001282: push     dword ptr [0x10003191]                        
+10001288: call     0x10001380                                    
+1000128d: mov      ecx, eax                                      
+1000128f: mov      byte ptr [ebp - 0x56], 0xe9                   
+10001293: mov      eax, 0x10001324                               
+10001298: sub      eax, ecx                                      
+1000129a: sub      eax, 5                                        
+1000129d: mov      dword ptr [ebp - 0x55], eax                   
+100012a0: lea      eax, [ebp - 0x5c]                             
+100012a3: push     eax                                           
+100012a4: push     5                                             
+100012a6: lea      eax, [ebp - 0x56]                             
+100012a9: push     eax                                           
+100012aa: push     ecx                                           
+100012ab: push     dword ptr [0x10003074]                        
+100012b1: call     0x1000138c                                    
+100012b6: pop      eax                                           
+100012b7: push     0x10003050                                    ; 'botzin.dll'
+100012bc: push     eax                                           
+100012bd: call     0x10001398                                    
+100012c2: push     0x1000308d                                    
+100012c7: call     0x10001386                                    
+100012cc: mov      dword ptr [0x10003081], eax                   
+100012d1: or       eax, eax                                      
+100012d3: je       0x100012f6                                    
+100012d5: push     0x1000305c                                    ; 'EcInit'
+100012da: push     dword ptr [0x10003081]                        
+100012e0: call     0x10001380                                    
+100012e5: or       eax, eax                                      
+100012e7: je       0x100012f6                                    
+100012e9: mov      ecx, 0x10001332                               
+100012ee: push     dword ptr [0x10003085]                        
+100012f4: call     eax                                           
+100012f6: push     0                                             
+100012f8: push     0                                             
+100012fa: push     0                                             
+100012fc: lea      eax, [ebp - 0x4c]                             
+100012ff: push     eax                                           
+10001300: call     0x1000133e                                    
+10001305: or       eax, eax                                      
+10001307: je       0x1000131d                                    
+10001309: lea      eax, [ebp - 0x4c]                             
+1000130c: push     eax                                           
+1000130d: call     0x1000135c                                    
+10001312: lea      eax, [ebp - 0x4c]                             
+10001315: push     eax                                           
+10001316: call     0x10001338                                    
+1000131b: jmp      0x100012f6                                    
+1000131d: mov      eax, dword ptr [ebp - 0x44]                   
+10001320: leave                                                  
+10001321: ret      0x10                                          
+10001324: push     0                                             
+10001326: call     0x10001368                                    
+1000132b: ret                                                    
+1000132c: jmp      dword ptr [0x10002054]                        ; CreateDialogParamA
+10001332: jmp      dword ptr [0x10002050]                        ; DefWindowProcA
+10001338: jmp      dword ptr [0x1000204c]                        ; DispatchMessageA
+1000133e: jmp      dword ptr [0x10002048]                        ; GetMessageA
+10001344: jmp      dword ptr [0x10002044]                        ; LoadCursorA
+1000134a: jmp      dword ptr [0x10002040]                        ; LoadIconA
+10001350: jmp      dword ptr [0x1000203c]                        ; PostQuitMessage
+10001356: jmp      dword ptr [0x10002038]                        ; RegisterClassExA
+1000135c: jmp      dword ptr [0x10002034]                        ; TranslateMessage
+10001362: jmp      dword ptr [0x10002024]                        ; CreateThread
+10001368: jmp      dword ptr [0x10002028]                        ; ExitProcess
+1000136e: jmp      dword ptr [0x1000202c]                        ; ExitThread
+10001374: jmp      dword ptr [0x10002020]                        ; GetCurrentProcess
+1000137a: jmp      dword ptr [0x1000201c]                        ; GetModuleFileNameA
+10001380: jmp      dword ptr [0x10002018]                        ; GetProcAddress
+10001386: jmp      dword ptr [0x10002014]                        ; LoadLibraryA
+1000138c: jmp      dword ptr [0x10002010]                        ; WriteProcessMemory
+10001392: jmp      dword ptr [0x1000200c]                        ; lstrcatA
+10001398: jmp      dword ptr [0x10002008]                        ; lstrcpyA
+1000139e: jmp      dword ptr [0x10002000]                        ; InitCommonControls
+100013a4: add      byte ptr [eax], al                            
+100013a6: add      byte ptr [eax], al                            
+100013a8: add      byte ptr [eax], al                            
+100013aa: add      byte ptr [eax], al                            
+100013ac: add      byte ptr [eax], al                            
+100013ae: add      byte ptr [eax], al                            
+100013b0: add      byte ptr [eax], al                            
+100013b2: add      byte ptr [eax], al                            
+100013b4: add      byte ptr [eax], al                            
+100013b6: add      byte ptr [eax], al                            
+100013b8: add      byte ptr [eax], al                            
+100013ba: add      byte ptr [eax], al                            
+100013bc: add      byte ptr [eax], al                            
+100013be: add      byte ptr [eax], al                            
+100013c0: add      byte ptr [eax], al                            
+100013c2: add      byte ptr [eax], al                            
+100013c4: add      byte ptr [eax], al                            
+100013c6: add      byte ptr [eax], al                            
+100013c8: add      byte ptr [eax], al                            
+100013ca: add      byte ptr [eax], al                            
+100013cc: add      byte ptr [eax], al                            
+100013ce: add      byte ptr [eax], al                            
+100013d0: add      byte ptr [eax], al                            
+100013d2: add      byte ptr [eax], al                            
+100013d4: add      byte ptr [eax], al                            
+100013d6: add      byte ptr [eax], al                            
+100013d8: add      byte ptr [eax], al                            
+100013da: add      byte ptr [eax], al                            
+100013dc: add      byte ptr [eax], al                            
+100013de: add      byte ptr [eax], al                            
+100013e0: add      byte ptr [eax], al                            
+100013e2: add      byte ptr [eax], al                            
+100013e4: add      byte ptr [eax], al                            
+100013e6: add      byte ptr [eax], al                            
+100013e8: add      byte ptr [eax], al                            
+100013ea: add      byte ptr [eax], al                            
+100013ec: add      byte ptr [eax], al                            
+100013ee: add      byte ptr [eax], al                            
+100013f0: add      byte ptr [eax], al                            
+100013f2: add      byte ptr [eax], al                            
+100013f4: add      byte ptr [eax], al                            
+100013f6: add      byte ptr [eax], al                            
+100013f8: add      byte ptr [eax], al                            
+100013fa: add      byte ptr [eax], al                            
+100013fc: add      byte ptr [eax], al                            
+100013fe: add      byte ptr [eax], al                            
