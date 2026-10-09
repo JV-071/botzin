@@ -138,7 +138,7 @@ BEGIN
     CONTROL "Stick", 1045, "Static", 0x50000000, 248, 81, 30, 11, 0x00000000, 0
     CONTROL "", 1047, "ListBox", 0x50010141, 86, 184, 38, 9, 0x00020000, 0
     CONTROL "Attack frequency", 1048, "Static", 0x50000000, 10, 184, 58, 9, 0x00000000, 0
-    CONTROL "", 1052, "ListBox", 0x40010141, 106, 238, 16, 9, 0x00020000, 0
+    CONTROL "", 1052, "ListBox", 0x40010141 | NOT 0x10000000, 106, 238, 16, 9, 0x00020000, 0
     CONTROL "", 1054, "ListBox", 0x50010140, 196, 103, 32, 9, 0x00020000, 0
     CONTROL "Loot monster", 1053, "Button", 0x50010003, 174, 144, 54, 8, 0x00000000, 0
     CONTROL "Run Targeting", 1046, "Button", 0x50010003, 10, 238, 60, 9, 0x00000000, 0
@@ -191,7 +191,7 @@ BEGIN
     CONTROL "Rope", 1002, "Button", 0x50010000, 132, 44, 30, 13, 0x00000000, 0
     CONTROL "Ladder", 1003, "Button", 0x50010000, 162, 44, 30, 13, 0x00000000, 0
     CONTROL "Action", 1005, "Button", 0x50010000, 222, 29, 30, 13, 0x00000000, 0
-    CONTROL "", 1011, "Edit", 0x400100c4, 132, 62, 120, 74, 0x00000200, 0
+    CONTROL "", 1011, "Edit", 0x400100c4 | NOT 0x10000000, 132, 62, 120, 74, 0x00000200, 0
     CONTROL "Stand", 1004, "Button", 0x50010000, 132, 29, 30, 13, 0x00000000, 0
     CONTROL "Follow waypoints", 1012, "Button", 0x50010003, 188, 142, 66, 9, 0x00000000, 0
     CONTROL "Options", 1013, "Button", 0x50000007, 264, 160, 128, 91, 0x00000000, 0
@@ -268,7 +268,7 @@ FONT 8, "MS Sans Serif", 0, 0, 1
 BEGIN
     CONTROL "", 1002, "Edit", 0x503100c4, 4, 3, 368, 196, 0x00000200, 0
     CONTROL "Save\\Restart", 1003, "Button", 0x50010000, 194, 203, 178, 15, 0x00000000, 0
-    CONTROL "", 1001, "Static", 0x40000000, 36, 46, 18, 11, 0x00000000, 0
+    CONTROL "", 1001, "Static", 0x40000000 | NOT 0x10000000, 36, 46, 18, 11, 0x00000000, 0
     CONTROL "Copy", 1004, "Button", 0x50010000, 4, 203, 54, 15, 0x00000000, 0
     CONTROL "Paste", 1005, "Button", 0x50010000, 60, 203, 54, 15, 0x00000000, 0
 END
@@ -519,8 +519,8 @@ BEGIN
     CONTROL "Ignore locked bot thread", 1014, "Button", 0x50010003, 14, 77, 92, 9, 0x00000000, 0
     CONTROL "Non-pvp mode", 1015, "Button", 0x50010003, 138, 77, 82, 8, 0x00000000, 0
     CONTROL "Don't flash screen on alerts", 1016, "Button", 0x50010003, 14, 88, 92, 9, 0x00000000, 0
-    CONTROL "Snap-back fix Open/Hardcore PvP", 1017, "Button", 0x40010003, 138, 88, 124, 9, 0x00000000, 0
-    CONTROL "Snap-back fix Optional PvP", 1018, "Button", 0x40010003, 138, 99, 120, 9, 0x00000000, 0
+    CONTROL "Snap-back fix Open/Hardcore PvP", 1017, "Button", 0x40010003 | NOT 0x10000000, 138, 88, 124, 9, 0x00000000, 0
+    CONTROL "Snap-back fix Optional PvP", 1018, "Button", 0x40010003 | NOT 0x10000000, 138, 99, 120, 9, 0x00000000, 0
 END
 
 6000 DIALOGEX 6, 6, 268, 152, 0
@@ -588,13 +588,13 @@ BEGIN
     CONTROL "Target others if skulled/war", 1026, "Button", 0x50010003, 140, 140, 106, 9, 0x00000000, 0
     CONTROL "Word triggering enabled", 1027, "Button", 0x50010003, 12, 164, 110, 9, 0x00000000, 0
     CONTROL "Target others if can't be shot", 1028, "Button", 0x50010003, 12, 186, 104, 9, 0x00000000, 0
-    CONTROL "", 1029, "Edit", 0x40010081, 182, 169, 52, 9, 0x00020000, 0
-    CONTROL "Custom triggerwords and commands:", 1030, "Static", 0x40000000, 138, 158, 116, 9, 0x00000000, 0
-    CONTROL "", 1031, "ListBox", 0x40010141, 236, 169, 18, 9, 0x00020000, 0
-    CONTROL "", 1032, "Edit", 0x40010081, 176, 180, 78, 9, 0x00020000, 0
+    CONTROL "", 1029, "Edit", 0x40010081 | NOT 0x10000000, 182, 169, 52, 9, 0x00020000, 0
+    CONTROL "Custom triggerwords and commands:", 1030, "Static", 0x40000000 | NOT 0x10000000, 138, 158, 116, 9, 0x00000000, 0
+    CONTROL "", 1031, "ListBox", 0x40010141 | NOT 0x10000000, 236, 169, 18, 9, 0x00020000, 0
+    CONTROL "", 1032, "Edit", 0x40010081 | NOT 0x10000000, 176, 180, 78, 9, 0x00020000, 0
     CONTROL "Execute automatically", 1033, "Button", 0x50010003, 12, 175, 106, 9, 0x00000000, 0
-    CONTROL "Triggerword:", 1034, "Static", 0x40000000, 138, 169, 42, 9, 0x00000000, 0
-    CONTROL "Command:", 1035, "Static", 0x40000000, 138, 180, 32, 9, 0x00000000, 0
+    CONTROL "Triggerword:", 1034, "Static", 0x40000000 | NOT 0x10000000, 138, 169, 42, 9, 0x00000000, 0
+    CONTROL "Command:", 1035, "Static", 0x40000000 | NOT 0x10000000, 138, 180, 32, 9, 0x00000000, 0
     CONTROL "Lock on leader's target", 1036, "Button", 0x50010003, 14, 51, 98, 9, 0x00000000, 0
     CONTROL "", 1037, "Edit", 0x50010081, 58, 149, 66, 9, 0x00020000, 0
     CONTROL "Single:", 1038, "Static", 0x50000000, 12, 149, 38, 9, 0x00000000, 0

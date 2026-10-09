@@ -14,7 +14,7 @@ __declspec(naked) static void probe(void) {
 int main(void) {
     BotzinCoreInit call;
     void (*pointer)(void) = probe;
-    if (sizeof(void *) != 4) return 1;
+    _Static_assert(sizeof(void *) == 4, "x86 ABI required");
     memcpy(&call, &pointer, sizeof call);
     call((WNDPROC)(UINT_PTR)0x12345678u, NULL, (HWND)(UINT_PTR)0x76543210u);
     if (ecx_value != 0x12345678u || stack_value != 0x76543210u) {
