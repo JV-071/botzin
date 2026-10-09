@@ -1,0 +1,7637 @@
+{
+  "10000": {
+    "help": 0,
+    "exstyle": 136,
+    "style": 284035136,
+    "rect": [
+      6,
+      6,
+      264,
+      193
+    ],
+    "menu": "",
+    "class": "TBOTDLGP",
+    "caption": " Custom Shortkeys",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          0,
+          196,
+          152
+        ],
+        "id": 1002,
+        "class": "Button",
+        "caption": "Shortkey List"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          6,
+          11,
+          74,
+          9
+        ],
+        "id": 1001,
+        "class": "Button",
+        "caption": "Shortkeys enabled"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          186,
+          9,
+          58,
+          13
+        ],
+        "id": 1003,
+        "class": "Button",
+        "caption": "Create Shortkey"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          90,
+          11,
+          58,
+          9
+        ],
+        "id": 1004,
+        "class": "Static",
+        "caption": "Command symbol:"
+      },
+      {
+        "help": 0,
+        "exstyle": 512,
+        "style": 1342242816,
+        "rect": [
+          152,
+          11,
+          14,
+          9
+        ],
+        "id": 1005,
+        "class": "Edit",
+        "caption": ""
+      }
+    ]
+  },
+  "1020": {
+    "help": 0,
+    "exstyle": 136,
+    "style": 13240384,
+    "rect": [
+      6,
+      6,
+      280,
+      52
+    ],
+    "menu": "",
+    "class": "TBOTDLG7",
+    "caption": " Botzin NG 4.1.6",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          200,
+          12,
+          48,
+          13
+        ],
+        "id": 1606,
+        "class": "Button",
+        "caption": "Save"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          200,
+          25,
+          48,
+          13
+        ],
+        "id": 1017,
+        "class": "Button",
+        "caption": "Load"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          150,
+          12,
+          50,
+          13
+        ],
+        "id": 1011,
+        "class": "Button",
+        "caption": "Reconnect"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          150,
+          25,
+          50,
+          13
+        ],
+        "id": 1010,
+        "class": "Button",
+        "caption": "Creature Spy"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          100,
+          25,
+          50,
+          13
+        ],
+        "id": 1029,
+        "class": "Button",
+        "caption": "Links"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          50,
+          25,
+          50,
+          13
+        ],
+        "id": 1042,
+        "class": "Button",
+        "caption": "Navigation"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          50,
+          12,
+          50,
+          13
+        ],
+        "id": 1028,
+        "class": "Button",
+        "caption": "Hotkeys"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          200,
+          0,
+          16,
+          13
+        ],
+        "id": 1043,
+        "class": "Button",
+        "caption": "1"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          216,
+          0,
+          16,
+          13
+        ],
+        "id": 1044,
+        "class": "Button",
+        "caption": "2"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          232,
+          0,
+          16,
+          13
+        ],
+        "id": 1045,
+        "class": "Button",
+        "caption": "3"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          248,
+          0,
+          16,
+          13
+        ],
+        "id": 1046,
+        "class": "Button",
+        "caption": "4"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          264,
+          0,
+          16,
+          13
+        ],
+        "id": 1047,
+        "class": "Button",
+        "caption": "5"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          0,
+          0,
+          50,
+          13
+        ],
+        "id": 1001,
+        "class": "Button",
+        "caption": "Healing"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          0,
+          12,
+          50,
+          13
+        ],
+        "id": 1013,
+        "class": "Button",
+        "caption": "Extras"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          100,
+          0,
+          50,
+          13
+        ],
+        "id": 1002,
+        "class": "Button",
+        "caption": "Lists"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          50,
+          0,
+          50,
+          13
+        ],
+        "id": 1004,
+        "class": "Button",
+        "caption": "Aimbot"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          150,
+          0,
+          50,
+          13
+        ],
+        "id": 1003,
+        "class": "Button",
+        "caption": "HUD"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          100,
+          12,
+          50,
+          13
+        ],
+        "id": 1005,
+        "class": "Button",
+        "caption": "Shortkeys"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          0,
+          25,
+          50,
+          13
+        ],
+        "id": 1006,
+        "class": "Button",
+        "caption": "Cavebot"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          248,
+          25,
+          32,
+          13
+        ],
+        "id": 1007,
+        "class": "Button",
+        "caption": "Help"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          50,
+          38,
+          50,
+          13
+        ],
+        "id": 1008,
+        "class": "Button",
+        "caption": "Proxy"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          0,
+          38,
+          50,
+          13
+        ],
+        "id": 1009,
+        "class": "Button",
+        "caption": "Targeting"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          248,
+          12,
+          32,
+          13
+        ],
+        "id": 1012,
+        "class": "Button",
+        "caption": "Custom"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          100,
+          38,
+          50,
+          13
+        ],
+        "id": 1014,
+        "class": "Button",
+        "caption": "Icons"
+      }
+    ]
+  },
+  "12000": {
+    "help": 0,
+    "exstyle": 136,
+    "style": 281675840,
+    "rect": [
+      6,
+      6,
+      160,
+      168
+    ],
+    "menu": "",
+    "class": "TBOTDLGQ",
+    "caption": " Safety Proxy Server",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          0,
+          156,
+          46
+        ],
+        "id": 1002,
+        "class": "Button",
+        "caption": "Server setup"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          12,
+          42,
+          9
+        ],
+        "id": 1005,
+        "class": "Static",
+        "caption": "Port"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342251009,
+        "rect": [
+          54,
+          12,
+          94,
+          9
+        ],
+        "id": 1006,
+        "class": "Edit",
+        "caption": "7180"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          98,
+          27,
+          52,
+          13
+        ],
+        "id": 1007,
+        "class": "Button",
+        "caption": "Run Proxy"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242817,
+        "rect": [
+          54,
+          62,
+          94,
+          9
+        ],
+        "id": 1009,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342251009,
+        "rect": [
+          54,
+          75,
+          94,
+          9
+        ],
+        "id": 1010,
+        "class": "Edit",
+        "caption": "7180"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          75,
+          42,
+          9
+        ],
+        "id": 1011,
+        "class": "Static",
+        "caption": "Port"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          62,
+          36,
+          9
+        ],
+        "id": 1012,
+        "class": "Static",
+        "caption": "Server IP"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          48,
+          156,
+          118
+        ],
+        "id": 1013,
+        "class": "Button",
+        "caption": "Client setup"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          86,
+          147,
+          64,
+          13
+        ],
+        "id": 1008,
+        "class": "Button",
+        "caption": "Set settings && IP"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          110,
+          94,
+          38,
+          9
+        ],
+        "id": 1001,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          90,
+          94,
+          18,
+          9
+        ],
+        "id": 1003,
+        "class": "Static",
+        "caption": "Type "
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342251009,
+        "rect": [
+          54,
+          94,
+          30,
+          9
+        ],
+        "id": 1004,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          94,
+          34,
+          9
+        ],
+        "id": 1014,
+        "class": "Static",
+        "caption": "Heal1 hp"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          110,
+          107,
+          38,
+          9
+        ],
+        "id": 1015,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          90,
+          107,
+          18,
+          9
+        ],
+        "id": 1016,
+        "class": "Static",
+        "caption": "Type "
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342251009,
+        "rect": [
+          54,
+          107,
+          30,
+          9
+        ],
+        "id": 1017,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          107,
+          32,
+          9
+        ],
+        "id": 1018,
+        "class": "Static",
+        "caption": "Heal2 hp"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          110,
+          120,
+          38,
+          9
+        ],
+        "id": 1019,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          90,
+          120,
+          18,
+          9
+        ],
+        "id": 1020,
+        "class": "Static",
+        "caption": "Type "
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342251009,
+        "rect": [
+          54,
+          120,
+          30,
+          9
+        ],
+        "id": 1021,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          120,
+          34,
+          9
+        ],
+        "id": 1022,
+        "class": "Static",
+        "caption": "Mana mp"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          54,
+          132,
+          46,
+          9
+        ],
+        "id": 1023,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          132,
+          42,
+          9
+        ],
+        "id": 1024,
+        "class": "Static",
+        "caption": "Counter type"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          10,
+          147,
+          64,
+          13
+        ],
+        "id": 1025,
+        "class": "Button",
+        "caption": "Revert IP"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          100,
+          132,
+          48,
+          9
+        ],
+        "id": 1026,
+        "class": "ListBox",
+        "caption": ""
+      }
+    ]
+  },
+  "13000": {
+    "help": 0,
+    "exstyle": 152,
+    "style": 13240384,
+    "rect": [
+      6,
+      6,
+      380,
+      253
+    ],
+    "menu": "",
+    "class": "TBOTDLGR",
+    "caption": " Monster Targeting",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          1,
+          234,
+          157
+        ],
+        "id": 1022,
+        "class": "Button",
+        "caption": "Monsters definition and behaviours"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          288,
+          18,
+          82,
+          8
+        ],
+        "id": 1001,
+        "class": "msctls_trackbar32",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          288,
+          31,
+          82,
+          8
+        ],
+        "id": 1002,
+        "class": "msctls_trackbar32",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          288,
+          44,
+          82,
+          8
+        ],
+        "id": 1003,
+        "class": "msctls_trackbar32",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          288,
+          57,
+          82,
+          8
+        ],
+        "id": 1004,
+        "class": "msctls_trackbar32",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          176,
+          234,
+          26,
+          11
+        ],
+        "id": 1005,
+        "class": "Button",
+        "caption": "Save"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          202,
+          234,
+          26,
+          11
+        ],
+        "id": 1006,
+        "class": "Button",
+        "caption": "Load"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          172,
+          221,
+          54,
+          9
+        ],
+        "id": 1007,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          148,
+          221,
+          20,
+          11
+        ],
+        "id": 1008,
+        "class": "Static",
+        "caption": "Name"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          148,
+          173,
+          78,
+          44
+        ],
+        "id": 1009,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          138,
+          160,
+          98,
+          91
+        ],
+        "id": 1010,
+        "class": "Button",
+        "caption": "Saving && Loading settings"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          248,
+          105,
+          110,
+          8
+        ],
+        "id": 1011,
+        "class": "Button",
+        "caption": "Target must be shootable"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          248,
+          96,
+          110,
+          8
+        ],
+        "id": 1012,
+        "class": "Button",
+        "caption": "Target must be reachable"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          86,
+          173,
+          38,
+          9
+        ],
+        "id": 1013,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          173,
+          52,
+          9
+        ],
+        "id": 1014,
+        "class": "Static",
+        "caption": "Range distance"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          160,
+          132,
+          91
+        ],
+        "id": 1015,
+        "class": "Button",
+        "caption": "Stance options"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          108,
+          81,
+          40,
+          8
+        ],
+        "id": 1016,
+        "class": "Static",
+        "caption": "Danger level"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243136,
+        "rect": [
+          200,
+          81,
+          28,
+          9
+        ],
+        "id": 1017,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          248,
+          55,
+          30,
+          11
+        ],
+        "id": 1018,
+        "class": "Static",
+        "caption": "Danger"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          248,
+          42,
+          30,
+          11
+        ],
+        "id": 1019,
+        "class": "Static",
+        "caption": "Proximity"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          248,
+          29,
+          30,
+          11
+        ],
+        "id": 1020,
+        "class": "Static",
+        "caption": "Health"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          248,
+          16,
+          30,
+          11
+        ],
+        "id": 1021,
+        "class": "Static",
+        "caption": "List order"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          240,
+          1,
+          138,
+          118
+        ],
+        "id": 1023,
+        "class": "Button",
+        "caption": "Target selection"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1375731712,
+        "rect": [
+          108,
+          92,
+          52,
+          9
+        ],
+        "id": 1024,
+        "class": "Static",
+        "caption": "Desired stance"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243136,
+        "rect": [
+          168,
+          92,
+          60,
+          9
+        ],
+        "id": 1025,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          26,
+          140,
+          14,
+          13
+        ],
+        "id": 1026,
+        "class": "Button",
+        "caption": ">"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          8,
+          140,
+          14,
+          13
+        ],
+        "id": 1027,
+        "class": "Button",
+        "caption": "<"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          10,
+          14,
+          88,
+          122
+        ],
+        "id": 1028,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          134,
+          18,
+          94,
+          9
+        ],
+        "id": 1029,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          168,
+          29,
+          32,
+          8
+        ],
+        "id": 1030,
+        "class": "Static",
+        "caption": "Setting #"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          108,
+          59,
+          38,
+          9
+        ],
+        "id": 1031,
+        "class": "Static",
+        "caption": "HP% range"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342251008,
+        "rect": [
+          168,
+          59,
+          20,
+          9
+        ],
+        "id": 1032,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          196,
+          59,
+          10,
+          11
+        ],
+        "id": 1033,
+        "class": "Static",
+        "caption": "to"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342251008,
+        "rect": [
+          208,
+          59,
+          20,
+          9
+        ],
+        "id": 1034,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          108,
+          18,
+          24,
+          8
+        ],
+        "id": 1035,
+        "class": "Static",
+        "caption": "Name"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1375731712,
+        "rect": [
+          108,
+          103,
+          48,
+          9
+        ],
+        "id": 1036,
+        "class": "Static",
+        "caption": "Desired action"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1375731712,
+        "rect": [
+          108,
+          70,
+          56,
+          9
+        ],
+        "id": 1037,
+        "class": "Static",
+        "caption": "Monster attacks"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          80,
+          140,
+          20,
+          13
+        ],
+        "id": 1038,
+        "class": "Button",
+        "caption": "Del"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          200,
+          29,
+          28,
+          9
+        ],
+        "id": 1040,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243136,
+        "rect": [
+          168,
+          103,
+          28,
+          9
+        ],
+        "id": 1041,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243136,
+        "rect": [
+          168,
+          70,
+          60,
+          9
+        ],
+        "id": 1042,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          288,
+          70,
+          82,
+          8
+        ],
+        "id": 1039,
+        "class": "msctls_trackbar32",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          248,
+          68,
+          30,
+          11
+        ],
+        "id": 1043,
+        "class": "Static",
+        "caption": "Random"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          288,
+          83,
+          82,
+          8
+        ],
+        "id": 1044,
+        "class": "msctls_trackbar32",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          248,
+          81,
+          30,
+          11
+        ],
+        "id": 1045,
+        "class": "Static",
+        "caption": "Stick"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          86,
+          184,
+          38,
+          9
+        ],
+        "id": 1047,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          184,
+          58,
+          9
+        ],
+        "id": 1048,
+        "class": "Static",
+        "caption": "Attack frequency"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1073807681,
+        "rect": [
+          106,
+          238,
+          16,
+          9
+        ],
+        "id": 1052,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243136,
+        "rect": [
+          196,
+          103,
+          32,
+          9
+        ],
+        "id": 1054,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          174,
+          144,
+          54,
+          8
+        ],
+        "id": 1053,
+        "class": "Button",
+        "caption": "Loot monster"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          10,
+          238,
+          60,
+          9
+        ],
+        "id": 1046,
+        "class": "Button",
+        "caption": "Run Targeting"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          108,
+          29,
+          22,
+          8
+        ],
+        "id": 1063,
+        "class": "Static",
+        "caption": "Count"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          104,
+          51,
+          128,
+          104
+        ],
+        "id": 1055,
+        "class": "Button",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          104,
+          9,
+          128,
+          44
+        ],
+        "id": 1056,
+        "class": "Button",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          134,
+          29,
+          28,
+          9
+        ],
+        "id": 1057,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243136,
+        "rect": [
+          168,
+          125,
+          60,
+          9
+        ],
+        "id": 1058,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1375731712,
+        "rect": [
+          108,
+          125,
+          52,
+          9
+        ],
+        "id": 1059,
+        "class": "Static",
+        "caption": "Wear ring"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          110,
+          144,
+          46,
+          8
+        ],
+        "id": 1060,
+        "class": "Button",
+        "caption": "Play alarm"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          10,
+          228,
+          98,
+          8
+        ],
+        "id": 1061,
+        "class": "Button",
+        "caption": "Allow diagonal movement"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          240,
+          160,
+          138,
+          91
+        ],
+        "id": 1049,
+        "class": "Button",
+        "caption": "Blocked tiles"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          248,
+          173,
+          122,
+          44
+        ],
+        "id": 1062,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          298,
+          221,
+          72,
+          9
+        ],
+        "id": 1064,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          340,
+          234,
+          30,
+          11
+        ],
+        "id": 1065,
+        "class": "Button",
+        "caption": "Del"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          195,
+          80,
+          9
+        ],
+        "id": 1068,
+        "class": "Static",
+        "caption": "Ignore other's monsters"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          86,
+          195,
+          38,
+          9
+        ],
+        "id": 1069,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          146,
+          234,
+          30,
+          11
+        ],
+        "id": 1071,
+        "class": "Button",
+        "caption": "Edit"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243136,
+        "rect": [
+          168,
+          114,
+          60,
+          9
+        ],
+        "id": 1070,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1375731712,
+        "rect": [
+          108,
+          114,
+          52,
+          9
+        ],
+        "id": 1072,
+        "class": "Static",
+        "caption": "Attack mode"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          10,
+          219,
+          86,
+          8
+        ],
+        "id": 1073,
+        "class": "Button",
+        "caption": "Sync spell with attacks"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          10,
+          210,
+          88,
+          8
+        ],
+        "id": 1074,
+        "class": "Button",
+        "caption": "Ignore Anti-bot monsters"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          148,
+          40,
+          80,
+          9
+        ],
+        "id": 1075,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          108,
+          40,
+          38,
+          8
+        ],
+        "id": 1076,
+        "class": "Static",
+        "caption": "Categories"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          310,
+          234,
+          30,
+          11
+        ],
+        "id": 1050,
+        "class": "Button",
+        "caption": "Add"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          250,
+          221,
+          46,
+          11
+        ],
+        "id": 1051,
+        "class": "Static",
+        "caption": "Only on label"
+      }
+    ]
+  },
+  "14000": {
+    "help": 0,
+    "exstyle": 152,
+    "style": 13240384,
+    "rect": [
+      6,
+      6,
+      396,
+      253
+    ],
+    "menu": "",
+    "class": "TBOTDLGS",
+    "caption": " Cavebot",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          1,
+          258,
+          157
+        ],
+        "id": 1022,
+        "class": "Button",
+        "caption": "Waypoints"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          50,
+          234,
+          36,
+          11
+        ],
+        "id": 1050,
+        "class": "Button",
+        "caption": "Save"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          88,
+          234,
+          36,
+          11
+        ],
+        "id": 1075,
+        "class": "Button",
+        "caption": "Load"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          36,
+          219,
+          86,
+          9
+        ],
+        "id": 1041,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          219,
+          20,
+          11
+        ],
+        "id": 1099,
+        "class": "Static",
+        "caption": "Name"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          10,
+          175,
+          112,
+          39
+        ],
+        "id": 1009,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          160,
+          132,
+          91
+        ],
+        "id": 1010,
+        "class": "Button",
+        "caption": "Saving && Loading settings"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          24,
+          140,
+          14,
+          13
+        ],
+        "id": 1026,
+        "class": "Button",
+        "caption": ">"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          8,
+          140,
+          14,
+          13
+        ],
+        "id": 1027,
+        "class": "Button",
+        "caption": "<"
+      },
+      {
+        "help": 0,
+        "exstyle": 512,
+        "style": 1342243137,
+        "rect": [
+          10,
+          12,
+          112,
+          124
+        ],
+        "id": 1028,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          132,
+          14,
+          46,
+          9
+        ],
+        "id": 1030,
+        "class": "Static",
+        "caption": "Emplacement"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          104,
+          140,
+          20,
+          13
+        ],
+        "id": 1038,
+        "class": "Button",
+        "caption": "Del"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          190,
+          14,
+          60,
+          9
+        ],
+        "id": 1040,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          192,
+          29,
+          30,
+          13
+        ],
+        "id": 1001,
+        "class": "Button",
+        "caption": "Walk"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          132,
+          44,
+          30,
+          13
+        ],
+        "id": 1002,
+        "class": "Button",
+        "caption": "Rope"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          162,
+          44,
+          30,
+          13
+        ],
+        "id": 1003,
+        "class": "Button",
+        "caption": "Ladder"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          222,
+          29,
+          30,
+          13
+        ],
+        "id": 1005,
+        "class": "Button",
+        "caption": "Action"
+      },
+      {
+        "help": 0,
+        "exstyle": 512,
+        "style": 1073807556,
+        "rect": [
+          132,
+          62,
+          120,
+          74
+        ],
+        "id": 1011,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          132,
+          29,
+          30,
+          13
+        ],
+        "id": 1004,
+        "class": "Button",
+        "caption": "Stand"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          188,
+          142,
+          66,
+          9
+        ],
+        "id": 1012,
+        "class": "Button",
+        "caption": "Follow waypoints"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          264,
+          160,
+          128,
+          91
+        ],
+        "id": 1013,
+        "class": "Button",
+        "caption": "Options"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          272,
+          173,
+          40,
+          9
+        ],
+        "id": 1014,
+        "class": "Static",
+        "caption": "Use Rope"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          336,
+          173,
+          48,
+          9
+        ],
+        "id": 1015,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          336,
+          182,
+          48,
+          9
+        ],
+        "id": 1016,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          272,
+          182,
+          40,
+          9
+        ],
+        "id": 1017,
+        "class": "Static",
+        "caption": "Use Shovel"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          132,
+          142,
+          52,
+          9
+        ],
+        "id": 1020,
+        "class": "Button",
+        "caption": "Show labels"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          74,
+          140,
+          28,
+          13
+        ],
+        "id": 1018,
+        "class": "Button",
+        "caption": "Label"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          192,
+          44,
+          30,
+          13
+        ],
+        "id": 1006,
+        "class": "Button",
+        "caption": "Shovel"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          138,
+          160,
+          122,
+          91
+        ],
+        "id": 1019,
+        "class": "Button",
+        "caption": "Alerts"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          148,
+          177,
+          56,
+          9
+        ],
+        "id": 1021,
+        "class": "Static",
+        "caption": "Player on screen"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          224,
+          166,
+          30,
+          9
+        ],
+        "id": 1023,
+        "class": "Static",
+        "caption": "S   P   X"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          148,
+          186,
+          62,
+          9
+        ],
+        "id": 1034,
+        "class": "Static",
+        "caption": "GM/CM detected"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          148,
+          204,
+          56,
+          9
+        ],
+        "id": 1039,
+        "class": "Static",
+        "caption": "Default chat msg"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          148,
+          195,
+          56,
+          9
+        ],
+        "id": 1044,
+        "class": "Static",
+        "caption": "Player attacking"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          148,
+          214,
+          56,
+          9
+        ],
+        "id": 1045,
+        "class": "Static",
+        "caption": "Private chat msg"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          224,
+          177,
+          10,
+          8
+        ],
+        "id": 1100,
+        "class": "Button",
+        "caption": "IDC_CHK"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          234,
+          177,
+          10,
+          8
+        ],
+        "id": 1101,
+        "class": "Button",
+        "caption": "IDC_CHK"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          244,
+          177,
+          10,
+          8
+        ],
+        "id": 1102,
+        "class": "Button",
+        "caption": "IDC_CHK"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          224,
+          186,
+          10,
+          8
+        ],
+        "id": 1103,
+        "class": "Button",
+        "caption": "IDC_CHK"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          234,
+          186,
+          10,
+          8
+        ],
+        "id": 1104,
+        "class": "Button",
+        "caption": "IDC_CHK"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          244,
+          186,
+          10,
+          8
+        ],
+        "id": 1105,
+        "class": "Button",
+        "caption": "IDC_CHK"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          224,
+          195,
+          10,
+          8
+        ],
+        "id": 1106,
+        "class": "Button",
+        "caption": "IDC_CHK"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          234,
+          195,
+          10,
+          8
+        ],
+        "id": 1107,
+        "class": "Button",
+        "caption": "IDC_CHK"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          244,
+          195,
+          10,
+          8
+        ],
+        "id": 1108,
+        "class": "Button",
+        "caption": "IDC_CHK"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          224,
+          204,
+          10,
+          8
+        ],
+        "id": 1109,
+        "class": "Button",
+        "caption": "IDC_CHK"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          234,
+          204,
+          10,
+          8
+        ],
+        "id": 1110,
+        "class": "Button",
+        "caption": "IDC_CHK"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          244,
+          204,
+          10,
+          8
+        ],
+        "id": 1111,
+        "class": "Button",
+        "caption": "IDC_CHK"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          224,
+          214,
+          10,
+          8
+        ],
+        "id": 1112,
+        "class": "Button",
+        "caption": "IDC_CHK"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          234,
+          214,
+          10,
+          8
+        ],
+        "id": 1113,
+        "class": "Button",
+        "caption": "IDC_CHK"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          244,
+          214,
+          10,
+          8
+        ],
+        "id": 1114,
+        "class": "Button",
+        "caption": "IDC_CHK"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          272,
+          236,
+          74,
+          9
+        ],
+        "id": 1024,
+        "class": "Button",
+        "caption": "Loot distant targets"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          264,
+          29,
+          128,
+          129
+        ],
+        "id": 1025,
+        "class": "Button",
+        "caption": "Looting"
+      },
+      {
+        "help": 0,
+        "exstyle": 512,
+        "style": 1342242944,
+        "rect": [
+          312,
+          140,
+          50,
+          11
+        ],
+        "id": 1029,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 512,
+        "style": 1342242816,
+        "rect": [
+          298,
+          140,
+          12,
+          11
+        ],
+        "id": 1031,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 512,
+        "style": 1342251008,
+        "rect": [
+          272,
+          140,
+          24,
+          11
+        ],
+        "id": 1032,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          364,
+          140,
+          20,
+          13
+        ],
+        "id": 1033,
+        "class": "Button",
+        "caption": "Del"
+      },
+      {
+        "help": 0,
+        "exstyle": 512,
+        "style": 1342243137,
+        "rect": [
+          272,
+          40,
+          112,
+          96
+        ],
+        "id": 1035,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          272,
+          227,
+          76,
+          9
+        ],
+        "id": 1036,
+        "class": "Button",
+        "caption": "Loot nearby targets"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          272,
+          217,
+          70,
+          9
+        ],
+        "id": 1037,
+        "class": "Button",
+        "caption": "Open next bp"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          162,
+          29,
+          30,
+          13
+        ],
+        "id": 1007,
+        "class": "Button",
+        "caption": "Node"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          336,
+          192,
+          48,
+          9
+        ],
+        "id": 1042,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          272,
+          192,
+          62,
+          9
+        ],
+        "id": 1043,
+        "class": "Static",
+        "caption": "Skip nearby nodes"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          264,
+          1,
+          128,
+          26
+        ],
+        "id": 1046,
+        "class": "Button",
+        "caption": "Cavebot Hotkeys"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          270,
+          12,
+          116,
+          11
+        ],
+        "id": 1047,
+        "class": "Button",
+        "caption": "Edit"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          48,
+          140,
+          24,
+          13
+        ],
+        "id": 1051,
+        "class": "Button",
+        "caption": "Clear"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          222,
+          44,
+          30,
+          13
+        ],
+        "id": 1008,
+        "class": "Button",
+        "caption": "Lure"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          10,
+          234,
+          38,
+          11
+        ],
+        "id": 1048,
+        "class": "Button",
+        "caption": "Edit"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          148,
+          223,
+          56,
+          9
+        ],
+        "id": 1049,
+        "class": "Static",
+        "caption": "Disconnected"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          244,
+          223,
+          10,
+          8
+        ],
+        "id": 1117,
+        "class": "Button",
+        "caption": "IDC_CHK"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          224,
+          223,
+          10,
+          8
+        ],
+        "id": 1115,
+        "class": "Button",
+        "caption": "IDC_CHK"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          236,
+          223,
+          8,
+          9
+        ],
+        "id": 1052,
+        "class": "Static",
+        "caption": "R"
+      }
+    ]
+  },
+  "15000": {
+    "help": 0,
+    "exstyle": 136,
+    "style": 281675840,
+    "rect": [
+      6,
+      6,
+      204,
+      43
+    ],
+    "menu": "",
+    "class": "TBOTDLGT",
+    "caption": " Label a waypoint",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          6,
+          9,
+          72,
+          9
+        ],
+        "id": 1001,
+        "class": "Static",
+        "caption": "Set waypoint label to :"
+      },
+      {
+        "help": 0,
+        "exstyle": 512,
+        "style": 1342242816,
+        "rect": [
+          80,
+          7,
+          118,
+          11
+        ],
+        "id": 1002,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          150,
+          24,
+          48,
+          13
+        ],
+        "id": 1003,
+        "class": "Button",
+        "caption": "OK"
+      }
+    ]
+  },
+  "16000": {
+    "help": 0,
+    "exstyle": 136,
+    "style": 281675840,
+    "rect": [
+      6,
+      6,
+      376,
+      220
+    ],
+    "menu": "",
+    "class": "TBOTDLGU",
+    "caption": " Cavebot Hotkey List",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 512,
+        "style": 1345388740,
+        "rect": [
+          4,
+          3,
+          368,
+          196
+        ],
+        "id": 1002,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          194,
+          203,
+          178,
+          15
+        ],
+        "id": 1003,
+        "class": "Button",
+        "caption": "Save\\Restart"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1073741824,
+        "rect": [
+          36,
+          46,
+          18,
+          11
+        ],
+        "id": 1001,
+        "class": "Static",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          4,
+          203,
+          54,
+          15
+        ],
+        "id": 1004,
+        "class": "Button",
+        "caption": "Copy"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          60,
+          203,
+          54,
+          15
+        ],
+        "id": 1005,
+        "class": "Button",
+        "caption": "Paste"
+      }
+    ]
+  },
+  "17000": {
+    "help": 0,
+    "exstyle": 136,
+    "style": 281675840,
+    "rect": [
+      6,
+      6,
+      114,
+      113
+    ],
+    "menu": "",
+    "class": "TBOTDLGV",
+    "caption": " Choose a skin file to load",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 512,
+        "style": 1342243137,
+        "rect": [
+          6,
+          5,
+          102,
+          87
+        ],
+        "id": 1001,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          6,
+          96,
+          48,
+          13
+        ],
+        "id": 1002,
+        "class": "Button",
+        "caption": "Choose"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          58,
+          96,
+          50,
+          13
+        ],
+        "id": 1003,
+        "class": "Button",
+        "caption": "Cancel"
+      }
+    ]
+  },
+  "18000": {
+    "help": 0,
+    "exstyle": 152,
+    "style": 13240384,
+    "rect": [
+      6,
+      6,
+      378,
+      164
+    ],
+    "menu": "",
+    "class": "TBOTDLGW",
+    "caption": " Command Icons",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          1,
+          374,
+          161
+        ],
+        "id": 1022,
+        "class": "Button",
+        "caption": " Icon list"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          26,
+          123,
+          14,
+          13
+        ],
+        "id": 1026,
+        "class": "Button",
+        "caption": ">"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          8,
+          123,
+          14,
+          13
+        ],
+        "id": 1027,
+        "class": "Button",
+        "caption": "<"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          10,
+          12,
+          88,
+          107
+        ],
+        "id": 1028,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          134,
+          16,
+          94,
+          9
+        ],
+        "id": 1029,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          110,
+          66,
+          26,
+          9
+        ],
+        "id": 1031,
+        "class": "Static",
+        "caption": "Icon ids"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          144,
+          66,
+          20,
+          9
+        ],
+        "id": 1032,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          108,
+          16,
+          24,
+          8
+        ],
+        "id": 1035,
+        "class": "Static",
+        "caption": "Name"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          80,
+          123,
+          20,
+          13
+        ],
+        "id": 1038,
+        "class": "Button",
+        "caption": "Del"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          184,
+          197,
+          54,
+          8
+        ],
+        "id": 1053,
+        "class": "Button",
+        "caption": "Loot monster"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          108,
+          27,
+          22,
+          8
+        ],
+        "id": 1063,
+        "class": "Static",
+        "caption": "Size"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          104,
+          44,
+          132,
+          92
+        ],
+        "id": 1055,
+        "class": "Button",
+        "caption": "Inactive state"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          104,
+          7,
+          268,
+          35
+        ],
+        "id": 1056,
+        "class": "Button",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          134,
+          27,
+          24,
+          9
+        ],
+        "id": 1057,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          120,
+          197,
+          46,
+          8
+        ],
+        "id": 1060,
+        "class": "Button",
+        "caption": "Play alarm"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          186,
+          27,
+          46,
+          9
+        ],
+        "id": 1001,
+        "class": "Button",
+        "caption": "Bkg Draw"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          166,
+          66,
+          20,
+          9
+        ],
+        "id": 1002,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          188,
+          66,
+          20,
+          9
+        ],
+        "id": 1003,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          210,
+          66,
+          20,
+          9
+        ],
+        "id": 1004,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          110,
+          55,
+          30,
+          9
+        ],
+        "id": 1005,
+        "class": "Static",
+        "caption": "Icon type"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          144,
+          55,
+          42,
+          9
+        ],
+        "id": 1006,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          210,
+          88,
+          20,
+          9
+        ],
+        "id": 1007,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          188,
+          88,
+          20,
+          9
+        ],
+        "id": 1008,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          166,
+          88,
+          20,
+          9
+        ],
+        "id": 1009,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          144,
+          88,
+          20,
+          9
+        ],
+        "id": 1010,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          144,
+          77,
+          42,
+          9
+        ],
+        "id": 1011,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          110,
+          88,
+          26,
+          9
+        ],
+        "id": 1012,
+        "class": "Static",
+        "caption": "Bkg ids"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          110,
+          77,
+          30,
+          9
+        ],
+        "id": 1013,
+        "class": "Static",
+        "caption": "Bkg type"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          144,
+          99,
+          42,
+          9
+        ],
+        "id": 1014,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          110,
+          99,
+          30,
+          9
+        ],
+        "id": 1015,
+        "class": "Static",
+        "caption": "Xpos"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242816,
+        "rect": [
+          188,
+          99,
+          20,
+          9
+        ],
+        "id": 1018,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242816,
+        "rect": [
+          188,
+          110,
+          20,
+          9
+        ],
+        "id": 1019,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          144,
+          110,
+          42,
+          9
+        ],
+        "id": 1020,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          110,
+          110,
+          30,
+          9
+        ],
+        "id": 1021,
+        "class": "Static",
+        "caption": "Ypos"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          144,
+          121,
+          42,
+          9
+        ],
+        "id": 1016,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          110,
+          121,
+          26,
+          9
+        ],
+        "id": 1017,
+        "class": "Static",
+        "caption": "Text"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342251008,
+        "rect": [
+          188,
+          121,
+          20,
+          9
+        ],
+        "id": 1024,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          258,
+          16,
+          108,
+          9
+        ],
+        "id": 1025,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          234,
+          16,
+          20,
+          9
+        ],
+        "id": 1030,
+        "class": "Static",
+        "caption": "Lclick"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          258,
+          27,
+          108,
+          9
+        ],
+        "id": 1033,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          234,
+          27,
+          20,
+          9
+        ],
+        "id": 1034,
+        "class": "Static",
+        "caption": "Rclick"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342251008,
+        "rect": [
+          324,
+          121,
+          20,
+          9
+        ],
+        "id": 1036,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          246,
+          121,
+          26,
+          9
+        ],
+        "id": 1039,
+        "class": "Static",
+        "caption": "Text"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          280,
+          121,
+          42,
+          9
+        ],
+        "id": 1040,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          246,
+          110,
+          30,
+          9
+        ],
+        "id": 1041,
+        "class": "Static",
+        "caption": "Ypos"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          280,
+          110,
+          42,
+          9
+        ],
+        "id": 1042,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242816,
+        "rect": [
+          324,
+          110,
+          20,
+          9
+        ],
+        "id": 1043,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242816,
+        "rect": [
+          324,
+          99,
+          20,
+          9
+        ],
+        "id": 1044,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          246,
+          99,
+          30,
+          9
+        ],
+        "id": 1045,
+        "class": "Static",
+        "caption": "Xpos"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          280,
+          99,
+          42,
+          9
+        ],
+        "id": 1046,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          246,
+          77,
+          30,
+          9
+        ],
+        "id": 1047,
+        "class": "Static",
+        "caption": "Bkg type"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          246,
+          88,
+          26,
+          9
+        ],
+        "id": 1048,
+        "class": "Static",
+        "caption": "Bkg ids"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          280,
+          77,
+          42,
+          9
+        ],
+        "id": 1049,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          280,
+          88,
+          20,
+          9
+        ],
+        "id": 1050,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          302,
+          88,
+          20,
+          9
+        ],
+        "id": 1051,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          324,
+          88,
+          20,
+          9
+        ],
+        "id": 1052,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          346,
+          88,
+          20,
+          9
+        ],
+        "id": 1054,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          280,
+          55,
+          42,
+          9
+        ],
+        "id": 1058,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          246,
+          55,
+          30,
+          9
+        ],
+        "id": 1059,
+        "class": "Static",
+        "caption": "Icon type"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          346,
+          66,
+          20,
+          9
+        ],
+        "id": 1061,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          324,
+          66,
+          20,
+          9
+        ],
+        "id": 1062,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          302,
+          66,
+          20,
+          9
+        ],
+        "id": 1064,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242944,
+        "rect": [
+          280,
+          66,
+          20,
+          9
+        ],
+        "id": 1065,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          246,
+          66,
+          26,
+          9
+        ],
+        "id": 1066,
+        "class": "Static",
+        "caption": "Icon ids"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          240,
+          44,
+          132,
+          92
+        ],
+        "id": 1067,
+        "class": "Button",
+        "caption": "Active state"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342251008,
+        "rect": [
+          210,
+          121,
+          20,
+          9
+        ],
+        "id": 1069,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342251008,
+        "rect": [
+          346,
+          121,
+          20,
+          9
+        ],
+        "id": 1070,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          162,
+          27,
+          20,
+          9
+        ],
+        "id": 1072,
+        "class": "Button",
+        "caption": "On"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          202,
+          140,
+          34,
+          13
+        ],
+        "id": 1073,
+        "class": "Button",
+        "caption": "Copy >>"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          242,
+          140,
+          80,
+          9
+        ],
+        "id": 1023,
+        "class": "Button",
+        "caption": "Make icon space top"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          242,
+          149,
+          90,
+          9
+        ],
+        "id": 1037,
+        "class": "Button",
+        "caption": "Make icon space bottom"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          338,
+          140,
+          32,
+          9
+        ],
+        "id": 1068,
+        "class": "Button",
+        "caption": "Large"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          338,
+          149,
+          32,
+          9
+        ],
+        "id": 1071,
+        "class": "Button",
+        "caption": "Large"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          8,
+          142,
+          60,
+          9
+        ],
+        "id": 1074,
+        "class": "Button",
+        "caption": "Enable Icons"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          60,
+          123,
+          20,
+          13
+        ],
+        "id": 1075,
+        "class": "Button",
+        "caption": "Clear"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          42,
+          123,
+          18,
+          13
+        ],
+        "id": 1076,
+        "class": "Button",
+        "caption": "Edit"
+      }
+    ]
+  },
+  "1900": {
+    "help": 0,
+    "exstyle": 136,
+    "style": 315492416,
+    "rect": [
+      6,
+      6,
+      295,
+      84
+    ],
+    "menu": "",
+    "class": "TBOTDLGA",
+    "caption": "Creature Spy",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243136,
+        "rect": [
+          0,
+          0,
+          296,
+          164
+        ],
+        "id": 1901,
+        "class": "ListBox",
+        "caption": ""
+      }
+    ]
+  },
+  "1999": {
+    "help": 0,
+    "exstyle": 136,
+    "style": 13240384,
+    "rect": [
+      6,
+      6,
+      268,
+      24
+    ],
+    "menu": "",
+    "class": "TBOTDLG00",
+    "caption": "",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": []
+  },
+  "2200": {
+    "help": 0,
+    "exstyle": 136,
+    "style": 281675840,
+    "rect": [
+      6,
+      6,
+      162,
+      137
+    ],
+    "menu": "",
+    "class": "TBOTDLGB",
+    "caption": " Link Server",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          14,
+          42,
+          9
+        ],
+        "id": 1001,
+        "class": "Static",
+        "caption": "Force IP"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          0,
+          158,
+          72
+        ],
+        "id": 1002,
+        "class": "Button",
+        "caption": "Server setup"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242817,
+        "rect": [
+          54,
+          14,
+          94,
+          9
+        ],
+        "id": 1004,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          27,
+          42,
+          9
+        ],
+        "id": 1005,
+        "class": "Static",
+        "caption": "Port"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342251009,
+        "rect": [
+          54,
+          27,
+          94,
+          9
+        ],
+        "id": 1006,
+        "class": "Edit",
+        "caption": "7177"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          98,
+          55,
+          52,
+          13
+        ],
+        "id": 1007,
+        "class": "Button",
+        "caption": "Run Links"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242817,
+        "rect": [
+          54,
+          88,
+          94,
+          9
+        ],
+        "id": 1009,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342251009,
+        "rect": [
+          54,
+          101,
+          94,
+          9
+        ],
+        "id": 1010,
+        "class": "Edit",
+        "caption": "7177"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          101,
+          42,
+          9
+        ],
+        "id": 1011,
+        "class": "Static",
+        "caption": "Port"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          88,
+          36,
+          9
+        ],
+        "id": 1012,
+        "class": "Static",
+        "caption": "Server IP"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          73,
+          158,
+          61
+        ],
+        "id": 1013,
+        "class": "Button",
+        "caption": "Client setup"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          100,
+          118,
+          52,
+          13
+        ],
+        "id": 1008,
+        "class": "Button",
+        "caption": "Set IP"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          10,
+          57,
+          64,
+          9
+        ],
+        "id": 1003,
+        "class": "Button",
+        "caption": "Share control"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342251009,
+        "rect": [
+          54,
+          40,
+          94,
+          9
+        ],
+        "id": 1014,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          40,
+          42,
+          9
+        ],
+        "id": 1015,
+        "class": "Static",
+        "caption": "Acc num"
+      }
+    ]
+  },
+  "2201": {
+    "help": 0,
+    "exstyle": 136,
+    "style": 281675840,
+    "rect": [
+      6,
+      6,
+      162,
+      107
+    ],
+    "menu": "",
+    "class": "TBOTDLGC",
+    "caption": " Navigation Server",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          12,
+          14,
+          42,
+          9
+        ],
+        "id": 1001,
+        "class": "Static",
+        "caption": "IP/Port"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          0,
+          158,
+          105
+        ],
+        "id": 1002,
+        "class": "Button",
+        "caption": "Connection setup"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242945,
+        "rect": [
+          56,
+          14,
+          70,
+          9
+        ],
+        "id": 1004,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          12,
+          27,
+          42,
+          9
+        ],
+        "id": 1005,
+        "class": "Static",
+        "caption": "Login"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242817,
+        "rect": [
+          56,
+          27,
+          94,
+          9
+        ],
+        "id": 1006,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          98,
+          68,
+          52,
+          13
+        ],
+        "id": 1007,
+        "class": "Button",
+        "caption": "Connect"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242849,
+        "rect": [
+          56,
+          40,
+          94,
+          9
+        ],
+        "id": 1003,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          12,
+          40,
+          42,
+          9
+        ],
+        "id": 1008,
+        "class": "Static",
+        "caption": "Pass"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242817,
+        "rect": [
+          56,
+          53,
+          94,
+          9
+        ],
+        "id": 1009,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          12,
+          53,
+          42,
+          9
+        ],
+        "id": 1010,
+        "class": "Static",
+        "caption": "Color rgb"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          12,
+          70,
+          82,
+          9
+        ],
+        "id": 1011,
+        "class": "Button",
+        "caption": "Disable custom colors"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242817,
+        "rect": [
+          128,
+          14,
+          22,
+          9
+        ],
+        "id": 1012,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          12,
+          81,
+          80,
+          9
+        ],
+        "id": 1013,
+        "class": "Button",
+        "caption": "Show real names"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          12,
+          92,
+          80,
+          8
+        ],
+        "id": 1014,
+        "class": "Button",
+        "caption": "Don't send enemies"
+      }
+    ]
+  },
+  "3000": {
+    "help": 0,
+    "exstyle": 136,
+    "style": 284035136,
+    "rect": [
+      6,
+      6,
+      264,
+      193
+    ],
+    "menu": "",
+    "class": "TBOTDLGD",
+    "caption": " Custom Hotkeys",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          0,
+          196,
+          152
+        ],
+        "id": 1002,
+        "class": "Button",
+        "caption": "Hotkey List"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          6,
+          11,
+          66,
+          9
+        ],
+        "id": 1001,
+        "class": "Button",
+        "caption": "Hotkeys enabled"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          186,
+          9,
+          58,
+          13
+        ],
+        "id": 1003,
+        "class": "Button",
+        "caption": "Create Hotkey"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          146,
+          9,
+          32,
+          13
+        ],
+        "id": 1047,
+        "class": "Button",
+        "caption": "Edit"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          102,
+          11,
+          42,
+          9
+        ],
+        "id": 1048,
+        "class": "Button",
+        "caption": "Persistent"
+      }
+    ]
+  },
+  "4000": {
+    "help": 0,
+    "exstyle": 136,
+    "style": 13240384,
+    "rect": [
+      6,
+      6,
+      268,
+      129
+    ],
+    "menu": "",
+    "class": "TBOTDLGE",
+    "caption": " Auto-Healing",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          0,
+          264,
+          85
+        ],
+        "id": 1001,
+        "class": "Button",
+        "caption": "Auto-Heal :"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          190,
+          48,
+          26,
+          9
+        ],
+        "id": 1002,
+        "class": "Static",
+        "caption": "Type  :"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          220,
+          48,
+          32,
+          9
+        ],
+        "id": 1003,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          16,
+          48,
+          36,
+          9
+        ],
+        "id": 1004,
+        "class": "Static",
+        "caption": "HP Potion"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          116,
+          48,
+          28,
+          9
+        ],
+        "id": 1005,
+        "class": "Static",
+        "caption": "Health :"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342251009,
+        "rect": [
+          148,
+          48,
+          32,
+          9
+        ],
+        "id": 1006,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          16,
+          36,
+          30,
+          9
+        ],
+        "id": 1007,
+        "class": "Static",
+        "caption": "UH Rune"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          16,
+          25,
+          30,
+          9
+        ],
+        "id": 1008,
+        "class": "Static",
+        "caption": "Spell Lo :"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242945,
+        "rect": [
+          48,
+          25,
+          58,
+          9
+        ],
+        "id": 1009,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          190,
+          25,
+          26,
+          9
+        ],
+        "id": 1010,
+        "class": "Static",
+        "caption": "Mana :"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342251009,
+        "rect": [
+          220,
+          25,
+          32,
+          9
+        ],
+        "id": 1011,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          116,
+          25,
+          28,
+          9
+        ],
+        "id": 1012,
+        "class": "Static",
+        "caption": "Health :"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342251009,
+        "rect": [
+          148,
+          25,
+          32,
+          9
+        ],
+        "id": 1013,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          190,
+          70,
+          26,
+          9
+        ],
+        "id": 1015,
+        "class": "Static",
+        "caption": "Delay :"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342251009,
+        "rect": [
+          148,
+          36,
+          32,
+          9
+        ],
+        "id": 1016,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          116,
+          14,
+          28,
+          9
+        ],
+        "id": 1017,
+        "class": "Static",
+        "caption": "Health :"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342251009,
+        "rect": [
+          148,
+          14,
+          32,
+          9
+        ],
+        "id": 1018,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          116,
+          36,
+          30,
+          9
+        ],
+        "id": 1019,
+        "class": "Static",
+        "caption": "Health :"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342251009,
+        "rect": [
+          220,
+          14,
+          32,
+          9
+        ],
+        "id": 1020,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          190,
+          14,
+          24,
+          9
+        ],
+        "id": 1021,
+        "class": "Static",
+        "caption": "Mana :"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          16,
+          14,
+          28,
+          9
+        ],
+        "id": 1022,
+        "class": "Static",
+        "caption": "Spell Hi :"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242945,
+        "rect": [
+          48,
+          14,
+          58,
+          9
+        ],
+        "id": 1023,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          182,
+          97,
+          68,
+          9
+        ],
+        "id": 1024,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          136,
+          97,
+          38,
+          9
+        ],
+        "id": 1025,
+        "class": "Static",
+        "caption": "Mana:"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          58,
+          97,
+          66,
+          9
+        ],
+        "id": 1026,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          12,
+          97,
+          38,
+          9
+        ],
+        "id": 1027,
+        "class": "Static",
+        "caption": "Health :"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          86,
+          264,
+          28
+        ],
+        "id": 1028,
+        "class": "Button",
+        "caption": "Heal friend :"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342251009,
+        "rect": [
+          148,
+          59,
+          32,
+          9
+        ],
+        "id": 1029,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          116,
+          59,
+          28,
+          9
+        ],
+        "id": 1030,
+        "class": "Static",
+        "caption": "Mana :"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          16,
+          59,
+          36,
+          9
+        ],
+        "id": 1031,
+        "class": "Static",
+        "caption": "MP Potion"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          220,
+          59,
+          32,
+          9
+        ],
+        "id": 1032,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          190,
+          59,
+          26,
+          9
+        ],
+        "id": 1033,
+        "class": "Static",
+        "caption": "Type  :"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          116,
+          70,
+          26,
+          9
+        ],
+        "id": 1035,
+        "class": "Static",
+        "caption": "Wait :"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          16,
+          70,
+          48,
+          9
+        ],
+        "id": 1036,
+        "class": "Static",
+        "caption": "Healer options"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          148,
+          70,
+          32,
+          9
+        ],
+        "id": 1014,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          220,
+          70,
+          32,
+          9
+        ],
+        "id": 1034,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          2,
+          118,
+          264,
+          9
+        ],
+        "id": 1037,
+        "class": "Static",
+        "caption": "FOR THE CHANGES TO TAKE EFFECT, HIT THE SAVE BUTTON ON THE BOT!"
+      }
+    ]
+  },
+  "5000": {
+    "help": 0,
+    "exstyle": 136,
+    "style": 13240384,
+    "rect": [
+      6,
+      6,
+      268,
+      115
+    ],
+    "menu": "",
+    "class": "TBOTDLGF",
+    "caption": " Extras",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          0,
+          264,
+          113
+        ],
+        "id": 1001,
+        "class": "Button",
+        "caption": "Extras :"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          22,
+          66,
+          9
+        ],
+        "id": 1002,
+        "class": "Button",
+        "caption": "World Only View"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          11,
+          70,
+          9
+        ],
+        "id": 1004,
+        "class": "Button",
+        "caption": "Framerate booster"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          138,
+          11,
+          92,
+          9
+        ],
+        "id": 1006,
+        "class": "Button",
+        "caption": "Click reuse enabled"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          138,
+          22,
+          70,
+          9
+        ],
+        "id": 1003,
+        "class": "Button",
+        "caption": "Xray view"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          33,
+          86,
+          8
+        ],
+        "id": 1005,
+        "class": "Button",
+        "caption": "Open windows small"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          138,
+          33,
+          86,
+          8
+        ],
+        "id": 1007,
+        "class": "Button",
+        "caption": "Alternate time format"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          44,
+          86,
+          8
+        ],
+        "id": 1008,
+        "class": "Button",
+        "caption": "Keep charlist open"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          138,
+          44,
+          92,
+          9
+        ],
+        "id": 1009,
+        "class": "Button",
+        "caption": "Use old rune aiming"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          55,
+          82,
+          9
+        ],
+        "id": 1010,
+        "class": "Button",
+        "caption": "Load settings at login"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          138,
+          55,
+          92,
+          9
+        ],
+        "id": 1011,
+        "class": "Button",
+        "caption": "Take screenshot at death"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          66,
+          96,
+          9
+        ],
+        "id": 1012,
+        "class": "Button",
+        "caption": "Open backpacks at login"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          138,
+          66,
+          96,
+          9
+        ],
+        "id": 1013,
+        "class": "Button",
+        "caption": "Load last skin"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          77,
+          92,
+          9
+        ],
+        "id": 1014,
+        "class": "Button",
+        "caption": "Ignore locked bot thread"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          138,
+          77,
+          82,
+          8
+        ],
+        "id": 1015,
+        "class": "Button",
+        "caption": "Non-pvp mode"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          88,
+          92,
+          9
+        ],
+        "id": 1016,
+        "class": "Button",
+        "caption": "Don't flash screen on alerts"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1073807363,
+        "rect": [
+          138,
+          88,
+          124,
+          9
+        ],
+        "id": 1017,
+        "class": "Button",
+        "caption": "Snap-back fix Open/Hardcore PvP"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1073807363,
+        "rect": [
+          138,
+          99,
+          120,
+          9
+        ],
+        "id": 1018,
+        "class": "Button",
+        "caption": "Snap-back fix Optional PvP"
+      }
+    ]
+  },
+  "6000": {
+    "help": 0,
+    "exstyle": 136,
+    "style": 13240384,
+    "rect": [
+      6,
+      6,
+      268,
+      152
+    ],
+    "menu": "",
+    "class": "TBOTDLGH",
+    "caption": " Lists",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          130,
+          11,
+          104,
+          9
+        ],
+        "id": 1001,
+        "class": "Static",
+        "caption": "Friend names :"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1344340037,
+        "rect": [
+          136,
+          22,
+          114,
+          26
+        ],
+        "id": 1002,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1344340037,
+        "rect": [
+          18,
+          22,
+          114,
+          26
+        ],
+        "id": 1003,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          18,
+          112,
+          78,
+          9
+        ],
+        "id": 1004,
+        "class": "Static",
+        "caption": "Treat war enemies as :"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          0,
+          264,
+          150
+        ],
+        "id": 1005,
+        "class": "Button",
+        "caption": "Lists :"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          18,
+          99,
+          94,
+          9
+        ],
+        "id": 1006,
+        "class": "Button",
+        "caption": "Team Marks"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          136,
+          99,
+          102,
+          9
+        ],
+        "id": 1007,
+        "class": "Button",
+        "caption": "Color outfits of listed players"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1344340037,
+        "rect": [
+          136,
+          64,
+          114,
+          26
+        ],
+        "id": 1008,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          130,
+          53,
+          104,
+          9
+        ],
+        "id": 1009,
+        "class": "Static",
+        "caption": "Subfriend names :"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          12,
+          53,
+          78,
+          9
+        ],
+        "id": 1010,
+        "class": "Static",
+        "caption": "Subenemy names :"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1344340037,
+        "rect": [
+          18,
+          64,
+          114,
+          26
+        ],
+        "id": 1011,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 512,
+        "style": 1342242816,
+        "rect": [
+          66,
+          -8,
+          0,
+          0
+        ],
+        "id": 1013,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          18,
+          134,
+          54,
+          8
+        ],
+        "id": 1012,
+        "class": "Static",
+        "caption": "Invite Requests :"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242945,
+        "rect": [
+          136,
+          132,
+          56,
+          9
+        ],
+        "id": 1014,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          18,
+          112,
+          0,
+          0
+        ],
+        "id": 1015,
+        "class": "Static",
+        "caption": "IDC_STC"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          12,
+          11,
+          78,
+          9
+        ],
+        "id": 1016,
+        "class": "Static",
+        "caption": "Enemy names :"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          136,
+          110,
+          40,
+          9
+        ],
+        "id": 1017,
+        "class": "Button",
+        "caption": "Enemies"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          192,
+          110,
+          54,
+          9
+        ],
+        "id": 1018,
+        "class": "Button",
+        "caption": "Subenemies"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          192,
+          121,
+          54,
+          9
+        ],
+        "id": 1019,
+        "class": "Button",
+        "caption": "Subfriends"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          136,
+          121,
+          40,
+          9
+        ],
+        "id": 1020,
+        "class": "Button",
+        "caption": "Friends"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          18,
+          123,
+          78,
+          9
+        ],
+        "id": 1021,
+        "class": "Static",
+        "caption": "Treat war allies as :"
+      }
+    ]
+  },
+  "7000": {
+    "help": 0,
+    "exstyle": 136,
+    "style": 13240384,
+    "rect": [
+      6,
+      6,
+      268,
+      203
+    ],
+    "menu": "",
+    "class": "TBOTDLGI",
+    "caption": " Aimbot",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          140,
+          29,
+          92,
+          9
+        ],
+        "id": 1001,
+        "class": "Button",
+        "caption": "Display best target"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          18,
+          122,
+          9
+        ],
+        "id": 1002,
+        "class": "Button",
+        "caption": "Prioritize mages with least cur mp"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          12,
+          81,
+          38,
+          9
+        ],
+        "id": 1005,
+        "class": "Static",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          140,
+          40,
+          98,
+          9
+        ],
+        "id": 1007,
+        "class": "Button",
+        "caption": "Discount Protection zones"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          140,
+          18,
+          92,
+          9
+        ],
+        "id": 1008,
+        "class": "Button",
+        "caption": "Trace shots"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          62,
+          122,
+          9
+        ],
+        "id": 1010,
+        "class": "Button",
+        "caption": "Auto-combo paralyze/leader target"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          29,
+          122,
+          9
+        ],
+        "id": 1011,
+        "class": "Button",
+        "caption": "Prioritize mages with most miss. mp"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          182,
+          77,
+          34,
+          9
+        ],
+        "id": 1012,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          136,
+          77,
+          38,
+          9
+        ],
+        "id": 1013,
+        "class": "Static",
+        "caption": "Aim type:"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          12,
+          83,
+          38,
+          9
+        ],
+        "id": 1014,
+        "class": "Static",
+        "caption": "Aim leaders:"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242945,
+        "rect": [
+          58,
+          83,
+          66,
+          9
+        ],
+        "id": 1015,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          1,
+          264,
+          200
+        ],
+        "id": 1019,
+        "class": "Button",
+        "caption": "Core Aimbot :"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          40,
+          122,
+          9
+        ],
+        "id": 1003,
+        "class": "Button",
+        "caption": "Choose enemies with lowest cur hp"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          140,
+          62,
+          116,
+          9
+        ],
+        "id": 1004,
+        "class": "Button",
+        "caption": "Choose subenemy if no enemy"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          216,
+          77,
+          36,
+          9
+        ],
+        "id": 1006,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          101,
+          130,
+          100
+        ],
+        "id": 1016,
+        "class": "Button",
+        "caption": "Trigger Aimbot :"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242945,
+        "rect": [
+          58,
+          116,
+          66,
+          9
+        ],
+        "id": 1017,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          12,
+          116,
+          38,
+          9
+        ],
+        "id": 1018,
+        "class": "Static",
+        "caption": "Combo:"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242945,
+        "rect": [
+          58,
+          138,
+          66,
+          9
+        ],
+        "id": 1020,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          12,
+          138,
+          38,
+          9
+        ],
+        "id": 1021,
+        "class": "Static",
+        "caption": "Paralyze:"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242945,
+        "rect": [
+          58,
+          127,
+          66,
+          9
+        ],
+        "id": 1022,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          12,
+          127,
+          42,
+          9
+        ],
+        "id": 1023,
+        "class": "Static",
+        "caption": "Sync combo:"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          140,
+          51,
+          116,
+          9
+        ],
+        "id": 1024,
+        "class": "Button",
+        "caption": "Lock on paralyzed sub/enemies"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          140,
+          118,
+          122,
+          9
+        ],
+        "id": 1009,
+        "class": "Button",
+        "caption": "Target enemies only if skulled/war"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          140,
+          129,
+          116,
+          9
+        ],
+        "id": 1025,
+        "class": "Button",
+        "caption": "Target subenemies if skulled/war"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          140,
+          140,
+          106,
+          9
+        ],
+        "id": 1026,
+        "class": "Button",
+        "caption": "Target others if skulled/war"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          12,
+          164,
+          110,
+          9
+        ],
+        "id": 1027,
+        "class": "Button",
+        "caption": "Word triggering enabled"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          12,
+          186,
+          104,
+          9
+        ],
+        "id": 1028,
+        "class": "Button",
+        "caption": "Target others if can't be shot"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1073807489,
+        "rect": [
+          182,
+          169,
+          52,
+          9
+        ],
+        "id": 1029,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1073741824,
+        "rect": [
+          138,
+          158,
+          116,
+          9
+        ],
+        "id": 1030,
+        "class": "Static",
+        "caption": "Custom triggerwords and commands:"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1073807681,
+        "rect": [
+          236,
+          169,
+          18,
+          9
+        ],
+        "id": 1031,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1073807489,
+        "rect": [
+          176,
+          180,
+          78,
+          9
+        ],
+        "id": 1032,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          12,
+          175,
+          106,
+          9
+        ],
+        "id": 1033,
+        "class": "Button",
+        "caption": "Execute automatically"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1073741824,
+        "rect": [
+          138,
+          169,
+          42,
+          9
+        ],
+        "id": 1034,
+        "class": "Static",
+        "caption": "Triggerword:"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1073741824,
+        "rect": [
+          138,
+          180,
+          32,
+          9
+        ],
+        "id": 1035,
+        "class": "Static",
+        "caption": "Command:"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          51,
+          98,
+          9
+        ],
+        "id": 1036,
+        "class": "Button",
+        "caption": "Lock on leader's target"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342242945,
+        "rect": [
+          58,
+          149,
+          66,
+          9
+        ],
+        "id": 1037,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          12,
+          149,
+          38,
+          9
+        ],
+        "id": 1038,
+        "class": "Static",
+        "caption": "Single:"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          136,
+          88,
+          42,
+          9
+        ],
+        "id": 1041,
+        "class": "Static",
+        "caption": "Combo rate:"
+      },
+      {
+        "help": 0,
+        "exstyle": 131072,
+        "style": 1342243137,
+        "rect": [
+          182,
+          88,
+          34,
+          9
+        ],
+        "id": 1042,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          140,
+          107,
+          110,
+          9
+        ],
+        "id": 1040,
+        "class": "Button",
+        "caption": "Ignore lower priority leaders"
+      }
+    ]
+  },
+  "8000": {
+    "help": 0,
+    "exstyle": 136,
+    "style": 13240384,
+    "rect": [
+      6,
+      6,
+      268,
+      139
+    ],
+    "menu": "",
+    "class": "TBOTDLGJ",
+    "caption": " HUD Display",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          64,
+          264,
+          72
+        ],
+        "id": 1001,
+        "class": "Button",
+        "caption": "Display options :"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          110,
+          66,
+          9
+        ],
+        "id": 1002,
+        "class": "Button",
+        "caption": "Magic wall timers"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          77,
+          104,
+          9
+        ],
+        "id": 1003,
+        "class": "Button",
+        "caption": "On-screen Info Enabled"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          99,
+          70,
+          9
+        ],
+        "id": 1004,
+        "class": "Button",
+        "caption": "Death timers"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          12,
+          116,
+          9
+        ],
+        "id": 1005,
+        "class": "Button",
+        "caption": "Player Info Enabled"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          138,
+          77,
+          92,
+          9
+        ],
+        "id": 1006,
+        "class": "Button",
+        "caption": "Healing percentages"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          0,
+          264,
+          61
+        ],
+        "id": 1007,
+        "class": "Button",
+        "caption": "Player Info :"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          138,
+          88,
+          92,
+          9
+        ],
+        "id": 1008,
+        "class": "Button",
+        "caption": "Damage per second"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          138,
+          99,
+          92,
+          9
+        ],
+        "id": 1009,
+        "class": "Button",
+        "caption": "Spell timers"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          88,
+          74,
+          9
+        ],
+        "id": 1010,
+        "class": "Button",
+        "caption": "General information"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          24,
+          72,
+          9
+        ],
+        "id": 1011,
+        "class": "Button",
+        "caption": "Show guild name"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          138,
+          12,
+          116,
+          9
+        ],
+        "id": 1012,
+        "class": "Button",
+        "caption": "Look at players automatically"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          46,
+          90,
+          9
+        ],
+        "id": 1013,
+        "class": "Button",
+        "caption": "Show estimated mana"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          35,
+          96,
+          9
+        ],
+        "id": 1014,
+        "class": "Button",
+        "caption": "Show vocation, level, hp"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          138,
+          110,
+          96,
+          9
+        ],
+        "id": 1015,
+        "class": "Button",
+        "caption": "Navigation && exiva players"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          14,
+          121,
+          106,
+          9
+        ],
+        "id": 1016,
+        "class": "Button",
+        "caption": "Activated hotkeys/shortkeys"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          138,
+          24,
+          108,
+          9
+        ],
+        "id": 1017,
+        "class": "Button",
+        "caption": "Cache player information"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          138,
+          35,
+          116,
+          9
+        ],
+        "id": 1018,
+        "class": "Button",
+        "caption": "Look and update cached entries"
+      }
+    ]
+  },
+  "9000": {
+    "help": 0,
+    "exstyle": 136,
+    "style": 281675840,
+    "rect": [
+      6,
+      6,
+      336,
+      166
+    ],
+    "menu": "",
+    "class": "TBOTDLGK",
+    "caption": " Hotkey Wizard",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          1,
+          332,
+          163
+        ],
+        "id": 1001,
+        "class": "Button",
+        "caption": "Hotkey type"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          64,
+          316,
+          28
+        ],
+        "id": 1002,
+        "class": "Static",
+        "caption": "The second is of type 'auto' : it will execute commands repeatedly every certain interval of time. The key you assign it to becomes a switch to toggle the repetitive execution on or off. Which type do you want this hotkey to be?"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242825,
+        "rect": [
+          10,
+          97,
+          312,
+          8
+        ],
+        "id": 1003,
+        "class": "Button",
+        "caption": "The action is only to be executed when the hotkey is pressed or is being held down"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242825,
+        "rect": [
+          10,
+          108,
+          316,
+          8
+        ],
+        "id": 1004,
+        "class": "Button",
+        "caption": "The action is to be executed repeatedly once the hotkey is activated"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          20,
+          125,
+          126,
+          9
+        ],
+        "id": 1005,
+        "class": "Static",
+        "caption": "Frequency of execution in milliseconds:"
+      },
+      {
+        "help": 0,
+        "exstyle": 512,
+        "style": 1476468736,
+        "rect": [
+          146,
+          123,
+          38,
+          11
+        ],
+        "id": 1006,
+        "class": "Edit",
+        "caption": "200"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          272,
+          147,
+          58,
+          13
+        ],
+        "id": 1007,
+        "class": "Button",
+        "caption": "Continue >>"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          212,
+          147,
+          58,
+          13
+        ],
+        "id": 1008,
+        "class": "Button",
+        "caption": "Cancel"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          16,
+          318,
+          24
+        ],
+        "id": 1009,
+        "class": "Static",
+        "caption": "Welcome to the hotkey creation wizard. This wizard will guide you through the process of creating your very own hotkeys and walk you through every step of the process in detail."
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          36,
+          316,
+          24
+        ],
+        "id": 1010,
+        "class": "Static",
+        "caption": "To start off, two hotkey types are offered to you. The first type works just like you would imagine a regular hotkey to work : it executes a certain command when you press it, but it also keeps executing it repeatedly as it is held down."
+      }
+    ]
+  },
+  "9001": {
+    "help": 0,
+    "exstyle": 136,
+    "style": 281675840,
+    "rect": [
+      6,
+      6,
+      336,
+      166
+    ],
+    "menu": "",
+    "class": "TBOTDLGL",
+    "caption": " Hotkey Wizard",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          0,
+          332,
+          164
+        ],
+        "id": 1001,
+        "class": "Button",
+        "caption": "Action selection"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          12,
+          248,
+          9
+        ],
+        "id": 1002,
+        "class": "Static",
+        "caption": "Choose a category and the action to be performed by this hotkey from the list."
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          272,
+          147,
+          58,
+          13
+        ],
+        "id": 1007,
+        "class": "Button",
+        "caption": "Continue >>"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          212,
+          147,
+          58,
+          13
+        ],
+        "id": 1008,
+        "class": "Button",
+        "caption": "Cancel"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242819,
+        "rect": [
+          10,
+          25,
+          82,
+          8
+        ],
+        "id": 1003,
+        "class": "ComboBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 512,
+        "style": 1342243137,
+        "rect": [
+          10,
+          38,
+          82,
+          104
+        ],
+        "id": 1004,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          100,
+          22,
+          228,
+          20
+        ],
+        "id": 1009,
+        "class": "Button",
+        "caption": "Syntax"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          100,
+          44,
+          228,
+          98
+        ],
+        "id": 1010,
+        "class": "Button",
+        "caption": "Description"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342244864,
+        "rect": [
+          110,
+          31,
+          210,
+          9
+        ],
+        "id": 1005,
+        "class": "Edit",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          108,
+          55,
+          212,
+          85
+        ],
+        "id": 1006,
+        "class": "Static",
+        "caption": "IDC_STC"
+      }
+    ]
+  },
+  "9002": {
+    "help": 0,
+    "exstyle": 136,
+    "style": 281675840,
+    "rect": [
+      6,
+      6,
+      336,
+      166
+    ],
+    "menu": "",
+    "class": "TBOTDLGM",
+    "caption": " Hotkey Wizard",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          0,
+          332,
+          164
+        ],
+        "id": 1001,
+        "class": "Button",
+        "caption": "Paramater selection"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          12,
+          316,
+          17
+        ],
+        "id": 1002,
+        "class": "Static",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          272,
+          147,
+          58,
+          13
+        ],
+        "id": 1007,
+        "class": "Button",
+        "caption": "Continue >>"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          212,
+          147,
+          58,
+          13
+        ],
+        "id": 1008,
+        "class": "Button",
+        "caption": "Cancel"
+      },
+      {
+        "help": 0,
+        "exstyle": 512,
+        "style": 1342243137,
+        "rect": [
+          10,
+          62,
+          82,
+          67
+        ],
+        "id": 1004,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          20,
+          44,
+          210,
+          9
+        ],
+        "id": 1005,
+        "class": "Static",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          110,
+          70,
+          210,
+          70
+        ],
+        "id": 1006,
+        "class": "Static",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          10,
+          35,
+          318,
+          20
+        ],
+        "id": 1009,
+        "class": "Button",
+        "caption": "Syntax"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          100,
+          59,
+          228,
+          83
+        ],
+        "id": 1010,
+        "class": "Button",
+        "caption": "Description"
+      },
+      {
+        "help": 0,
+        "exstyle": 512,
+        "style": 1342242944,
+        "rect": [
+          10,
+          131,
+          82,
+          11
+        ],
+        "id": 1003,
+        "class": "Edit",
+        "caption": ""
+      }
+    ]
+  },
+  "9003": {
+    "help": 0,
+    "exstyle": 136,
+    "style": 281675840,
+    "rect": [
+      6,
+      6,
+      336,
+      166
+    ],
+    "menu": "",
+    "class": "TBOTDLGN",
+    "caption": " Hotkey Wizard",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          0,
+          332,
+          164
+        ],
+        "id": 1001,
+        "class": "Button",
+        "caption": "Condition selection"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          12,
+          316,
+          17
+        ],
+        "id": 1002,
+        "class": "Static",
+        "caption": "Choose a condition to accompany the command you just created if you want it to execute in some specific circumstances only. Sometimes, no condition is necessary. You can also stack conditions."
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          272,
+          147,
+          58,
+          13
+        ],
+        "id": 1007,
+        "class": "Button",
+        "caption": "Continue >>"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          212,
+          147,
+          58,
+          13
+        ],
+        "id": 1008,
+        "class": "Button",
+        "caption": "Cancel"
+      },
+      {
+        "help": 0,
+        "exstyle": 512,
+        "style": 1342243137,
+        "rect": [
+          10,
+          62,
+          82,
+          67
+        ],
+        "id": 1004,
+        "class": "ListBox",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          20,
+          44,
+          210,
+          9
+        ],
+        "id": 1005,
+        "class": "Static",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          110,
+          70,
+          210,
+          70
+        ],
+        "id": 1006,
+        "class": "Static",
+        "caption": ""
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          10,
+          35,
+          318,
+          20
+        ],
+        "id": 1009,
+        "class": "Button",
+        "caption": "Syntax"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          100,
+          59,
+          228,
+          83
+        ],
+        "id": 1010,
+        "class": "Button",
+        "caption": "Description"
+      },
+      {
+        "help": 0,
+        "exstyle": 512,
+        "style": 1342242816,
+        "rect": [
+          10,
+          131,
+          82,
+          11
+        ],
+        "id": 1003,
+        "class": "Edit",
+        "caption": ""
+      }
+    ]
+  },
+  "9004": {
+    "help": 0,
+    "exstyle": 136,
+    "style": 281675840,
+    "rect": [
+      6,
+      6,
+      336,
+      166
+    ],
+    "menu": "",
+    "class": "TBOTDLGO",
+    "caption": " Hotkey Wizard",
+    "font": [
+      8,
+      "MS Sans Serif",
+      0,
+      0,
+      1
+    ],
+    "controls": [
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          2,
+          0,
+          332,
+          164
+        ],
+        "id": 1001,
+        "class": "Button",
+        "caption": "Finalization"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          12,
+          316,
+          26
+        ],
+        "id": 1002,
+        "class": "Static",
+        "caption": "Behold is the entire command that you have created so far. It is possible to add multiple commands to a key and have it perform those actions at once (sometimes, both won't execute due to conditions, but they will at least be attempted)."
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          272,
+          147,
+          58,
+          13
+        ],
+        "id": 1007,
+        "class": "Button",
+        "caption": "Continue >>"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242816,
+        "rect": [
+          212,
+          147,
+          58,
+          13
+        ],
+        "id": 1008,
+        "class": "Button",
+        "caption": "Cancel"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177287,
+        "rect": [
+          10,
+          42,
+          318,
+          50
+        ],
+        "id": 1009,
+        "class": "Button",
+        "caption": "Complete command"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342177280,
+        "rect": [
+          10,
+          101,
+          318,
+          9
+        ],
+        "id": 1003,
+        "class": "Static",
+        "caption": "Do you want to add another command to this key?"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242825,
+        "rect": [
+          10,
+          127,
+          234,
+          8
+        ],
+        "id": 1004,
+        "class": "Button",
+        "caption": "Yes, another command needs to be added to this key"
+      },
+      {
+        "help": 0,
+        "exstyle": 0,
+        "style": 1342242825,
+        "rect": [
+          10,
+          116,
+          318,
+          8
+        ],
+        "id": 1006,
+        "class": "Button",
+        "caption": "No, this command or set of commands is complete. All that's left is to paste it in the hotkey editor."
+      },
+      {
+        "help": 0,
+        "exstyle": 512,
+        "style": 1342242816,
+        "rect": [
+          16,
+          51,
+          306,
+          35
+        ],
+        "id": 1005,
+        "class": "Edit",
+        "caption": ""
+      }
+    ]
+  }
+}

@@ -6,7 +6,7 @@ $results = @()
 foreach ($component in @('botzin','botzin_launcher','botzin_navserver')) {
     $clock = [Diagnostics.Stopwatch]::StartNew()
     $log = "artifacts/$component-compiler.txt"
-    & cl.exe /nologo /TC /Zs /diagnostics:column /I recovered "/FIrecovered/compiler_support.h" "recovered/$component.c" > $log 2>&1
+    & cl.exe /nologo /TC /Zs /diagnostics:column /I recovered "/FIcompiler_support.h" "recovered/$component.c" > $log 2>&1
     $code = $LASTEXITCODE
     $results += [pscustomobject]@{component=$component;exit_code=$code;seconds=$clock.Elapsed.TotalSeconds}
     Get-Content $log -TotalCount 16

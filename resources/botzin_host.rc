@@ -1,50 +1,727 @@
+#pragma code_page(65001)
+
 LANGUAGE 9, 1
-1020 5 "5_1020_1033.bin"
-LANGUAGE 9, 1
-1900 5 "5_1900_1033.bin"
-LANGUAGE 9, 1
-1999 5 "5_1999_1033.bin"
-LANGUAGE 9, 1
-2200 5 "5_2200_1033.bin"
-LANGUAGE 9, 1
-2201 5 "5_2201_1033.bin"
-LANGUAGE 9, 1
-3000 5 "5_3000_1033.bin"
-LANGUAGE 9, 1
-4000 5 "5_4000_1033.bin"
-LANGUAGE 9, 1
-5000 5 "5_5000_1033.bin"
-LANGUAGE 9, 1
-6000 5 "5_6000_1033.bin"
-LANGUAGE 9, 1
-7000 5 "5_7000_1033.bin"
-LANGUAGE 9, 1
-8000 5 "5_8000_1033.bin"
-LANGUAGE 9, 1
-9000 5 "5_9000_1033.bin"
-LANGUAGE 9, 1
-9001 5 "5_9001_1033.bin"
-LANGUAGE 9, 1
-9002 5 "5_9002_1033.bin"
-LANGUAGE 9, 1
-9003 5 "5_9003_1033.bin"
-LANGUAGE 9, 1
-9004 5 "5_9004_1033.bin"
-LANGUAGE 9, 1
-10000 5 "5_10000_1033.bin"
-LANGUAGE 9, 1
-12000 5 "5_12000_1033.bin"
-LANGUAGE 9, 1
-13000 5 "5_13000_1033.bin"
-LANGUAGE 9, 1
-14000 5 "5_14000_1033.bin"
-LANGUAGE 9, 1
-15000 5 "5_15000_1033.bin"
-LANGUAGE 9, 1
-16000 5 "5_16000_1033.bin"
-LANGUAGE 9, 1
-17000 5 "5_17000_1033.bin"
-LANGUAGE 9, 1
-18000 5 "5_18000_1033.bin"
-LANGUAGE 9, 1
+
+10000 DIALOGEX 6, 6, 264, 193, 0
+STYLE 0x10ee0840
+EXSTYLE 0x00000088
+CAPTION " Custom Shortkeys"
+CLASS "TBOTDLGP"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "Shortkey List", 1002, "Button", 0x50000007, 2, 0, 196, 152, 0x00000000, 0
+    CONTROL "Shortkeys enabled", 1001, "Button", 0x50010003, 6, 11, 74, 9, 0x00000000, 0
+    CONTROL "Create Shortkey", 1003, "Button", 0x50010000, 186, 9, 58, 13, 0x00000000, 0
+    CONTROL "Command symbol:", 1004, "Static", 0x50000000, 90, 11, 58, 9, 0x00000000, 0
+    CONTROL "", 1005, "Edit", 0x50010000, 152, 11, 14, 9, 0x00000200, 0
+END
+
+1020 DIALOGEX 6, 6, 280, 52, 0
+STYLE 0x00ca0840
+EXSTYLE 0x00000088
+CAPTION " Botzin NG 4.1.6"
+CLASS "TBOTDLG7"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "Save", 1606, "Button", 0x50010000, 200, 12, 48, 13, 0x00000000, 0
+    CONTROL "Load", 1017, "Button", 0x50010000, 200, 25, 48, 13, 0x00000000, 0
+    CONTROL "Reconnect", 1011, "Button", 0x50010000, 150, 12, 50, 13, 0x00000000, 0
+    CONTROL "Creature Spy", 1010, "Button", 0x50010000, 150, 25, 50, 13, 0x00000000, 0
+    CONTROL "Links", 1029, "Button", 0x50010000, 100, 25, 50, 13, 0x00000000, 0
+    CONTROL "Navigation", 1042, "Button", 0x50010000, 50, 25, 50, 13, 0x00000000, 0
+    CONTROL "Hotkeys", 1028, "Button", 0x50010000, 50, 12, 50, 13, 0x00000000, 0
+    CONTROL "1", 1043, "Button", 0x50010000, 200, 0, 16, 13, 0x00000000, 0
+    CONTROL "2", 1044, "Button", 0x50010000, 216, 0, 16, 13, 0x00000000, 0
+    CONTROL "3", 1045, "Button", 0x50010000, 232, 0, 16, 13, 0x00000000, 0
+    CONTROL "4", 1046, "Button", 0x50010000, 248, 0, 16, 13, 0x00000000, 0
+    CONTROL "5", 1047, "Button", 0x50010000, 264, 0, 16, 13, 0x00000000, 0
+    CONTROL "Healing", 1001, "Button", 0x50010000, 0, 0, 50, 13, 0x00000000, 0
+    CONTROL "Extras", 1013, "Button", 0x50010000, 0, 12, 50, 13, 0x00000000, 0
+    CONTROL "Lists", 1002, "Button", 0x50010000, 100, 0, 50, 13, 0x00000000, 0
+    CONTROL "Aimbot", 1004, "Button", 0x50010000, 50, 0, 50, 13, 0x00000000, 0
+    CONTROL "HUD", 1003, "Button", 0x50010000, 150, 0, 50, 13, 0x00000000, 0
+    CONTROL "Shortkeys", 1005, "Button", 0x50010000, 100, 12, 50, 13, 0x00000000, 0
+    CONTROL "Cavebot", 1006, "Button", 0x50010000, 0, 25, 50, 13, 0x00000000, 0
+    CONTROL "Help", 1007, "Button", 0x50010000, 248, 25, 32, 13, 0x00000000, 0
+    CONTROL "Proxy", 1008, "Button", 0x50010000, 50, 38, 50, 13, 0x00000000, 0
+    CONTROL "Targeting", 1009, "Button", 0x50010000, 0, 38, 50, 13, 0x00000000, 0
+    CONTROL "Custom", 1012, "Button", 0x50010000, 248, 12, 32, 13, 0x00000000, 0
+    CONTROL "Icons", 1014, "Button", 0x50010000, 100, 38, 50, 13, 0x00000000, 0
+END
+
+12000 DIALOGEX 6, 6, 160, 168, 0
+STYLE 0x10ca0840
+EXSTYLE 0x00000088
+CAPTION " Safety Proxy Server"
+CLASS "TBOTDLGQ"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "Server setup", 1002, "Button", 0x50000007, 2, 0, 156, 46, 0x00000000, 0
+    CONTROL "Port", 1005, "Static", 0x50000000, 10, 12, 42, 9, 0x00000000, 0
+    CONTROL "7180", 1006, "Edit", 0x50012001, 54, 12, 94, 9, 0x00020000, 0
+    CONTROL "Run Proxy", 1007, "Button", 0x50010000, 98, 27, 52, 13, 0x00000000, 0
+    CONTROL "", 1009, "Edit", 0x50010001, 54, 62, 94, 9, 0x00020000, 0
+    CONTROL "7180", 1010, "Edit", 0x50012001, 54, 75, 94, 9, 0x00020000, 0
+    CONTROL "Port", 1011, "Static", 0x50000000, 10, 75, 42, 9, 0x00000000, 0
+    CONTROL "Server IP", 1012, "Static", 0x50000000, 10, 62, 36, 9, 0x00000000, 0
+    CONTROL "Client setup", 1013, "Button", 0x50000007, 2, 48, 156, 118, 0x00000000, 0
+    CONTROL "Set settings && IP", 1008, "Button", 0x50010000, 86, 147, 64, 13, 0x00000000, 0
+    CONTROL "", 1001, "ListBox", 0x50010141, 110, 94, 38, 9, 0x00020000, 0
+    CONTROL "Type ", 1003, "Static", 0x50000000, 90, 94, 18, 9, 0x00000000, 0
+    CONTROL "", 1004, "Edit", 0x50012001, 54, 94, 30, 9, 0x00020000, 0
+    CONTROL "Heal1 hp", 1014, "Static", 0x50000000, 10, 94, 34, 9, 0x00000000, 0
+    CONTROL "", 1015, "ListBox", 0x50010141, 110, 107, 38, 9, 0x00020000, 0
+    CONTROL "Type ", 1016, "Static", 0x50000000, 90, 107, 18, 9, 0x00000000, 0
+    CONTROL "", 1017, "Edit", 0x50012001, 54, 107, 30, 9, 0x00020000, 0
+    CONTROL "Heal2 hp", 1018, "Static", 0x50000000, 10, 107, 32, 9, 0x00000000, 0
+    CONTROL "", 1019, "ListBox", 0x50010141, 110, 120, 38, 9, 0x00020000, 0
+    CONTROL "Type ", 1020, "Static", 0x50000000, 90, 120, 18, 9, 0x00000000, 0
+    CONTROL "", 1021, "Edit", 0x50012001, 54, 120, 30, 9, 0x00020000, 0
+    CONTROL "Mana mp", 1022, "Static", 0x50000000, 10, 120, 34, 9, 0x00000000, 0
+    CONTROL "", 1023, "ListBox", 0x50010141, 54, 132, 46, 9, 0x00020000, 0
+    CONTROL "Counter type", 1024, "Static", 0x50000000, 10, 132, 42, 9, 0x00000000, 0
+    CONTROL "Revert IP", 1025, "Button", 0x50010000, 10, 147, 64, 13, 0x00000000, 0
+    CONTROL "", 1026, "ListBox", 0x50010141, 100, 132, 48, 9, 0x00020000, 0
+END
+
+13000 DIALOGEX 6, 6, 380, 253, 0
+STYLE 0x00ca0840
+EXSTYLE 0x00000098
+CAPTION " Monster Targeting"
+CLASS "TBOTDLGR"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "Monsters definition and behaviours", 1022, "Button", 0x50000007, 2, 1, 234, 157, 0x00000000, 0
+    CONTROL "", 1001, "msctls_trackbar32", 0x50000000, 288, 18, 82, 8, 0x00000000, 0
+    CONTROL "", 1002, "msctls_trackbar32", 0x50000000, 288, 31, 82, 8, 0x00000000, 0
+    CONTROL "", 1003, "msctls_trackbar32", 0x50000000, 288, 44, 82, 8, 0x00000000, 0
+    CONTROL "", 1004, "msctls_trackbar32", 0x50000000, 288, 57, 82, 8, 0x00000000, 0
+    CONTROL "Save", 1005, "Button", 0x50010000, 176, 234, 26, 11, 0x00000000, 0
+    CONTROL "Load", 1006, "Button", 0x50010000, 202, 234, 26, 11, 0x00000000, 0
+    CONTROL "", 1007, "Edit", 0x50010080, 172, 221, 54, 9, 0x00020000, 0
+    CONTROL "Name", 1008, "Static", 0x50000000, 148, 221, 20, 11, 0x00000000, 0
+    CONTROL "", 1009, "ListBox", 0x50010141, 148, 173, 78, 44, 0x00020000, 0
+    CONTROL "Saving && Loading settings", 1010, "Button", 0x50000007, 138, 160, 98, 91, 0x00000000, 0
+    CONTROL "Target must be shootable", 1011, "Button", 0x50010003, 248, 105, 110, 8, 0x00000000, 0
+    CONTROL "Target must be reachable", 1012, "Button", 0x50010003, 248, 96, 110, 8, 0x00000000, 0
+    CONTROL "", 1013, "ListBox", 0x50010141, 86, 173, 38, 9, 0x00020000, 0
+    CONTROL "Range distance", 1014, "Static", 0x50000000, 10, 173, 52, 9, 0x00000000, 0
+    CONTROL "Stance options", 1015, "Button", 0x50000007, 2, 160, 132, 91, 0x00000000, 0
+    CONTROL "Danger level", 1016, "Static", 0x50000000, 108, 81, 40, 8, 0x00000000, 0
+    CONTROL "", 1017, "ListBox", 0x50010140, 200, 81, 28, 9, 0x00020000, 0
+    CONTROL "Danger", 1018, "Static", 0x50000000, 248, 55, 30, 11, 0x00000000, 0
+    CONTROL "Proximity", 1019, "Static", 0x50000000, 248, 42, 30, 11, 0x00000000, 0
+    CONTROL "Health", 1020, "Static", 0x50000000, 248, 29, 30, 11, 0x00000000, 0
+    CONTROL "List order", 1021, "Static", 0x50000000, 248, 16, 30, 11, 0x00000000, 0
+    CONTROL "Target selection", 1023, "Button", 0x50000007, 240, 1, 138, 118, 0x00000000, 0
+    CONTROL "Desired stance", 1024, "Static", 0x52000000, 108, 92, 52, 9, 0x00000000, 0
+    CONTROL "", 1025, "ListBox", 0x50010140, 168, 92, 60, 9, 0x00020000, 0
+    CONTROL ">", 1026, "Button", 0x50010000, 26, 140, 14, 13, 0x00000000, 0
+    CONTROL "<", 1027, "Button", 0x50010000, 8, 140, 14, 13, 0x00000000, 0
+    CONTROL "", 1028, "ListBox", 0x50010141, 10, 14, 88, 122, 0x00020000, 0
+    CONTROL "", 1029, "Edit", 0x50010080, 134, 18, 94, 9, 0x00020000, 0
+    CONTROL "Setting #", 1030, "Static", 0x50000000, 168, 29, 32, 8, 0x00000000, 0
+    CONTROL "HP% range", 1031, "Static", 0x50000000, 108, 59, 38, 9, 0x00000000, 0
+    CONTROL "", 1032, "Edit", 0x50012000, 168, 59, 20, 9, 0x00020000, 0
+    CONTROL "to", 1033, "Static", 0x50000000, 196, 59, 10, 11, 0x00000000, 0
+    CONTROL "", 1034, "Edit", 0x50012000, 208, 59, 20, 9, 0x00020000, 0
+    CONTROL "Name", 1035, "Static", 0x50000000, 108, 18, 24, 8, 0x00000000, 0
+    CONTROL "Desired action", 1036, "Static", 0x52000000, 108, 103, 48, 9, 0x00000000, 0
+    CONTROL "Monster attacks", 1037, "Static", 0x52000000, 108, 70, 56, 9, 0x00000000, 0
+    CONTROL "Del", 1038, "Button", 0x50010000, 80, 140, 20, 13, 0x00000000, 0
+    CONTROL "", 1040, "ListBox", 0x50010141, 200, 29, 28, 9, 0x00020000, 0
+    CONTROL "", 1041, "ListBox", 0x50010140, 168, 103, 28, 9, 0x00020000, 0
+    CONTROL "", 1042, "ListBox", 0x50010140, 168, 70, 60, 9, 0x00020000, 0
+    CONTROL "", 1039, "msctls_trackbar32", 0x50000000, 288, 70, 82, 8, 0x00000000, 0
+    CONTROL "Random", 1043, "Static", 0x50000000, 248, 68, 30, 11, 0x00000000, 0
+    CONTROL "", 1044, "msctls_trackbar32", 0x50000000, 288, 83, 82, 8, 0x00000000, 0
+    CONTROL "Stick", 1045, "Static", 0x50000000, 248, 81, 30, 11, 0x00000000, 0
+    CONTROL "", 1047, "ListBox", 0x50010141, 86, 184, 38, 9, 0x00020000, 0
+    CONTROL "Attack frequency", 1048, "Static", 0x50000000, 10, 184, 58, 9, 0x00000000, 0
+    CONTROL "", 1052, "ListBox", 0x40010141, 106, 238, 16, 9, 0x00020000, 0
+    CONTROL "", 1054, "ListBox", 0x50010140, 196, 103, 32, 9, 0x00020000, 0
+    CONTROL "Loot monster", 1053, "Button", 0x50010003, 174, 144, 54, 8, 0x00000000, 0
+    CONTROL "Run Targeting", 1046, "Button", 0x50010003, 10, 238, 60, 9, 0x00000000, 0
+    CONTROL "Count", 1063, "Static", 0x50000000, 108, 29, 22, 8, 0x00000000, 0
+    CONTROL "", 1055, "Button", 0x50000007, 104, 51, 128, 104, 0x00000000, 0
+    CONTROL "", 1056, "Button", 0x50000007, 104, 9, 128, 44, 0x00000000, 0
+    CONTROL "", 1057, "ListBox", 0x50010141, 134, 29, 28, 9, 0x00020000, 0
+    CONTROL "", 1058, "ListBox", 0x50010140, 168, 125, 60, 9, 0x00020000, 0
+    CONTROL "Wear ring", 1059, "Static", 0x52000000, 108, 125, 52, 9, 0x00000000, 0
+    CONTROL "Play alarm", 1060, "Button", 0x50010003, 110, 144, 46, 8, 0x00000000, 0
+    CONTROL "Allow diagonal movement", 1061, "Button", 0x50010003, 10, 228, 98, 8, 0x00000000, 0
+    CONTROL "Blocked tiles", 1049, "Button", 0x50000007, 240, 160, 138, 91, 0x00000000, 0
+    CONTROL "", 1062, "ListBox", 0x50010141, 248, 173, 122, 44, 0x00020000, 0
+    CONTROL "", 1064, "Edit", 0x50010080, 298, 221, 72, 9, 0x00020000, 0
+    CONTROL "Del", 1065, "Button", 0x50010000, 340, 234, 30, 11, 0x00000000, 0
+    CONTROL "Ignore other's monsters", 1068, "Static", 0x50000000, 10, 195, 80, 9, 0x00000000, 0
+    CONTROL "", 1069, "ListBox", 0x50010141, 86, 195, 38, 9, 0x00020000, 0
+    CONTROL "Edit", 1071, "Button", 0x50010000, 146, 234, 30, 11, 0x00000000, 0
+    CONTROL "", 1070, "ListBox", 0x50010140, 168, 114, 60, 9, 0x00020000, 0
+    CONTROL "Attack mode", 1072, "Static", 0x52000000, 108, 114, 52, 9, 0x00000000, 0
+    CONTROL "Sync spell with attacks", 1073, "Button", 0x50010003, 10, 219, 86, 8, 0x00000000, 0
+    CONTROL "Ignore Anti-bot monsters", 1074, "Button", 0x50010003, 10, 210, 88, 8, 0x00000000, 0
+    CONTROL "", 1075, "Edit", 0x50010080, 148, 40, 80, 9, 0x00020000, 0
+    CONTROL "Categories", 1076, "Static", 0x50000000, 108, 40, 38, 8, 0x00000000, 0
+    CONTROL "Add", 1050, "Button", 0x50010000, 310, 234, 30, 11, 0x00000000, 0
+    CONTROL "Only on label", 1051, "Static", 0x50000000, 250, 221, 46, 11, 0x00000000, 0
+END
+
+14000 DIALOGEX 6, 6, 396, 253, 0
+STYLE 0x00ca0840
+EXSTYLE 0x00000098
+CAPTION " Cavebot"
+CLASS "TBOTDLGS"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "Waypoints", 1022, "Button", 0x50000007, 2, 1, 258, 157, 0x00000000, 0
+    CONTROL "Save", 1050, "Button", 0x50010000, 50, 234, 36, 11, 0x00000000, 0
+    CONTROL "Load", 1075, "Button", 0x50010000, 88, 234, 36, 11, 0x00000000, 0
+    CONTROL "", 1041, "Edit", 0x50010080, 36, 219, 86, 9, 0x00020000, 0
+    CONTROL "Name", 1099, "Static", 0x50000000, 10, 219, 20, 11, 0x00000000, 0
+    CONTROL "", 1009, "ListBox", 0x50010141, 10, 175, 112, 39, 0x00020000, 0
+    CONTROL "Saving && Loading settings", 1010, "Button", 0x50000007, 2, 160, 132, 91, 0x00000000, 0
+    CONTROL ">", 1026, "Button", 0x50010000, 24, 140, 14, 13, 0x00000000, 0
+    CONTROL "<", 1027, "Button", 0x50010000, 8, 140, 14, 13, 0x00000000, 0
+    CONTROL "", 1028, "ListBox", 0x50010141, 10, 12, 112, 124, 0x00000200, 0
+    CONTROL "Emplacement", 1030, "Static", 0x50000000, 132, 14, 46, 9, 0x00000000, 0
+    CONTROL "Del", 1038, "Button", 0x50010000, 104, 140, 20, 13, 0x00000000, 0
+    CONTROL "", 1040, "ListBox", 0x50010141, 190, 14, 60, 9, 0x00020000, 0
+    CONTROL "Walk", 1001, "Button", 0x50010000, 192, 29, 30, 13, 0x00000000, 0
+    CONTROL "Rope", 1002, "Button", 0x50010000, 132, 44, 30, 13, 0x00000000, 0
+    CONTROL "Ladder", 1003, "Button", 0x50010000, 162, 44, 30, 13, 0x00000000, 0
+    CONTROL "Action", 1005, "Button", 0x50010000, 222, 29, 30, 13, 0x00000000, 0
+    CONTROL "", 1011, "Edit", 0x400100c4, 132, 62, 120, 74, 0x00000200, 0
+    CONTROL "Stand", 1004, "Button", 0x50010000, 132, 29, 30, 13, 0x00000000, 0
+    CONTROL "Follow waypoints", 1012, "Button", 0x50010003, 188, 142, 66, 9, 0x00000000, 0
+    CONTROL "Options", 1013, "Button", 0x50000007, 264, 160, 128, 91, 0x00000000, 0
+    CONTROL "Use Rope", 1014, "Static", 0x50000000, 272, 173, 40, 9, 0x00000000, 0
+    CONTROL "", 1015, "ListBox", 0x50010141, 336, 173, 48, 9, 0x00020000, 0
+    CONTROL "", 1016, "ListBox", 0x50010141, 336, 182, 48, 9, 0x00020000, 0
+    CONTROL "Use Shovel", 1017, "Static", 0x50000000, 272, 182, 40, 9, 0x00000000, 0
+    CONTROL "Show labels", 1020, "Button", 0x50010003, 132, 142, 52, 9, 0x00000000, 0
+    CONTROL "Label", 1018, "Button", 0x50010000, 74, 140, 28, 13, 0x00000000, 0
+    CONTROL "Shovel", 1006, "Button", 0x50010000, 192, 44, 30, 13, 0x00000000, 0
+    CONTROL "Alerts", 1019, "Button", 0x50000007, 138, 160, 122, 91, 0x00000000, 0
+    CONTROL "Player on screen", 1021, "Static", 0x50000000, 148, 177, 56, 9, 0x00000000, 0
+    CONTROL "S   P   X", 1023, "Static", 0x50000000, 224, 166, 30, 9, 0x00000000, 0
+    CONTROL "GM/CM detected", 1034, "Static", 0x50000000, 148, 186, 62, 9, 0x00000000, 0
+    CONTROL "Default chat msg", 1039, "Static", 0x50000000, 148, 204, 56, 9, 0x00000000, 0
+    CONTROL "Player attacking", 1044, "Static", 0x50000000, 148, 195, 56, 9, 0x00000000, 0
+    CONTROL "Private chat msg", 1045, "Static", 0x50000000, 148, 214, 56, 9, 0x00000000, 0
+    CONTROL "IDC_CHK", 1100, "Button", 0x50010003, 224, 177, 10, 8, 0x00000000, 0
+    CONTROL "IDC_CHK", 1101, "Button", 0x50010003, 234, 177, 10, 8, 0x00000000, 0
+    CONTROL "IDC_CHK", 1102, "Button", 0x50010003, 244, 177, 10, 8, 0x00000000, 0
+    CONTROL "IDC_CHK", 1103, "Button", 0x50010003, 224, 186, 10, 8, 0x00000000, 0
+    CONTROL "IDC_CHK", 1104, "Button", 0x50010003, 234, 186, 10, 8, 0x00000000, 0
+    CONTROL "IDC_CHK", 1105, "Button", 0x50010003, 244, 186, 10, 8, 0x00000000, 0
+    CONTROL "IDC_CHK", 1106, "Button", 0x50010003, 224, 195, 10, 8, 0x00000000, 0
+    CONTROL "IDC_CHK", 1107, "Button", 0x50010003, 234, 195, 10, 8, 0x00000000, 0
+    CONTROL "IDC_CHK", 1108, "Button", 0x50010003, 244, 195, 10, 8, 0x00000000, 0
+    CONTROL "IDC_CHK", 1109, "Button", 0x50010003, 224, 204, 10, 8, 0x00000000, 0
+    CONTROL "IDC_CHK", 1110, "Button", 0x50010003, 234, 204, 10, 8, 0x00000000, 0
+    CONTROL "IDC_CHK", 1111, "Button", 0x50010003, 244, 204, 10, 8, 0x00000000, 0
+    CONTROL "IDC_CHK", 1112, "Button", 0x50010003, 224, 214, 10, 8, 0x00000000, 0
+    CONTROL "IDC_CHK", 1113, "Button", 0x50010003, 234, 214, 10, 8, 0x00000000, 0
+    CONTROL "IDC_CHK", 1114, "Button", 0x50010003, 244, 214, 10, 8, 0x00000000, 0
+    CONTROL "Loot distant targets", 1024, "Button", 0x50010003, 272, 236, 74, 9, 0x00000000, 0
+    CONTROL "Looting", 1025, "Button", 0x50000007, 264, 29, 128, 129, 0x00000000, 0
+    CONTROL "", 1029, "Edit", 0x50010080, 312, 140, 50, 11, 0x00000200, 0
+    CONTROL "", 1031, "Edit", 0x50010000, 298, 140, 12, 11, 0x00000200, 0
+    CONTROL "", 1032, "Edit", 0x50012000, 272, 140, 24, 11, 0x00000200, 0
+    CONTROL "Del", 1033, "Button", 0x50010000, 364, 140, 20, 13, 0x00000000, 0
+    CONTROL "", 1035, "ListBox", 0x50010141, 272, 40, 112, 96, 0x00000200, 0
+    CONTROL "Loot nearby targets", 1036, "Button", 0x50010003, 272, 227, 76, 9, 0x00000000, 0
+    CONTROL "Open next bp", 1037, "Button", 0x50010003, 272, 217, 70, 9, 0x00000000, 0
+    CONTROL "Node", 1007, "Button", 0x50010000, 162, 29, 30, 13, 0x00000000, 0
+    CONTROL "", 1042, "ListBox", 0x50010141, 336, 192, 48, 9, 0x00020000, 0
+    CONTROL "Skip nearby nodes", 1043, "Static", 0x50000000, 272, 192, 62, 9, 0x00000000, 0
+    CONTROL "Cavebot Hotkeys", 1046, "Button", 0x50000007, 264, 1, 128, 26, 0x00000000, 0
+    CONTROL "Edit", 1047, "Button", 0x50010000, 270, 12, 116, 11, 0x00000000, 0
+    CONTROL "Clear", 1051, "Button", 0x50010000, 48, 140, 24, 13, 0x00000000, 0
+    CONTROL "Lure", 1008, "Button", 0x50010000, 222, 44, 30, 13, 0x00000000, 0
+    CONTROL "Edit", 1048, "Button", 0x50010000, 10, 234, 38, 11, 0x00000000, 0
+    CONTROL "Disconnected", 1049, "Static", 0x50000000, 148, 223, 56, 9, 0x00000000, 0
+    CONTROL "IDC_CHK", 1117, "Button", 0x50010003, 244, 223, 10, 8, 0x00000000, 0
+    CONTROL "IDC_CHK", 1115, "Button", 0x50010003, 224, 223, 10, 8, 0x00000000, 0
+    CONTROL "R", 1052, "Static", 0x50000000, 236, 223, 8, 9, 0x00000000, 0
+END
+
+15000 DIALOGEX 6, 6, 204, 43, 0
+STYLE 0x10ca0840
+EXSTYLE 0x00000088
+CAPTION " Label a waypoint"
+CLASS "TBOTDLGT"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "Set waypoint label to :", 1001, "Static", 0x50000000, 6, 9, 72, 9, 0x00000000, 0
+    CONTROL "", 1002, "Edit", 0x50010000, 80, 7, 118, 11, 0x00000200, 0
+    CONTROL "OK", 1003, "Button", 0x50010000, 150, 24, 48, 13, 0x00000000, 0
+END
+
+16000 DIALOGEX 6, 6, 376, 220, 0
+STYLE 0x10ca0840
+EXSTYLE 0x00000088
+CAPTION " Cavebot Hotkey List"
+CLASS "TBOTDLGU"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "", 1002, "Edit", 0x503100c4, 4, 3, 368, 196, 0x00000200, 0
+    CONTROL "Save\\Restart", 1003, "Button", 0x50010000, 194, 203, 178, 15, 0x00000000, 0
+    CONTROL "", 1001, "Static", 0x40000000, 36, 46, 18, 11, 0x00000000, 0
+    CONTROL "Copy", 1004, "Button", 0x50010000, 4, 203, 54, 15, 0x00000000, 0
+    CONTROL "Paste", 1005, "Button", 0x50010000, 60, 203, 54, 15, 0x00000000, 0
+END
+
+17000 DIALOGEX 6, 6, 114, 113, 0
+STYLE 0x10ca0840
+EXSTYLE 0x00000088
+CAPTION " Choose a skin file to load"
+CLASS "TBOTDLGV"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "", 1001, "ListBox", 0x50010141, 6, 5, 102, 87, 0x00000200, 0
+    CONTROL "Choose", 1002, "Button", 0x50010000, 6, 96, 48, 13, 0x00000000, 0
+    CONTROL "Cancel", 1003, "Button", 0x50010000, 58, 96, 50, 13, 0x00000000, 0
+END
+
+18000 DIALOGEX 6, 6, 378, 164, 0
+STYLE 0x00ca0840
+EXSTYLE 0x00000098
+CAPTION " Command Icons"
+CLASS "TBOTDLGW"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL " Icon list", 1022, "Button", 0x50000007, 2, 1, 374, 161, 0x00000000, 0
+    CONTROL ">", 1026, "Button", 0x50010000, 26, 123, 14, 13, 0x00000000, 0
+    CONTROL "<", 1027, "Button", 0x50010000, 8, 123, 14, 13, 0x00000000, 0
+    CONTROL "", 1028, "ListBox", 0x50010141, 10, 12, 88, 107, 0x00020000, 0
+    CONTROL "", 1029, "Edit", 0x50010080, 134, 16, 94, 9, 0x00020000, 0
+    CONTROL "Icon ids", 1031, "Static", 0x50000000, 110, 66, 26, 9, 0x00000000, 0
+    CONTROL "", 1032, "Edit", 0x50010080, 144, 66, 20, 9, 0x00020000, 0
+    CONTROL "Name", 1035, "Static", 0x50000000, 108, 16, 24, 8, 0x00000000, 0
+    CONTROL "Del", 1038, "Button", 0x50010000, 80, 123, 20, 13, 0x00000000, 0
+    CONTROL "Loot monster", 1053, "Button", 0x50010003, 184, 197, 54, 8, 0x00000000, 0
+    CONTROL "Size", 1063, "Static", 0x50000000, 108, 27, 22, 8, 0x00000000, 0
+    CONTROL "Inactive state", 1055, "Button", 0x50000007, 104, 44, 132, 92, 0x00000000, 0
+    CONTROL "", 1056, "Button", 0x50000007, 104, 7, 268, 35, 0x00000000, 0
+    CONTROL "", 1057, "ListBox", 0x50010141, 134, 27, 24, 9, 0x00020000, 0
+    CONTROL "Play alarm", 1060, "Button", 0x50010003, 120, 197, 46, 8, 0x00000000, 0
+    CONTROL "Bkg Draw", 1001, "Button", 0x50010003, 186, 27, 46, 9, 0x00000000, 0
+    CONTROL "", 1002, "Edit", 0x50010080, 166, 66, 20, 9, 0x00020000, 0
+    CONTROL "", 1003, "Edit", 0x50010080, 188, 66, 20, 9, 0x00020000, 0
+    CONTROL "", 1004, "Edit", 0x50010080, 210, 66, 20, 9, 0x00020000, 0
+    CONTROL "Icon type", 1005, "Static", 0x50000000, 110, 55, 30, 9, 0x00000000, 0
+    CONTROL "", 1006, "ListBox", 0x50010141, 144, 55, 42, 9, 0x00020000, 0
+    CONTROL "", 1007, "Edit", 0x50010080, 210, 88, 20, 9, 0x00020000, 0
+    CONTROL "", 1008, "Edit", 0x50010080, 188, 88, 20, 9, 0x00020000, 0
+    CONTROL "", 1009, "Edit", 0x50010080, 166, 88, 20, 9, 0x00020000, 0
+    CONTROL "", 1010, "Edit", 0x50010080, 144, 88, 20, 9, 0x00020000, 0
+    CONTROL "", 1011, "ListBox", 0x50010141, 144, 77, 42, 9, 0x00020000, 0
+    CONTROL "Bkg ids", 1012, "Static", 0x50000000, 110, 88, 26, 9, 0x00000000, 0
+    CONTROL "Bkg type", 1013, "Static", 0x50000000, 110, 77, 30, 9, 0x00000000, 0
+    CONTROL "", 1014, "ListBox", 0x50010141, 144, 99, 42, 9, 0x00020000, 0
+    CONTROL "Xpos", 1015, "Static", 0x50000000, 110, 99, 30, 9, 0x00000000, 0
+    CONTROL "", 1018, "Edit", 0x50010000, 188, 99, 20, 9, 0x00020000, 0
+    CONTROL "", 1019, "Edit", 0x50010000, 188, 110, 20, 9, 0x00020000, 0
+    CONTROL "", 1020, "ListBox", 0x50010141, 144, 110, 42, 9, 0x00020000, 0
+    CONTROL "Ypos", 1021, "Static", 0x50000000, 110, 110, 30, 9, 0x00000000, 0
+    CONTROL "", 1016, "Edit", 0x50010080, 144, 121, 42, 9, 0x00020000, 0
+    CONTROL "Text", 1017, "Static", 0x50000000, 110, 121, 26, 9, 0x00000000, 0
+    CONTROL "", 1024, "Edit", 0x50012000, 188, 121, 20, 9, 0x00020000, 0
+    CONTROL "", 1025, "Edit", 0x50010080, 258, 16, 108, 9, 0x00020000, 0
+    CONTROL "Lclick", 1030, "Static", 0x50000000, 234, 16, 20, 9, 0x00000000, 0
+    CONTROL "", 1033, "Edit", 0x50010080, 258, 27, 108, 9, 0x00020000, 0
+    CONTROL "Rclick", 1034, "Static", 0x50000000, 234, 27, 20, 9, 0x00000000, 0
+    CONTROL "", 1036, "Edit", 0x50012000, 324, 121, 20, 9, 0x00020000, 0
+    CONTROL "Text", 1039, "Static", 0x50000000, 246, 121, 26, 9, 0x00000000, 0
+    CONTROL "", 1040, "Edit", 0x50010080, 280, 121, 42, 9, 0x00020000, 0
+    CONTROL "Ypos", 1041, "Static", 0x50000000, 246, 110, 30, 9, 0x00000000, 0
+    CONTROL "", 1042, "ListBox", 0x50010141, 280, 110, 42, 9, 0x00020000, 0
+    CONTROL "", 1043, "Edit", 0x50010000, 324, 110, 20, 9, 0x00020000, 0
+    CONTROL "", 1044, "Edit", 0x50010000, 324, 99, 20, 9, 0x00020000, 0
+    CONTROL "Xpos", 1045, "Static", 0x50000000, 246, 99, 30, 9, 0x00000000, 0
+    CONTROL "", 1046, "ListBox", 0x50010141, 280, 99, 42, 9, 0x00020000, 0
+    CONTROL "Bkg type", 1047, "Static", 0x50000000, 246, 77, 30, 9, 0x00000000, 0
+    CONTROL "Bkg ids", 1048, "Static", 0x50000000, 246, 88, 26, 9, 0x00000000, 0
+    CONTROL "", 1049, "ListBox", 0x50010141, 280, 77, 42, 9, 0x00020000, 0
+    CONTROL "", 1050, "Edit", 0x50010080, 280, 88, 20, 9, 0x00020000, 0
+    CONTROL "", 1051, "Edit", 0x50010080, 302, 88, 20, 9, 0x00020000, 0
+    CONTROL "", 1052, "Edit", 0x50010080, 324, 88, 20, 9, 0x00020000, 0
+    CONTROL "", 1054, "Edit", 0x50010080, 346, 88, 20, 9, 0x00020000, 0
+    CONTROL "", 1058, "ListBox", 0x50010141, 280, 55, 42, 9, 0x00020000, 0
+    CONTROL "Icon type", 1059, "Static", 0x50000000, 246, 55, 30, 9, 0x00000000, 0
+    CONTROL "", 1061, "Edit", 0x50010080, 346, 66, 20, 9, 0x00020000, 0
+    CONTROL "", 1062, "Edit", 0x50010080, 324, 66, 20, 9, 0x00020000, 0
+    CONTROL "", 1064, "Edit", 0x50010080, 302, 66, 20, 9, 0x00020000, 0
+    CONTROL "", 1065, "Edit", 0x50010080, 280, 66, 20, 9, 0x00020000, 0
+    CONTROL "Icon ids", 1066, "Static", 0x50000000, 246, 66, 26, 9, 0x00000000, 0
+    CONTROL "Active state", 1067, "Button", 0x50000007, 240, 44, 132, 92, 0x00000000, 0
+    CONTROL "", 1069, "Edit", 0x50012000, 210, 121, 20, 9, 0x00020000, 0
+    CONTROL "", 1070, "Edit", 0x50012000, 346, 121, 20, 9, 0x00020000, 0
+    CONTROL "On", 1072, "Button", 0x50010003, 162, 27, 20, 9, 0x00000000, 0
+    CONTROL "Copy >>", 1073, "Button", 0x50010000, 202, 140, 34, 13, 0x00000000, 0
+    CONTROL "Make icon space top", 1023, "Button", 0x50010003, 242, 140, 80, 9, 0x00000000, 0
+    CONTROL "Make icon space bottom", 1037, "Button", 0x50010003, 242, 149, 90, 9, 0x00000000, 0
+    CONTROL "Large", 1068, "Button", 0x50010003, 338, 140, 32, 9, 0x00000000, 0
+    CONTROL "Large", 1071, "Button", 0x50010003, 338, 149, 32, 9, 0x00000000, 0
+    CONTROL "Enable Icons", 1074, "Button", 0x50010003, 8, 142, 60, 9, 0x00000000, 0
+    CONTROL "Clear", 1075, "Button", 0x50010000, 60, 123, 20, 13, 0x00000000, 0
+    CONTROL "Edit", 1076, "Button", 0x50010000, 42, 123, 18, 13, 0x00000000, 0
+END
+
+1900 DIALOGEX 6, 6, 295, 84, 0
+STYLE 0x12ce0840
+EXSTYLE 0x00000088
+CAPTION "Creature Spy"
+CLASS "TBOTDLGA"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "", 1901, "ListBox", 0x50010140, 0, 0, 296, 164, 0x00020000, 0
+END
+
+1999 DIALOGEX 6, 6, 268, 24, 0
+STYLE 0x00ca0840
+EXSTYLE 0x00000088
+CAPTION ""
+CLASS "TBOTDLG00"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+END
+
+2200 DIALOGEX 6, 6, 162, 137, 0
+STYLE 0x10ca0840
+EXSTYLE 0x00000088
+CAPTION " Link Server"
+CLASS "TBOTDLGB"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "Force IP", 1001, "Static", 0x50000000, 10, 14, 42, 9, 0x00000000, 0
+    CONTROL "Server setup", 1002, "Button", 0x50000007, 2, 0, 158, 72, 0x00000000, 0
+    CONTROL "", 1004, "Edit", 0x50010001, 54, 14, 94, 9, 0x00020000, 0
+    CONTROL "Port", 1005, "Static", 0x50000000, 10, 27, 42, 9, 0x00000000, 0
+    CONTROL "7177", 1006, "Edit", 0x50012001, 54, 27, 94, 9, 0x00020000, 0
+    CONTROL "Run Links", 1007, "Button", 0x50010000, 98, 55, 52, 13, 0x00000000, 0
+    CONTROL "", 1009, "Edit", 0x50010001, 54, 88, 94, 9, 0x00020000, 0
+    CONTROL "7177", 1010, "Edit", 0x50012001, 54, 101, 94, 9, 0x00020000, 0
+    CONTROL "Port", 1011, "Static", 0x50000000, 10, 101, 42, 9, 0x00000000, 0
+    CONTROL "Server IP", 1012, "Static", 0x50000000, 10, 88, 36, 9, 0x00000000, 0
+    CONTROL "Client setup", 1013, "Button", 0x50000007, 2, 73, 158, 61, 0x00000000, 0
+    CONTROL "Set IP", 1008, "Button", 0x50010000, 100, 118, 52, 13, 0x00000000, 0
+    CONTROL "Share control", 1003, "Button", 0x50010003, 10, 57, 64, 9, 0x00000000, 0
+    CONTROL "", 1014, "Edit", 0x50012001, 54, 40, 94, 9, 0x00020000, 0
+    CONTROL "Acc num", 1015, "Static", 0x50000000, 10, 40, 42, 9, 0x00000000, 0
+END
+
+2201 DIALOGEX 6, 6, 162, 107, 0
+STYLE 0x10ca0840
+EXSTYLE 0x00000088
+CAPTION " Navigation Server"
+CLASS "TBOTDLGC"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "IP/Port", 1001, "Static", 0x50000000, 12, 14, 42, 9, 0x00000000, 0
+    CONTROL "Connection setup", 1002, "Button", 0x50000007, 2, 0, 158, 105, 0x00000000, 0
+    CONTROL "", 1004, "Edit", 0x50010081, 56, 14, 70, 9, 0x00020000, 0
+    CONTROL "Login", 1005, "Static", 0x50000000, 12, 27, 42, 9, 0x00000000, 0
+    CONTROL "", 1006, "Edit", 0x50010001, 56, 27, 94, 9, 0x00020000, 0
+    CONTROL "Connect", 1007, "Button", 0x50010000, 98, 68, 52, 13, 0x00000000, 0
+    CONTROL "", 1003, "Edit", 0x50010021, 56, 40, 94, 9, 0x00020000, 0
+    CONTROL "Pass", 1008, "Static", 0x50000000, 12, 40, 42, 9, 0x00000000, 0
+    CONTROL "", 1009, "Edit", 0x50010001, 56, 53, 94, 9, 0x00020000, 0
+    CONTROL "Color rgb", 1010, "Static", 0x50000000, 12, 53, 42, 9, 0x00000000, 0
+    CONTROL "Disable custom colors", 1011, "Button", 0x50010003, 12, 70, 82, 9, 0x00000000, 0
+    CONTROL "", 1012, "Edit", 0x50010001, 128, 14, 22, 9, 0x00020000, 0
+    CONTROL "Show real names", 1013, "Button", 0x50010003, 12, 81, 80, 9, 0x00000000, 0
+    CONTROL "Don't send enemies", 1014, "Button", 0x50010003, 12, 92, 80, 8, 0x00000000, 0
+END
+
+3000 DIALOGEX 6, 6, 264, 193, 0
+STYLE 0x10ee0840
+EXSTYLE 0x00000088
+CAPTION " Custom Hotkeys"
+CLASS "TBOTDLGD"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "Hotkey List", 1002, "Button", 0x50000007, 2, 0, 196, 152, 0x00000000, 0
+    CONTROL "Hotkeys enabled", 1001, "Button", 0x50010003, 6, 11, 66, 9, 0x00000000, 0
+    CONTROL "Create Hotkey", 1003, "Button", 0x50010000, 186, 9, 58, 13, 0x00000000, 0
+    CONTROL "Edit", 1047, "Button", 0x50010000, 146, 9, 32, 13, 0x00000000, 0
+    CONTROL "Persistent", 1048, "Button", 0x50010003, 102, 11, 42, 9, 0x00000000, 0
+END
+
+4000 DIALOGEX 6, 6, 268, 129, 0
+STYLE 0x00ca0840
+EXSTYLE 0x00000088
+CAPTION " Auto-Healing"
+CLASS "TBOTDLGE"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "Auto-Heal :", 1001, "Button", 0x50000007, 2, 0, 264, 85, 0x00000000, 0
+    CONTROL "Type  :", 1002, "Static", 0x50000000, 190, 48, 26, 9, 0x00000000, 0
+    CONTROL "", 1003, "ListBox", 0x50010141, 220, 48, 32, 9, 0x00020000, 0
+    CONTROL "HP Potion", 1004, "Static", 0x50000000, 16, 48, 36, 9, 0x00000000, 0
+    CONTROL "Health :", 1005, "Static", 0x50000000, 116, 48, 28, 9, 0x00000000, 0
+    CONTROL "", 1006, "Edit", 0x50012001, 148, 48, 32, 9, 0x00020000, 0
+    CONTROL "UH Rune", 1007, "Static", 0x50000000, 16, 36, 30, 9, 0x00000000, 0
+    CONTROL "Spell Lo :", 1008, "Static", 0x50000000, 16, 25, 30, 9, 0x00000000, 0
+    CONTROL "", 1009, "Edit", 0x50010081, 48, 25, 58, 9, 0x00020000, 0
+    CONTROL "Mana :", 1010, "Static", 0x50000000, 190, 25, 26, 9, 0x00000000, 0
+    CONTROL "", 1011, "Edit", 0x50012001, 220, 25, 32, 9, 0x00020000, 0
+    CONTROL "Health :", 1012, "Static", 0x50000000, 116, 25, 28, 9, 0x00000000, 0
+    CONTROL "", 1013, "Edit", 0x50012001, 148, 25, 32, 9, 0x00020000, 0
+    CONTROL "Delay :", 1015, "Static", 0x50000000, 190, 70, 26, 9, 0x00000000, 0
+    CONTROL "", 1016, "Edit", 0x50012001, 148, 36, 32, 9, 0x00020000, 0
+    CONTROL "Health :", 1017, "Static", 0x50000000, 116, 14, 28, 9, 0x00000000, 0
+    CONTROL "", 1018, "Edit", 0x50012001, 148, 14, 32, 9, 0x00020000, 0
+    CONTROL "Health :", 1019, "Static", 0x50000000, 116, 36, 30, 9, 0x00000000, 0
+    CONTROL "", 1020, "Edit", 0x50012001, 220, 14, 32, 9, 0x00020000, 0
+    CONTROL "Mana :", 1021, "Static", 0x50000000, 190, 14, 24, 9, 0x00000000, 0
+    CONTROL "Spell Hi :", 1022, "Static", 0x50000000, 16, 14, 28, 9, 0x00000000, 0
+    CONTROL "", 1023, "Edit", 0x50010081, 48, 14, 58, 9, 0x00020000, 0
+    CONTROL "", 1024, "ListBox", 0x50010141, 182, 97, 68, 9, 0x00020000, 0
+    CONTROL "Mana:", 1025, "Static", 0x50000000, 136, 97, 38, 9, 0x00000000, 0
+    CONTROL "", 1026, "ListBox", 0x50010141, 58, 97, 66, 9, 0x00020000, 0
+    CONTROL "Health :", 1027, "Static", 0x50000000, 12, 97, 38, 9, 0x00000000, 0
+    CONTROL "Heal friend :", 1028, "Button", 0x50000007, 2, 86, 264, 28, 0x00000000, 0
+    CONTROL "", 1029, "Edit", 0x50012001, 148, 59, 32, 9, 0x00020000, 0
+    CONTROL "Mana :", 1030, "Static", 0x50000000, 116, 59, 28, 9, 0x00000000, 0
+    CONTROL "MP Potion", 1031, "Static", 0x50000000, 16, 59, 36, 9, 0x00000000, 0
+    CONTROL "", 1032, "ListBox", 0x50010141, 220, 59, 32, 9, 0x00020000, 0
+    CONTROL "Type  :", 1033, "Static", 0x50000000, 190, 59, 26, 9, 0x00000000, 0
+    CONTROL "Wait :", 1035, "Static", 0x50000000, 116, 70, 26, 9, 0x00000000, 0
+    CONTROL "Healer options", 1036, "Static", 0x50000000, 16, 70, 48, 9, 0x00000000, 0
+    CONTROL "", 1014, "ListBox", 0x50010141, 148, 70, 32, 9, 0x00020000, 0
+    CONTROL "", 1034, "ListBox", 0x50010141, 220, 70, 32, 9, 0x00020000, 0
+    CONTROL "FOR THE CHANGES TO TAKE EFFECT, HIT THE SAVE BUTTON ON THE BOT!", 1037, "Static", 0x50000000, 2, 118, 264, 9, 0x00000000, 0
+END
+
+5000 DIALOGEX 6, 6, 268, 115, 0
+STYLE 0x00ca0840
+EXSTYLE 0x00000088
+CAPTION " Extras"
+CLASS "TBOTDLGF"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "Extras :", 1001, "Button", 0x50000007, 2, 0, 264, 113, 0x00000000, 0
+    CONTROL "World Only View", 1002, "Button", 0x50010003, 14, 22, 66, 9, 0x00000000, 0
+    CONTROL "Framerate booster", 1004, "Button", 0x50010003, 14, 11, 70, 9, 0x00000000, 0
+    CONTROL "Click reuse enabled", 1006, "Button", 0x50010003, 138, 11, 92, 9, 0x00000000, 0
+    CONTROL "Xray view", 1003, "Button", 0x50010003, 138, 22, 70, 9, 0x00000000, 0
+    CONTROL "Open windows small", 1005, "Button", 0x50010003, 14, 33, 86, 8, 0x00000000, 0
+    CONTROL "Alternate time format", 1007, "Button", 0x50010003, 138, 33, 86, 8, 0x00000000, 0
+    CONTROL "Keep charlist open", 1008, "Button", 0x50010003, 14, 44, 86, 8, 0x00000000, 0
+    CONTROL "Use old rune aiming", 1009, "Button", 0x50010003, 138, 44, 92, 9, 0x00000000, 0
+    CONTROL "Load settings at login", 1010, "Button", 0x50010003, 14, 55, 82, 9, 0x00000000, 0
+    CONTROL "Take screenshot at death", 1011, "Button", 0x50010003, 138, 55, 92, 9, 0x00000000, 0
+    CONTROL "Open backpacks at login", 1012, "Button", 0x50010003, 14, 66, 96, 9, 0x00000000, 0
+    CONTROL "Load last skin", 1013, "Button", 0x50010003, 138, 66, 96, 9, 0x00000000, 0
+    CONTROL "Ignore locked bot thread", 1014, "Button", 0x50010003, 14, 77, 92, 9, 0x00000000, 0
+    CONTROL "Non-pvp mode", 1015, "Button", 0x50010003, 138, 77, 82, 8, 0x00000000, 0
+    CONTROL "Don't flash screen on alerts", 1016, "Button", 0x50010003, 14, 88, 92, 9, 0x00000000, 0
+    CONTROL "Snap-back fix Open/Hardcore PvP", 1017, "Button", 0x40010003, 138, 88, 124, 9, 0x00000000, 0
+    CONTROL "Snap-back fix Optional PvP", 1018, "Button", 0x40010003, 138, 99, 120, 9, 0x00000000, 0
+END
+
+6000 DIALOGEX 6, 6, 268, 152, 0
+STYLE 0x00ca0840
+EXSTYLE 0x00000088
+CAPTION " Lists"
+CLASS "TBOTDLGH"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "Friend names :", 1001, "Static", 0x50000000, 130, 11, 104, 9, 0x00000000, 0
+    CONTROL "", 1002, "Edit", 0x50210045, 136, 22, 114, 26, 0x00020000, 0
+    CONTROL "", 1003, "Edit", 0x50210045, 18, 22, 114, 26, 0x00020000, 0
+    CONTROL "Treat war enemies as :", 1004, "Static", 0x50000000, 18, 112, 78, 9, 0x00000000, 0
+    CONTROL "Lists :", 1005, "Button", 0x50000007, 2, 0, 264, 150, 0x00000000, 0
+    CONTROL "Team Marks", 1006, "Button", 0x50010003, 18, 99, 94, 9, 0x00000000, 0
+    CONTROL "Color outfits of listed players", 1007, "Button", 0x50010003, 136, 99, 102, 9, 0x00000000, 0
+    CONTROL "", 1008, "Edit", 0x50210045, 136, 64, 114, 26, 0x00020000, 0
+    CONTROL "Subfriend names :", 1009, "Static", 0x50000000, 130, 53, 104, 9, 0x00000000, 0
+    CONTROL "Subenemy names :", 1010, "Static", 0x50000000, 12, 53, 78, 9, 0x00000000, 0
+    CONTROL "", 1011, "Edit", 0x50210045, 18, 64, 114, 26, 0x00020000, 0
+    CONTROL "", 1013, "Edit", 0x50010000, 66, -8, 0, 0, 0x00000200, 0
+    CONTROL "Invite Requests :", 1012, "Static", 0x50000000, 18, 134, 54, 8, 0x00000000, 0
+    CONTROL "", 1014, "Edit", 0x50010081, 136, 132, 56, 9, 0x00020000, 0
+    CONTROL "IDC_STC", 1015, "Static", 0x50000000, 18, 112, 0, 0, 0x00000000, 0
+    CONTROL "Enemy names :", 1016, "Static", 0x50000000, 12, 11, 78, 9, 0x00000000, 0
+    CONTROL "Enemies", 1017, "Button", 0x50010003, 136, 110, 40, 9, 0x00000000, 0
+    CONTROL "Subenemies", 1018, "Button", 0x50010003, 192, 110, 54, 9, 0x00000000, 0
+    CONTROL "Subfriends", 1019, "Button", 0x50010003, 192, 121, 54, 9, 0x00000000, 0
+    CONTROL "Friends", 1020, "Button", 0x50010003, 136, 121, 40, 9, 0x00000000, 0
+    CONTROL "Treat war allies as :", 1021, "Static", 0x50000000, 18, 123, 78, 9, 0x00000000, 0
+END
+
+7000 DIALOGEX 6, 6, 268, 203, 0
+STYLE 0x00ca0840
+EXSTYLE 0x00000088
+CAPTION " Aimbot"
+CLASS "TBOTDLGI"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "Display best target", 1001, "Button", 0x50010003, 140, 29, 92, 9, 0x00000000, 0
+    CONTROL "Prioritize mages with least cur mp", 1002, "Button", 0x50010003, 14, 18, 122, 9, 0x00000000, 0
+    CONTROL "", 1005, "Static", 0x50000000, 12, 81, 38, 9, 0x00000000, 0
+    CONTROL "Discount Protection zones", 1007, "Button", 0x50010003, 140, 40, 98, 9, 0x00000000, 0
+    CONTROL "Trace shots", 1008, "Button", 0x50010003, 140, 18, 92, 9, 0x00000000, 0
+    CONTROL "Auto-combo paralyze/leader target", 1010, "Button", 0x50010003, 14, 62, 122, 9, 0x00000000, 0
+    CONTROL "Prioritize mages with most miss. mp", 1011, "Button", 0x50010003, 14, 29, 122, 9, 0x00000000, 0
+    CONTROL "", 1012, "ListBox", 0x50010141, 182, 77, 34, 9, 0x00020000, 0
+    CONTROL "Aim type:", 1013, "Static", 0x50000000, 136, 77, 38, 9, 0x00000000, 0
+    CONTROL "Aim leaders:", 1014, "Static", 0x50000000, 12, 83, 38, 9, 0x00000000, 0
+    CONTROL "", 1015, "Edit", 0x50010081, 58, 83, 66, 9, 0x00020000, 0
+    CONTROL "Core Aimbot :", 1019, "Button", 0x50000007, 2, 1, 264, 200, 0x00000000, 0
+    CONTROL "Choose enemies with lowest cur hp", 1003, "Button", 0x50010003, 14, 40, 122, 9, 0x00000000, 0
+    CONTROL "Choose subenemy if no enemy", 1004, "Button", 0x50010003, 140, 62, 116, 9, 0x00000000, 0
+    CONTROL "", 1006, "ListBox", 0x50010141, 216, 77, 36, 9, 0x00020000, 0
+    CONTROL "Trigger Aimbot :", 1016, "Button", 0x50000007, 2, 101, 130, 100, 0x00000000, 0
+    CONTROL "", 1017, "Edit", 0x50010081, 58, 116, 66, 9, 0x00020000, 0
+    CONTROL "Combo:", 1018, "Static", 0x50000000, 12, 116, 38, 9, 0x00000000, 0
+    CONTROL "", 1020, "Edit", 0x50010081, 58, 138, 66, 9, 0x00020000, 0
+    CONTROL "Paralyze:", 1021, "Static", 0x50000000, 12, 138, 38, 9, 0x00000000, 0
+    CONTROL "", 1022, "Edit", 0x50010081, 58, 127, 66, 9, 0x00020000, 0
+    CONTROL "Sync combo:", 1023, "Static", 0x50000000, 12, 127, 42, 9, 0x00000000, 0
+    CONTROL "Lock on paralyzed sub/enemies", 1024, "Button", 0x50010003, 140, 51, 116, 9, 0x00000000, 0
+    CONTROL "Target enemies only if skulled/war", 1009, "Button", 0x50010003, 140, 118, 122, 9, 0x00000000, 0
+    CONTROL "Target subenemies if skulled/war", 1025, "Button", 0x50010003, 140, 129, 116, 9, 0x00000000, 0
+    CONTROL "Target others if skulled/war", 1026, "Button", 0x50010003, 140, 140, 106, 9, 0x00000000, 0
+    CONTROL "Word triggering enabled", 1027, "Button", 0x50010003, 12, 164, 110, 9, 0x00000000, 0
+    CONTROL "Target others if can't be shot", 1028, "Button", 0x50010003, 12, 186, 104, 9, 0x00000000, 0
+    CONTROL "", 1029, "Edit", 0x40010081, 182, 169, 52, 9, 0x00020000, 0
+    CONTROL "Custom triggerwords and commands:", 1030, "Static", 0x40000000, 138, 158, 116, 9, 0x00000000, 0
+    CONTROL "", 1031, "ListBox", 0x40010141, 236, 169, 18, 9, 0x00020000, 0
+    CONTROL "", 1032, "Edit", 0x40010081, 176, 180, 78, 9, 0x00020000, 0
+    CONTROL "Execute automatically", 1033, "Button", 0x50010003, 12, 175, 106, 9, 0x00000000, 0
+    CONTROL "Triggerword:", 1034, "Static", 0x40000000, 138, 169, 42, 9, 0x00000000, 0
+    CONTROL "Command:", 1035, "Static", 0x40000000, 138, 180, 32, 9, 0x00000000, 0
+    CONTROL "Lock on leader's target", 1036, "Button", 0x50010003, 14, 51, 98, 9, 0x00000000, 0
+    CONTROL "", 1037, "Edit", 0x50010081, 58, 149, 66, 9, 0x00020000, 0
+    CONTROL "Single:", 1038, "Static", 0x50000000, 12, 149, 38, 9, 0x00000000, 0
+    CONTROL "Combo rate:", 1041, "Static", 0x50000000, 136, 88, 42, 9, 0x00000000, 0
+    CONTROL "", 1042, "ListBox", 0x50010141, 182, 88, 34, 9, 0x00020000, 0
+    CONTROL "Ignore lower priority leaders", 1040, "Button", 0x50010003, 140, 107, 110, 9, 0x00000000, 0
+END
+
+8000 DIALOGEX 6, 6, 268, 139, 0
+STYLE 0x00ca0840
+EXSTYLE 0x00000088
+CAPTION " HUD Display"
+CLASS "TBOTDLGJ"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "Display options :", 1001, "Button", 0x50000007, 2, 64, 264, 72, 0x00000000, 0
+    CONTROL "Magic wall timers", 1002, "Button", 0x50010003, 14, 110, 66, 9, 0x00000000, 0
+    CONTROL "On-screen Info Enabled", 1003, "Button", 0x50010003, 14, 77, 104, 9, 0x00000000, 0
+    CONTROL "Death timers", 1004, "Button", 0x50010003, 14, 99, 70, 9, 0x00000000, 0
+    CONTROL "Player Info Enabled", 1005, "Button", 0x50010003, 14, 12, 116, 9, 0x00000000, 0
+    CONTROL "Healing percentages", 1006, "Button", 0x50010003, 138, 77, 92, 9, 0x00000000, 0
+    CONTROL "Player Info :", 1007, "Button", 0x50000007, 2, 0, 264, 61, 0x00000000, 0
+    CONTROL "Damage per second", 1008, "Button", 0x50010003, 138, 88, 92, 9, 0x00000000, 0
+    CONTROL "Spell timers", 1009, "Button", 0x50010003, 138, 99, 92, 9, 0x00000000, 0
+    CONTROL "General information", 1010, "Button", 0x50010003, 14, 88, 74, 9, 0x00000000, 0
+    CONTROL "Show guild name", 1011, "Button", 0x50010003, 14, 24, 72, 9, 0x00000000, 0
+    CONTROL "Look at players automatically", 1012, "Button", 0x50010003, 138, 12, 116, 9, 0x00000000, 0
+    CONTROL "Show estimated mana", 1013, "Button", 0x50010003, 14, 46, 90, 9, 0x00000000, 0
+    CONTROL "Show vocation, level, hp", 1014, "Button", 0x50010003, 14, 35, 96, 9, 0x00000000, 0
+    CONTROL "Navigation && exiva players", 1015, "Button", 0x50010003, 138, 110, 96, 9, 0x00000000, 0
+    CONTROL "Activated hotkeys/shortkeys", 1016, "Button", 0x50010003, 14, 121, 106, 9, 0x00000000, 0
+    CONTROL "Cache player information", 1017, "Button", 0x50010003, 138, 24, 108, 9, 0x00000000, 0
+    CONTROL "Look and update cached entries", 1018, "Button", 0x50010003, 138, 35, 116, 9, 0x00000000, 0
+END
+
+9000 DIALOGEX 6, 6, 336, 166, 0
+STYLE 0x10ca0840
+EXSTYLE 0x00000088
+CAPTION " Hotkey Wizard"
+CLASS "TBOTDLGK"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "Hotkey type", 1001, "Button", 0x50000007, 2, 1, 332, 163, 0x00000000, 0
+    CONTROL "The second is of type 'auto' : it will execute commands repeatedly every certain interval of time. The key you assign it to becomes a switch to toggle the repetitive execution on or off. Which type do you want this hotkey to be?", 1002, "Static", 0x50000000, 10, 64, 316, 28, 0x00000000, 0
+    CONTROL "The action is only to be executed when the hotkey is pressed or is being held down", 1003, "Button", 0x50010009, 10, 97, 312, 8, 0x00000000, 0
+    CONTROL "The action is to be executed repeatedly once the hotkey is activated", 1004, "Button", 0x50010009, 10, 108, 316, 8, 0x00000000, 0
+    CONTROL "Frequency of execution in milliseconds:", 1005, "Static", 0x50000000, 20, 125, 126, 9, 0x00000000, 0
+    CONTROL "200", 1006, "Edit", 0x58012000, 146, 123, 38, 11, 0x00000200, 0
+    CONTROL "Continue >>", 1007, "Button", 0x50010000, 272, 147, 58, 13, 0x00000000, 0
+    CONTROL "Cancel", 1008, "Button", 0x50010000, 212, 147, 58, 13, 0x00000000, 0
+    CONTROL "Welcome to the hotkey creation wizard. This wizard will guide you through the process of creating your very own hotkeys and walk you through every step of the process in detail.", 1009, "Static", 0x50000000, 10, 16, 318, 24, 0x00000000, 0
+    CONTROL "To start off, two hotkey types are offered to you. The first type works just like you would imagine a regular hotkey to work : it executes a certain command when you press it, but it also keeps executing it repeatedly as it is held down.", 1010, "Static", 0x50000000, 10, 36, 316, 24, 0x00000000, 0
+END
+
+9001 DIALOGEX 6, 6, 336, 166, 0
+STYLE 0x10ca0840
+EXSTYLE 0x00000088
+CAPTION " Hotkey Wizard"
+CLASS "TBOTDLGL"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "Action selection", 1001, "Button", 0x50000007, 2, 0, 332, 164, 0x00000000, 0
+    CONTROL "Choose a category and the action to be performed by this hotkey from the list.", 1002, "Static", 0x50000000, 10, 12, 248, 9, 0x00000000, 0
+    CONTROL "Continue >>", 1007, "Button", 0x50010000, 272, 147, 58, 13, 0x00000000, 0
+    CONTROL "Cancel", 1008, "Button", 0x50010000, 212, 147, 58, 13, 0x00000000, 0
+    CONTROL "", 1003, "ComboBox", 0x50010003, 10, 25, 82, 8, 0x00000000, 0
+    CONTROL "", 1004, "ListBox", 0x50010141, 10, 38, 82, 104, 0x00000200, 0
+    CONTROL "Syntax", 1009, "Button", 0x50000007, 100, 22, 228, 20, 0x00000000, 0
+    CONTROL "Description", 1010, "Button", 0x50000007, 100, 44, 228, 98, 0x00000000, 0
+    CONTROL "", 1005, "Edit", 0x50010800, 110, 31, 210, 9, 0x00000000, 0
+    CONTROL "IDC_STC", 1006, "Static", 0x50000000, 108, 55, 212, 85, 0x00000000, 0
+END
+
+9002 DIALOGEX 6, 6, 336, 166, 0
+STYLE 0x10ca0840
+EXSTYLE 0x00000088
+CAPTION " Hotkey Wizard"
+CLASS "TBOTDLGM"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "Paramater selection", 1001, "Button", 0x50000007, 2, 0, 332, 164, 0x00000000, 0
+    CONTROL "", 1002, "Static", 0x50000000, 10, 12, 316, 17, 0x00000000, 0
+    CONTROL "Continue >>", 1007, "Button", 0x50010000, 272, 147, 58, 13, 0x00000000, 0
+    CONTROL "Cancel", 1008, "Button", 0x50010000, 212, 147, 58, 13, 0x00000000, 0
+    CONTROL "", 1004, "ListBox", 0x50010141, 10, 62, 82, 67, 0x00000200, 0
+    CONTROL "", 1005, "Static", 0x50000000, 20, 44, 210, 9, 0x00000000, 0
+    CONTROL "", 1006, "Static", 0x50000000, 110, 70, 210, 70, 0x00000000, 0
+    CONTROL "Syntax", 1009, "Button", 0x50000007, 10, 35, 318, 20, 0x00000000, 0
+    CONTROL "Description", 1010, "Button", 0x50000007, 100, 59, 228, 83, 0x00000000, 0
+    CONTROL "", 1003, "Edit", 0x50010080, 10, 131, 82, 11, 0x00000200, 0
+END
+
+9003 DIALOGEX 6, 6, 336, 166, 0
+STYLE 0x10ca0840
+EXSTYLE 0x00000088
+CAPTION " Hotkey Wizard"
+CLASS "TBOTDLGN"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "Condition selection", 1001, "Button", 0x50000007, 2, 0, 332, 164, 0x00000000, 0
+    CONTROL "Choose a condition to accompany the command you just created if you want it to execute in some specific circumstances only. Sometimes, no condition is necessary. You can also stack conditions.", 1002, "Static", 0x50000000, 10, 12, 316, 17, 0x00000000, 0
+    CONTROL "Continue >>", 1007, "Button", 0x50010000, 272, 147, 58, 13, 0x00000000, 0
+    CONTROL "Cancel", 1008, "Button", 0x50010000, 212, 147, 58, 13, 0x00000000, 0
+    CONTROL "", 1004, "ListBox", 0x50010141, 10, 62, 82, 67, 0x00000200, 0
+    CONTROL "", 1005, "Static", 0x50000000, 20, 44, 210, 9, 0x00000000, 0
+    CONTROL "", 1006, "Static", 0x50000000, 110, 70, 210, 70, 0x00000000, 0
+    CONTROL "Syntax", 1009, "Button", 0x50000007, 10, 35, 318, 20, 0x00000000, 0
+    CONTROL "Description", 1010, "Button", 0x50000007, 100, 59, 228, 83, 0x00000000, 0
+    CONTROL "", 1003, "Edit", 0x50010000, 10, 131, 82, 11, 0x00000200, 0
+END
+
+9004 DIALOGEX 6, 6, 336, 166, 0
+STYLE 0x10ca0840
+EXSTYLE 0x00000088
+CAPTION " Hotkey Wizard"
+CLASS "TBOTDLGO"
+FONT 8, "MS Sans Serif", 0, 0, 1
+BEGIN
+    CONTROL "Finalization", 1001, "Button", 0x50000007, 2, 0, 332, 164, 0x00000000, 0
+    CONTROL "Behold is the entire command that you have created so far. It is possible to add multiple commands to a key and have it perform those actions at once (sometimes, both won't execute due to conditions, but they will at least be attempted).", 1002, "Static", 0x50000000, 10, 12, 316, 26, 0x00000000, 0
+    CONTROL "Continue >>", 1007, "Button", 0x50010000, 272, 147, 58, 13, 0x00000000, 0
+    CONTROL "Cancel", 1008, "Button", 0x50010000, 212, 147, 58, 13, 0x00000000, 0
+    CONTROL "Complete command", 1009, "Button", 0x50000007, 10, 42, 318, 50, 0x00000000, 0
+    CONTROL "Do you want to add another command to this key?", 1003, "Static", 0x50000000, 10, 101, 318, 9, 0x00000000, 0
+    CONTROL "Yes, another command needs to be added to this key", 1004, "Button", 0x50010009, 10, 127, 234, 8, 0x00000000, 0
+    CONTROL "No, this command or set of commands is complete. All that's left is to paste it in the hotkey editor.", 1006, "Button", 0x50010009, 10, 116, 318, 8, 0x00000000, 0
+    CONTROL "", 1005, "Edit", 0x50010000, 16, 51, 306, 35, 0x00000200, 0
+END
+
 2 24 "24_2_1033.bin"
