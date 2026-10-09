@@ -36,6 +36,7 @@ def category(code,message):
     return 'other'
 
 def relative_file(text,root):
+    root=root.resolve()
     path=Path(text.replace('\\','/'))
     try:
         resolved=(path if path.is_absolute() else root/path).resolve()
@@ -68,6 +69,7 @@ def parse_log(text,component,root):
     return rows
 
 def enrich(rows,root):
+    root=root.resolve()
     cache={}
     for item in rows:
         path=(root/item['file']).resolve()
