@@ -14,4 +14,7 @@ foreach ($component in @('botzin','botzin_launcher','botzin_navserver')) {
 }
 $results | ConvertTo-Json | Set-Content artifacts/recovered-results.json -Encoding utf8
 $results | Format-Table | Out-String | Out-File $env:GITHUB_STEP_SUMMARY -Append -Encoding utf8
+python tools/diagnostics.py
+if ($LASTEXITCODE -ne 0) { throw "Diagnostic report generation failed." }
+Get-Content artifacts/diagnostics.md | Out-File $env:GITHUB_STEP_SUMMARY -Append -Encoding utf8
 if ($failures) { throw "$failures pending components do not pass compilation." }

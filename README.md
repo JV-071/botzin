@@ -15,4 +15,4 @@ Builds and tests run in GitHub Actions. The workflow compiles Debug and Release,
 - `tools/`: profile decoder and cloud build scripts.
 - `reference/`: compatibility layout references; see `NOTICE.md`.
 
-See [build configuration](docs/builds.md) and [reconstruction status](docs/status.md). The build scripts require a GitHub Actions environment to prevent accidental local compilation.
+See [build configuration](docs/builds.md) [diagnostics](docs/diagnostics.md) and [reconstruction status](docs/status.md). The build scripts require a GitHub Actions environment to prevent accidental local compilation.
